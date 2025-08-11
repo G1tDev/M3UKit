@@ -237,7 +237,7 @@ public struct Playlist: Equatable, Hashable, Codable {
   /// Get channels by language
   /// - Parameter language: The language to filter by
   /// - Returns: Array of media in the specified language
-  public func channels(in language: String) -> [Media] {
+  public func channels(inLanguage language: String) -> [Media] {
     return medias.filter { $0.attributes.language == language }
   }
   

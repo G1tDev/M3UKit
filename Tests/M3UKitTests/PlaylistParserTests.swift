@@ -72,7 +72,7 @@ final class PlaylistParserTests: XCTestCase {
 
   func testErrorDescription() {
     let error1 = PlaylistParser.ParsingError.invalidSource
-    XCTAssertEqual(error1.errorDescription, "The playlist is invalid")
+    XCTAssertEqual(error1.errorDescription, "The playlist is invalid or doesn't start with #EXTM3U")
 
     let error2 = PlaylistParser.ParsingError.missingDuration(3, "invalid line")
     XCTAssertEqual(
@@ -236,4 +236,6 @@ final class PlaylistParserTests: XCTestCase {
 
 private struct InvalidSource: PlaylistSource {
   var rawString: String? { nil }
+  var isValid: Bool { false }
+  var format: PlaylistFormat { .unknown }
 }

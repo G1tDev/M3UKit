@@ -316,7 +316,7 @@ public final class PlaylistParser {
     }
     
     // Basic URL validation
-    guard url.scheme != nil && !url.host.isEmpty else {
+    guard let _ = url.scheme, let host = url.host, !host.isEmpty else {
       return false
     }
     

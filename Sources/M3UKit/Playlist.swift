@@ -230,7 +230,7 @@ public struct Playlist: Equatable, Hashable, Codable {
   /// Get channels by country
   /// - Parameter country: The country code to filter by
   /// - Returns: Array of media from the specified country
-  public func channels(from country: String) -> [Media] {
+  public func channels(fromCountry country: String) -> [Media] {
     return medias.filter { $0.attributes.country == country }
   }
   

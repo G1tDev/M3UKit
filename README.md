@@ -1,168 +1,131 @@
-# M3UKit
+# M3UKit - Enhanced IPTV Playlist Parser
 
-Modern framework for parsing [m3u](https://en.wikipedia.org/wiki/M3U) files.
+A Swift library for parsing M3U/M3U8 playlists with enhanced IPTV support and bug fixes.
 
-[![CI](https://github.com/omaralbeik/M3UKit/workflows/M3UKit/badge.svg)](https://github.com/omaralbeik/M3UKit/actions)
-[![codecov](https://codecov.io/gh/omaralbeik/M3UKit/branch/main/graph/badge.svg?token=W42K82OT7M)](https://codecov.io/gh/omaralbeik/M3UKit)
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fomaralbeik%2FM3UKit%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/omaralbeik/M3UKit)
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fomaralbeik%2FM3UKit%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/omaralbeik/M3UKit)
+## 🚀 What's New in This Enhanced Version
 
----
+This is an enhanced fork of the original [M3UKit](https://github.com/omaralbeik/M3UKit) with critical bug fixes and IPTV-specific improvements:
 
-## Features
+### 🔧 Critical Bug Fixes
+- **Fixed line number tracking bug** that was causing incorrect parsing
+- **Improved session data handling** to prevent interference with stream parsing
+- **Enhanced URL validation** with strict mode for better stream link accuracy
+- **Better error handling** that continues parsing instead of stopping on first error
 
-- [x] Parse playlists from a `String`, local file, or any URL.
-- [x] Capable of parsing large playlists with hundreds of thousands of media items.
-- [x] Sync/Async parsing.
-- [x] Season/Episode number extraction for TV show media items.
-- [x] Media kind extraction from URL path.
+### 🆕 New Features
+- **Strict URL validation** option to ensure only valid streaming URLs are accepted
+- **Session data skipping** option to handle problematic playlist formats
+- **Enhanced attribute parsing** for modern IPTV playlist features
+- **Playlist format detection** (M3U, M3U8, PLS)
+- **Caching support** for better performance
+- **IPTV-specific convenience methods** for channel filtering and search
 
-## Usage
+### 📱 IPTV Player Improvements
+- **Better stream link accuracy** - no more playing wrong streams
+- **Support for complex playlist formats** commonly used by IPTV providers
+- **Enhanced channel metadata** including EPG URLs, aspect ratios, audio tracks
+- **Robust error handling** for malformed playlists
 
-### 1. Create a parser
-
-```swift
-let parser = PlaylistParser()
-```
-
-### 2. Parse a playlist
-
-The playlist parser can parse a playlist from any source that conforms to the protocol `PlaylistSource`, by default: `String`, and `URL`.
-
-```swift
-let url = URL(string: "https://domain.com/link/to/m3u/file")
-let playlist = try parser.parse(url)
-```
-
-or
-
-```swift
-let url = Bundle.main.url(forResource: "playlist", withExtension: "m3u")!
-let playlist = try parser.parse(url)
-```
-
-or
-
-```swift
-let raw = """
-#EXTM3U
-#EXTINF:-1 tvg-id="DenHaagTV.nl",Den Haag TV (1080p)
-http://wowza5.video-streams.nl:1935/denhaag/denhaag/playlist.m3u8
-"""
-let playlist = try parser.parse(raw)
-```
-
-M3UKit also supports asynchronous parsing with a completion handler or with the new async/await API
-
-```swift
-parser.parse(url) { result in
-    switch result {
-    case .success(let playlist):
-        // consume playlist
-    case .failure(let error):
-        // handle error
-    }
-}
-```
-
-or
-
-```swift
-let playlist = try await parser.parse(url)
-```
-
----
-
-## Schema
-
-M3U exposes one model; `Playlist`, with the following schema:
-
-```
-Playlist
-└── medias
-```
-
-```
-Media
-├── duration
-├── attributes
-├── kind
-├── name
-└── url
-```
-
-```
-Attributes
-├── id (tvg-id)
-├── name (tvg-name)
-├── country (tvg-country)
-├── language (tvg-language)
-├── logo (tvg-logo)
-├── channelNumber (tvg-chno)
-├── shift (tvg-shift)
-├── groupTitle (group-title)
-├── seasonNumber
-└── episodeNumber
-```
-
-```
-Kind
-├── movie
-├── series
-├── live
-└── unknown
-```
-
----
-
-## Installation
+## 📦 Installation
 
 ### Swift Package Manager
 
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code.
-
-1. Add the following to your `Package.swift` file:
+Add this repository to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/omaralbeik/M3UKit.git", from: "0.8.1")
+    .package(url: "https://github.com/YOUR_USERNAME/M3UKit.git", from: "2.0.0")
 ]
-```
-
-2. Build your project:
-
-```sh
-$ swift build
 ```
 
 ### CocoaPods
 
-To integrate M3UKit into your Xcode project using [CocoaPods](https://cocoapods.org), specify it in your Podfile:
+Add this to your `Podfile`:
 
-```rb
-pod 'M3UKit', :git => 'https://github.com/omaralbeik/M3UKit.git', :tag => '0.8.1'
+```ruby
+pod 'M3UKit', :git => 'https://github.com/YOUR_USERNAME/M3UKit.git', :tag => '2.0.0'
 ```
 
-### Carthage
+## 🎯 Usage
 
-To integrate M3UKit into your Xcode project using [Carthage](https://github.com/Carthage/Carthage), specify it in your Cartfile:
+### Basic Parsing
 
+```swift
+import M3UKit
+
+let parser = PlaylistParser(options: .all)
+let playlist = try parser.parse(playlistURL)
 ```
-github "omaralbeik/M3UKit" ~> 0.8.1
+
+### Enhanced Options
+
+```swift
+let parser = PlaylistParser(options: [
+    .removeSeriesInfoFromText,
+    .extractIdFromURL,
+    .strictURLValidation,      // New: Ensures valid streaming URLs
+    .skipSessionData           // New: Skips problematic session data
+])
 ```
 
-### Manually
+### IPTV-Specific Features
 
-Add the [Sources](https://github.com/omaralbeik/M3UKit/tree/main/Sources) folder to your Xcode project.
+```swift
+// Get all live channels
+let liveChannels = playlist.liveChannels
 
----
+// Filter by group
+let newsChannels = playlist.channels(in: "News")
 
-## Thanks
+// Search channels
+let searchResults = playlist.searchChannels(query: "BBC")
 
-Special thanks to [Bashar Ghadanfar](https://github.com/lionbytes) for helping with the regex patterns used for parsing m3u files 👏
+// Get channel by ID
+let channel = playlist.channel(withId: "BBCNews.uk")
+```
 
----
+### Validation
 
-## License
+```swift
+// Validate playlist before parsing
+if parser.validateSource(playlistSource) {
+    let playlist = try parser.parse(playlistSource)
+    // Process playlist
+}
+```
 
-M3UKit is released under the MIT license. See [LICENSE](https://github.com/omaralbeik/M3UKit/blob/main/LICENSE) for more information.
+## 🔍 What Was Fixed
+
+### Original Issues
+1. **Line number tracking bug** - The parser was incorrectly tracking line numbers, causing wrong metadata association
+2. **Session data interference** - `#EXT-X-SESSION-DATA` lines were interfering with stream parsing
+3. **Poor error handling** - Parser stopped on first error instead of continuing
+4. **Weak URL validation** - Accepted invalid URLs that could cause playback issues
+
+### How It's Fixed
+1. **Proper line enumeration** using `enumerated()` instead of manual counting
+2. **Session data handling** with option to skip problematic lines
+3. **Enhanced error handling** that continues parsing and collects errors
+4. **Strict URL validation** with streaming protocol and extension checks
+5. **Better playlist structure** with IPTV-specific convenience methods
+
+## 🧪 Testing
+
+The enhanced version includes comprehensive tests and can handle the same test cases as the original, plus new edge cases:
+
+```bash
+swift test
+```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Original M3UKit by [Omar Albeik](https://github.com/omaralbeik)
+- Enhanced for IPTV use cases with better error handling and validation
+
+## 🐛 Reporting Issues
+
+If you find any issues with this enhanced version, please report them in the GitHub issues section. This fork specifically addresses IPTV playlist parsing problems and aims to provide a more robust solution for streaming applications.

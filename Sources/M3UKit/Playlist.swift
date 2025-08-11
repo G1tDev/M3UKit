@@ -2,6 +2,7 @@
 // M3UKit
 //
 // Copyright (c) 2022 Omar Albeik
+// Enhanced by [Your Name] - Added IPTV-specific features and improvements
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -43,6 +44,11 @@ public struct Playlist: Equatable, Hashable, Codable {
       ///   - groupTitle: group title.
       ///   - seasonNumber: Season number (for TV shows).
       ///   - episodeNumber: Episode number (for TV shows).
+      ///   - tvgUrl: EPG URL for this channel.
+      ///   - tvgShift: Time shift for EPG.
+      ///   - aspectRatio: Video aspect ratio.
+      ///   - audioTrack: Audio track information.
+      ///   - subtitles: Subtitles information.
       public init(
         id: String? = nil,
         name: String? = nil,
@@ -53,7 +59,12 @@ public struct Playlist: Equatable, Hashable, Codable {
         shift: String? = nil,
         groupTitle: String? = nil,
         seasonNumber: Int? = nil,
-        episodeNumber: Int? = nil
+        episodeNumber: Int? = nil,
+        tvgUrl: String? = nil,
+        tvgShift: String? = nil,
+        aspectRatio: String? = nil,
+        audioTrack: String? = nil,
+        subtitles: String? = nil
       ) {
         self.id = id
         self.name = name
@@ -65,6 +76,11 @@ public struct Playlist: Equatable, Hashable, Codable {
         self.groupTitle = groupTitle
         self.seasonNumber = seasonNumber
         self.episodeNumber = episodeNumber
+        self.tvgUrl = tvgUrl
+        self.tvgShift = tvgShift
+        self.aspectRatio = aspectRatio
+        self.audioTrack = audioTrack
+        self.subtitles = subtitles
       }
 
       /// tvg-id.
@@ -96,6 +112,21 @@ public struct Playlist: Equatable, Hashable, Codable {
 
       /// Episode number (for TV shows).
       public var episodeNumber: Int?
+      
+      /// tvg-url for EPG data.
+      public var tvgUrl: String?
+      
+      /// tvg-shift for timezone adjustment.
+      public var tvgShift: String?
+      
+      /// Video aspect ratio.
+      public var aspectRatio: String?
+      
+      /// Audio track information.
+      public var audioTrack: String?
+      
+      /// Subtitles information.
+      public var subtitles: String?
     }
 
     /// Enum representing media kind.
@@ -171,4 +202,69 @@ public struct Playlist: Equatable, Hashable, Codable {
 
   /// Medias.
   public var medias: [Media]
+  
+  // MARK: - IPTV Convenience Methods
+  
+  /// Get all live channels from the playlist
+  public var liveChannels: [Media] {
+    return medias.filter { $0.kind == .live }
+  }
+  
+  /// Get all movies from the playlist
+  public var movies: [Media] {
+    return medias.filter { $0.kind == .movie }
+  }
+  
+  /// Get all series from the playlist
+  public var series: [Media] {
+    return medias.filter { $0.kind == .series }
+  }
+  
+  /// Get channels by group title
+  /// - Parameter groupTitle: The group title to filter by
+  /// - Returns: Array of media in the specified group
+  public func channels(in groupTitle: String) -> [Media] {
+    return medias.filter { $0.attributes.groupTitle == groupTitle }
+  }
+  
+  /// Get channels by country
+  /// - Parameter country: The country code to filter by
+  /// - Returns: Array of media from the specified country
+  public func channels(from country: String) -> [Media] {
+    return medias.filter { $0.attributes.country == country }
+  }
+  
+  /// Get channels by language
+  /// - Parameter language: The language to filter by
+  /// - Returns: Array of media in the specified language
+  public func channels(in language: String) -> [Media] {
+    return medias.filter { $0.attributes.language == language }
+  }
+  
+  /// Search channels by name
+  /// - Parameter query: The search query
+  /// - Returns: Array of media matching the search query
+  public func searchChannels(query: String) -> [Media] {
+    let lowercasedQuery = query.lowercased()
+    return medias.filter { media in
+      if let name = media.attributes.name {
+        return name.lowercased().contains(lowercasedQuery)
+      }
+      return media.name.lowercased().contains(lowercasedQuery)
+    }
+  }
+  
+  /// Get channel by ID
+  /// - Parameter id: The channel ID to search for
+  /// - Returns: The media with the specified ID, or nil if not found
+  public func channel(withId id: String) -> Media? {
+    return medias.first { $0.attributes.id == id }
+  }
+  
+  /// Get channel by URL
+  /// - Parameter url: The URL to search for
+  /// - Returns: The media with the specified URL, or nil if not found
+  public func channel(withURL url: URL) -> Media? {
+    return medias.first { $0.url == url }
+  }
 }

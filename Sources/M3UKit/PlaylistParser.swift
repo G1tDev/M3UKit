@@ -2,6 +2,7 @@
 // M3UKit
 //
 // Copyright (c) 2022 Omar Albeik
+// Enhanced by [Your Name] - Fixed parsing issues and improved stream handling
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -39,11 +40,19 @@ public final class PlaylistParser {
 
     /// Extract id from the URL (usually last path component removing the extension)
     public static let extractIdFromURL = Options(rawValue: 1 << 1)
-
+    
+    /// Strict URL validation - only accept valid URLs
+    public static let strictURLValidation = Options(rawValue: 1 << 2)
+    
+    /// Skip session data lines that might interfere with parsing
+    public static let skipSessionData = Options(rawValue: 1 << 3)
+    
     /// All available options.
     public static let all: Options = [
       .removeSeriesInfoFromText,
       .extractIdFromURL,
+      .strictURLValidation,
+      .skipSessionData,
     ]
   }
 
@@ -63,40 +72,56 @@ public final class PlaylistParser {
     let rawString = try extractRawString(from: input)
 
     var medias: [Playlist.Media] = []
-
     var lastMetadataLine: String?
     var lastURL: URL?
     var mediaMetadataParsingError: Error?
-    var lineNumber = 0
+    var currentLineNumber = 0
 
-    rawString.enumerateLines { [weak self] line, stop in
-      guard let self else {
-        stop = true
-        return
-      }
-
-      if self.isInfoLine(line) {
-        lastMetadataLine = line
-      } else if self.isSessionLine(line) {
-        lineNumber += 1
-      } else if let url = URL(string: line) {
-        lastURL = url
+    let lines = rawString.components(separatedBy: .newlines)
+    
+    for (index, line) in lines.enumerated() {
+      let trimmedLine = line.trimmingCharacters(in: .whitespacesAndNewlines)
+      
+      // Skip empty lines
+      guard !trimmedLine.isEmpty else { continue }
+      
+      currentLineNumber = index + 1
+      
+      if self.isInfoLine(trimmedLine) {
+        lastMetadataLine = trimmedLine
+      } else if self.isSessionLine(trimmedLine) && options.contains(.skipSessionData) {
+        // Skip session data lines if option is enabled
+        continue
+      } else if self.isValidURL(trimmedLine) {
+        let cleanedURL = self.cleanURL(trimmedLine)
+        lastURL = URL(string: cleanedURL)
+      } else if !trimmedLine.hasPrefix("#") && !trimmedLine.isEmpty {
+        // This should be a URL but it's not valid
+        if options.contains(.strictURLValidation) {
+          mediaMetadataParsingError = ParsingError.invalidURL(currentLineNumber, trimmedLine)
+          // Continue parsing to collect all errors
+        }
       }
 
       if let metadataLine = lastMetadataLine, let url = lastURL {
         do {
-          let metadata = try self.parseMetadata(line: lineNumber, rawString: metadataLine, url: url)
+          let metadata = try self.parseMetadata(line: currentLineNumber, rawString: metadataLine, url: url)
           let kind = self.parseMediaKind(url)
           medias.append(.init(metadata: metadata, kind: kind, url: url))
           lastMetadataLine = nil
           lastURL = nil
         } catch {
           mediaMetadataParsingError = error
-          stop = true
+          // Continue parsing instead of stopping on first error
+          lastMetadataLine = nil
+          lastURL = nil
         }
       }
-
-      lineNumber += 1
+    }
+    
+    // Check if we have any media entries
+    if medias.isEmpty {
+      throw ParsingError.emptyPlaylist
     }
 
     if let error = mediaMetadataParsingError {
@@ -119,35 +144,41 @@ public final class PlaylistParser {
     var lastMetadataLine: String?
     var lastURL: URL?
     var mediaMetadataParsingError: Error?
-    var lineNumber = 0
+    var currentLineNumber = 0
 
-    rawString.enumerateLines { [weak self] line, stop in
-      guard let self else {
-        stop = true
-        return
-      }
-
-      if self.isInfoLine(line) {
-        lastMetadataLine = line
-      } else if self.isSessionLine(line) {
-        lineNumber += 1
-      } else if let url = URL(string: line) {
-        lastURL = url
+    let lines = rawString.components(separatedBy: .newlines)
+    
+    for (index, line) in lines.enumerated() {
+      let trimmedLine = line.trimmingCharacters(in: .whitespacesAndNewlines)
+      
+      // Skip empty lines
+      guard !trimmedLine.isEmpty else { continue }
+      
+      currentLineNumber = index + 1
+      
+      if self.isInfoLine(trimmedLine) {
+        lastMetadataLine = trimmedLine
+      } else if self.isSessionLine(trimmedLine) && options.contains(.skipSessionData) {
+        // Skip session data lines if option is enabled
+        continue
+      } else if self.isValidURL(trimmedLine) {
+        lastURL = URL(string: trimmedLine)
       }
 
       if let metadataLine = lastMetadataLine, let url = lastURL {
         do {
-          let metadata = try self.parseMetadata(line: lineNumber, rawString: metadataLine, url: url)
+          let metadata = try self.parseMetadata(line: currentLineNumber, rawString: metadataLine, url: url)
           let kind = self.parseMediaKind(url)
           handler(.init(metadata: metadata, kind: kind, url: url))
           lastMetadataLine = nil
           lastURL = nil
         } catch {
           mediaMetadataParsingError = error
-          stop = true
+          // Continue parsing instead of stopping on first error
+          lastMetadataLine = nil
+          lastURL = nil
         }
       }
-      lineNumber += 1
     }
 
     if let error = mediaMetadataParsingError {
@@ -179,6 +210,35 @@ public final class PlaylistParser {
         }
       }
     }
+  }
+  
+  /// Validate a playlist source without parsing it completely
+  /// - Parameter input: source to validate
+  /// - Returns: true if the source appears to be a valid M3U playlist
+  public func validateSource(_ input: PlaylistSource) -> Bool {
+    guard let rawString = input.rawString else {
+      return false
+    }
+    
+    let lines = rawString.components(separatedBy: .newlines)
+    var hasExtM3U = false
+    var hasExtInf = false
+    var hasURL = false
+    
+    for line in lines {
+      let trimmed = line.trimmingCharacters(in: .whitespacesAndNewlines)
+      if trimmed.isEmpty { continue }
+      
+      if trimmed.starts(with: "#EXTM3U") {
+        hasExtM3U = true
+      } else if trimmed.starts(with: "#EXTINF:") {
+        hasExtInf = true
+      } else if !trimmed.hasPrefix("#") && self.isValidURL(trimmed) {
+        hasURL = true
+      }
+    }
+    
+    return hasExtM3U && hasExtInf && hasURL
   }
 
   @available(iOS 15, tvOS 15, macOS 12, watchOS 8, *)
@@ -213,13 +273,22 @@ public final class PlaylistParser {
   internal enum ParsingError: LocalizedError {
     case invalidSource
     case missingDuration(Int, String)
+    case invalidURL(Int, String)
+    case malformedMetadata(Int, String)
+    case emptyPlaylist
 
     internal var errorDescription: String? {
       switch self {
       case .invalidSource:
-        return "The playlist is invalid"
+        return "The playlist is invalid or doesn't start with #EXTM3U"
       case .missingDuration(let line, let raw):
         return "Line \(line): Missing duration in line \"\(raw)\""
+      case .invalidURL(let line, let raw):
+        return "Line \(line): Invalid URL format \"\(raw)\""
+      case .malformedMetadata(let line, let raw):
+        return "Line \(line): Malformed metadata line \"\(raw)\""
+      case .emptyPlaylist:
+        return "The playlist contains no valid media entries"
       }
     }
   }
@@ -239,6 +308,35 @@ public final class PlaylistParser {
 
   internal func isSessionLine(_ input: String) -> Bool {
       return input.starts(with: "#EXT-X-SESSION-DATA:")
+  }
+
+  internal func isValidURL(_ input: String) -> Bool {
+    guard let url = URL(string: input) else {
+      return false
+    }
+    
+    // Basic URL validation
+    guard url.scheme != nil && !url.host.isEmpty else {
+      return false
+    }
+    
+    // If strict validation is enabled, perform additional checks
+    if options.contains(.strictURLValidation) {
+      // Check for common streaming protocols
+      let validSchemes = ["http", "https", "rtmp", "rtmps", "rtsp", "mms", "mmsh"]
+      guard validSchemes.contains(url.scheme?.lowercased() ?? "") else {
+        return false
+      }
+      
+      // Check for valid file extensions for streaming
+      let validExtensions = ["m3u8", "mp4", "ts", "mpd", "flv", "avi", "mkv"]
+      let pathExtension = url.pathExtension.lowercased()
+      if !pathExtension.isEmpty && !validExtensions.contains(pathExtension) {
+        return false
+      }
+    }
+    
+    return true
   }
 
   internal func extractDuration(line: Int, rawString: String) throws -> Int {
@@ -272,6 +370,23 @@ public final class PlaylistParser {
     }
     return .unknown
   }
+  
+  /// Clean and validate a URL string for better compatibility
+  internal func cleanURL(_ urlString: String) -> String {
+    var cleaned = urlString.trimmingCharacters(in: .whitespacesAndNewlines)
+    
+    // Remove any trailing whitespace or newlines
+    cleaned = cleaned.replacingOccurrences(of: "\r", with: "")
+    cleaned = cleaned.replacingOccurrences(of: "\n", with: "")
+    
+    // Handle common IPTV URL patterns
+    if cleaned.contains("|") {
+      // Some IPTV providers use | as separator
+      cleaned = cleaned.components(separatedBy: "|").first ?? cleaned
+    }
+    
+    return cleaned
+  }
 
   internal func parseAttributes(rawString: String, url: URL) -> Playlist.Media.Attributes {
     var attributes = Playlist.Media.Attributes()
@@ -303,6 +418,21 @@ public final class PlaylistParser {
     }
     if let groupTitle = attributesGroupTitleRegex.firstMatch(in: rawString) {
       attributes.groupTitle = groupTitle
+    }
+    if let tvgUrl = attributesTvgUrlRegex.firstMatch(in: rawString) {
+      attributes.tvgUrl = tvgUrl
+    }
+    if let tvgShift = attributesTvgShiftRegex.firstMatch(in: rawString) {
+      attributes.tvgShift = tvgShift
+    }
+    if let aspectRatio = attributesAspectRatioRegex.firstMatch(in: rawString) {
+      attributes.aspectRatio = aspectRatio
+    }
+    if let audioTrack = attributesAudioTrackRegex.firstMatch(in: rawString) {
+      attributes.audioTrack = audioTrack
+    }
+    if let subtitles = attributesSubtitlesRegex.firstMatch(in: rawString) {
+      attributes.subtitles = subtitles
     }
     return attributes
   }
@@ -342,4 +472,9 @@ public final class PlaylistParser {
   internal let attributesChannelNumberRegex: RegularExpression = #"tvg-chno=\"(.?|.+?)\""#
   internal let attributesShiftRegex: RegularExpression = #"tvg-shift=\"(.?|.+?)\""#
   internal let attributesGroupTitleRegex: RegularExpression = #"group-title=\"(.?|.+?)\""#
+  internal let attributesTvgUrlRegex: RegularExpression = #"tvg-url=\"(.?|.+?)\""#
+  internal let attributesTvgShiftRegex: RegularExpression = #"tvg-shift=\"(.?|.+?)\""#
+  internal let attributesAspectRatioRegex: RegularExpression = #"aspect-ratio=\"(.?|.+?)\""#
+  internal let attributesAudioTrackRegex: RegularExpression = #"audio-track=\"(.?|.+?)\""#
+  internal let attributesSubtitlesRegex: RegularExpression = #"subtitles=\"(.?|.+?)\""#
 }

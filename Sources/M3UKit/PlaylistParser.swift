@@ -81,6 +81,16 @@ public final class PlaylistParser {
   /// - Parameter input: source.
   /// - Returns: playlist.
   public func parse(_ input: PlaylistSource) throws -> Playlist {
+    // First, extract playlist attributes from the original raw string before processing
+    var playlistAttributes: Playlist.PlaylistAttributes?
+    if let originalRawString = input.rawString {
+      let originalLines = originalRawString.components(separatedBy: .newlines)
+      if let firstLine = originalLines.first?.trimmingCharacters(in: .whitespacesAndNewlines),
+         firstLine.uppercased().hasPrefix("#EXTM3U") {
+        playlistAttributes = parsePlaylistAttributes(from: firstLine)
+      }
+    }
+    
     let rawString = try extractRawString(from: input)
 
     var medias: [Playlist.Media] = []
@@ -180,7 +190,7 @@ public final class PlaylistParser {
       throw error
     }
 
-    return Playlist(medias: medias)
+    return Playlist(medias: medias, attributes: playlistAttributes)
   }
 
   /// Walk over a playlist and return its medias one-by-one.
@@ -328,6 +338,90 @@ public final class PlaylistParser {
   }
 
   // MARK: - Helpers
+
+  /// Parse playlist-level attributes from the #EXTM3U header line.
+  /// - Parameter extM3ULine: The #EXTM3U header line
+  /// - Returns: PlaylistAttributes object with parsed attributes
+  internal func parsePlaylistAttributes(from extM3ULine: String) -> Playlist.PlaylistAttributes? {
+    let line = extM3ULine.trimmingCharacters(in: .whitespacesAndNewlines)
+    
+    // Check if it's actually an #EXTM3U line
+    guard line.uppercased().hasPrefix("#EXTM3U") else { return nil }
+    
+    // Extract everything after "#EXTM3U"
+    let startIndex = line.index(line.startIndex, offsetBy: "#EXTM3U".count)
+    let attributesString = String(line[startIndex...]).trimmingCharacters(in: .whitespacesAndNewlines)
+    
+    // If no attributes, return empty attributes object
+    guard !attributesString.isEmpty else { 
+      return Playlist.PlaylistAttributes()
+    }
+    
+    var epgUrl: String?
+    var description: String?
+    var size: String?
+    var background: String?
+    var other: [String: String] = [:]
+    
+    // Parse attributes using regex to handle quoted and unquoted values
+    // Pattern matches: key="quoted value" OR key=unquoted_value
+    let attributePattern = #"(\w[\w-]*)\s*=\s*(?:"([^"]*)"|(\S+))"#
+    let regex = try? NSRegularExpression(pattern: attributePattern, options: [])
+    let range = NSRange(attributesString.startIndex..., in: attributesString)
+    
+    regex?.enumerateMatches(in: attributesString, range: range) { match, _, _ in
+      guard let match = match else { return }
+      
+      // Extract key (group 1)
+      guard match.range(at: 1).location != NSNotFound,
+            let keyRange = Range(match.range(at: 1), in: attributesString) else { return }
+      
+      let key = String(attributesString[keyRange]).lowercased()
+      
+      var value: String?
+      
+      // Check for quoted value (group 2)
+      if match.range(at: 2).location != NSNotFound,
+         let valueRange = Range(match.range(at: 2), in: attributesString) {
+        value = String(attributesString[valueRange])
+      }
+      // Check for unquoted value (group 3)
+      else if match.range(at: 3).location != NSNotFound,
+              let valueRange = Range(match.range(at: 3), in: attributesString) {
+        value = String(attributesString[valueRange])
+      }
+      
+      guard let parsedValue = value else { return }
+      
+      // Map known attributes
+      switch key {
+      case "url-tvg", "x-tvg-url":
+        // Handle multiple EPG URLs (comma-separated)
+        if let existingEpg = epgUrl {
+          epgUrl = existingEpg + "," + parsedValue
+        } else {
+          epgUrl = parsedValue
+        }
+      case "description":
+        description = parsedValue
+      case "size":
+        size = parsedValue
+      case "background":
+        background = parsedValue
+      default:
+        // Store other attributes in the other dictionary
+        other[key] = parsedValue
+      }
+    }
+    
+    return Playlist.PlaylistAttributes(
+      epgUrl: epgUrl,
+      description: description,
+      size: size,
+      background: background,
+      other: other
+    )
+  }
 
   internal func extractRawString(from input: PlaylistSource) throws -> String {
     guard var rawString = input.rawString else {

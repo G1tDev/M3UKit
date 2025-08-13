@@ -27,6 +27,46 @@ import Foundation
 /// Object representing a playlist containing media items.
 public struct Playlist: Equatable, Hashable, Codable {
 
+  /// Object representing playlist-level attributes from the #EXTM3U header.
+  public struct PlaylistAttributes: Equatable, Hashable, Codable {
+    /// Create new playlist attributes.
+    /// - Parameters:
+    ///   - epgUrl: EPG URL from url-tvg or x-tvg-url attributes
+    ///   - description: Description of the playlist
+    ///   - size: Size attribute
+    ///   - background: Background color
+    ///   - other: Dictionary for any other custom attributes
+    public init(
+      epgUrl: String? = nil,
+      description: String? = nil,
+      size: String? = nil,
+      background: String? = nil,
+      other: [String: String] = [:]
+    ) {
+      self.epgUrl = epgUrl
+      self.description = description
+      self.size = size
+      self.background = background
+      self.other = other
+    }
+    
+    /// EPG URL extracted from url-tvg or x-tvg-url attributes.
+    /// Multiple URLs are concatenated with commas.
+    public var epgUrl: String?
+    
+    /// Playlist description.
+    public var description: String?
+    
+    /// Playlist size.
+    public var size: String?
+    
+    /// Background color.
+    public var background: String?
+    
+    /// Dictionary containing any other custom attributes from the #EXTM3U header.
+    public var other: [String: String]
+  }
+
   /// Object representing a media.
   public struct Media: Equatable, Hashable, Codable {
 
@@ -195,13 +235,19 @@ public struct Playlist: Equatable, Hashable, Codable {
   }
 
   /// Create a playlist.
-  /// - Parameter medias: medias.
-  public init(medias: [Media]) {
+  /// - Parameters:
+  ///   - medias: medias.
+  ///   - attributes: playlist-level attributes from the #EXTM3U header.
+  public init(medias: [Media], attributes: PlaylistAttributes? = nil) {
     self.medias = medias
+    self.attributes = attributes
   }
 
   /// Medias.
   public var medias: [Media]
+  
+  /// Playlist-level attributes extracted from the #EXTM3U header.
+  public var attributes: PlaylistAttributes?
   
   // MARK: - IPTV Convenience Methods
   

@@ -54,7 +54,8 @@ https://example3.com/stream3.m3u8
     }
     
     func testActualNotWorkingPlaylistMapping() {
-        let notWorkingURL = URL(fileURLWithPath: "/Users/benabid/Documents/Workspace/iOS/Jannaj/M3UKit/notworking.m3u8")
+        let currentPath = FileManager.default.currentDirectoryPath
+        let notWorkingURL = URL(fileURLWithPath: currentPath).appendingPathComponent("notworking.m3u8")
         
         let parser = PlaylistParser(options: [])
         

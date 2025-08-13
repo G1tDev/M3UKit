@@ -145,7 +145,8 @@ https://liveplay.trovo.live/live/73846_116776568_116776568.flv?bizid=73846&txSec
     
     func testActualPlaylistConsistency() {
         // Test the actual problematic playlist multiple times to check for consistency
-        let notWorkingURL = URL(fileURLWithPath: "/Users/benabid/Documents/Workspace/iOS/Jannaj/M3UKit/notworking.m3u8")
+        let currentPath = FileManager.default.currentDirectoryPath
+        let notWorkingURL = URL(fileURLWithPath: currentPath).appendingPathComponent("notworking.m3u8")
         
         let parser = PlaylistParser(options: [])
         

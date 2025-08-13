@@ -11,7 +11,9 @@ import XCTest
 final class ActualFilesTests: XCTestCase {
     
     func testWorkingM3U8File() {
-        let workingURL = URL(fileURLWithPath: "/Users/benabid/Documents/Workspace/iOS/Jannaj/M3UKit/working.m3u8")
+        // Try to find working.m3u8 file in the project directory
+        let currentPath = FileManager.default.currentDirectoryPath
+        let workingURL = URL(fileURLWithPath: currentPath).appendingPathComponent("working.m3u8")
         
         // Skip test if file doesn't exist
         guard FileManager.default.fileExists(atPath: workingURL.path) else {
@@ -44,7 +46,15 @@ final class ActualFilesTests: XCTestCase {
     }
     
     func testNotWorkingM3U8File() {
-        let notWorkingURL = URL(fileURLWithPath: "/Users/benabid/Documents/Workspace/iOS/Jannaj/M3UKit/notworking.m3u8")
+        // Try to find notworking.m3u8 file in the project directory
+        let currentPath = FileManager.default.currentDirectoryPath
+        let notWorkingURL = URL(fileURLWithPath: currentPath).appendingPathComponent("notworking.m3u8")
+        
+        // Skip test if file doesn't exist
+        guard FileManager.default.fileExists(atPath: notWorkingURL.path) else {
+            print("⚠️ Skipping notworking.m3u8 test - file not found")
+            return
+        }
         
         let parser = PlaylistParser(options: [])
         
@@ -72,8 +82,10 @@ final class ActualFilesTests: XCTestCase {
     }
     
     func testComparisonBetweenFiles() {
-        let workingURL = URL(fileURLWithPath: "/Users/benabid/Documents/Workspace/iOS/Jannaj/M3UKit/working.m3u8")
-        let notWorkingURL = URL(fileURLWithPath: "/Users/benabid/Documents/Workspace/iOS/Jannaj/M3UKit/notworking.m3u8")
+        // Try to find files in the project directory
+        let currentPath = FileManager.default.currentDirectoryPath
+        let workingURL = URL(fileURLWithPath: currentPath).appendingPathComponent("working.m3u8")
+        let notWorkingURL = URL(fileURLWithPath: currentPath).appendingPathComponent("notworking.m3u8")
         
         let parser = PlaylistParser(options: [])
         

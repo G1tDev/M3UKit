@@ -12,7 +12,8 @@ final class URLMappingFixValidationTests: XCTestCase {
     
     func testURLMappingAccuracy() {
         // Test specific channels from the problematic playlist
-        let notWorkingURL = URL(fileURLWithPath: "/Users/benabid/Documents/Workspace/iOS/Jannaj/M3UKit/notworking.m3u8")
+        let currentPath = FileManager.default.currentDirectoryPath
+        let notWorkingURL = URL(fileURLWithPath: currentPath).appendingPathComponent("notworking.m3u8")
         
         let parser = PlaylistParser(options: [])
         
@@ -70,7 +71,8 @@ final class URLMappingFixValidationTests: XCTestCase {
     
     func testNoUnexpectedURLSwapping() {
         // Parse the same playlist twice and ensure identical results
-        let notWorkingURL = URL(fileURLWithPath: "/Users/benabid/Documents/Workspace/iOS/Jannaj/M3UKit/notworking.m3u8")
+        let currentPath = FileManager.default.currentDirectoryPath
+        let notWorkingURL = URL(fileURLWithPath: currentPath).appendingPathComponent("notworking.m3u8")
         
         let parser = PlaylistParser(options: [])
         

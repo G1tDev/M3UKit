@@ -1,0 +1,2535 @@
+﻿#EXTM3U url-tvg="https://api.catcast.tv/api/timetable/epg.xml?open=1,https://iptvx.one/EPG,http://epg.one/epg2.xml.gz"
+#EXTINF:-1 tvg-name="Мульт БУМ!" tvg-logo="https://online-tv.live/images/mult-bum.png?640176461" group-title="🎞️ МультStream", Мульт БУМ!
+#EXTGRP:🎞️ МультStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd246.okcdn.ru/hls/4087812852332.m3u8/sig/Mul5VVYyYpk/expires/1755151241980/srcIp/46.138.146.223/urls/185.226.53.66/clientType/0/srcAg/CHROME_YA/mid/5385622068844/video.m3u8?p
+#EXTINF:-1 tvg-name="Советские мультфильмы" tvg-logo="https://tv2free.ru/sites/default/files/styles/medium/public/tv-logo/tv-sovetskie-multfilmy-tv_1.jpg?itok=lJISlSZK" group-title="🎞️ МультStream", Советские мультфильмы
+#EXTGRP:🎞️ МультStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd149.okcdn.ru/hls/4087089138284.m3u8/sig/a7fyWTn6Szg/expires/1755151284766/srcIp/46.138.146.223/urls/45.136.21.82/clientType/0/srcAg/CHROME_YA/mid/5385000066668/video.m3u8?p
+#EXTINF:-1 tvg-name="Вселенная мультфильмов" tvg-logo="https://pic.rutubelist.ru/video/2025-02-11/96/fa/96fa6dd3c5365a3f332ee5609e59aa09.jpg?width=300" group-title="🎞️ МультStream", Вселенная мультфильмов
+#EXTGRP:🎞️ МультStream
+https://salam-mskth-16.rutube.ru/dive/river-3-313.rtbcdn.ru/FOaZkiJwT8pKraS-QvMJ6w/stream/genetta-311.m9.rutube.ru/njzSdBE3HfNb9PD2S_HFiw/1755511245/66710e44c6f796f0b754794ca2585229/1080p_stream.m3u8
+#EXTINF:-1 tvg-id="43372" tvg-name="МУЛЬТКАНАЛ" tvg-logo="https://img.catcast.tv/uploads/22052023/logos/43372-646bb2957c767.jpg" group-title="🎞️ МультStream", МУЛЬТКАНАЛ
+#EXTGRP:🎞️ МультStream
+https://v2.catcast.tv/content/43372/index.m3u8?token=7aeefa01553a7325b93e4c3f340bcff2
+#EXTINF:-1 tvg-id="43693" tvg-name="МУЛЬТКАНАЛ 2" tvg-logo="https://img.catcast.tv/uploads/11082023/logos/43693-64d67e560a3a3.jpg" group-title="🎞️ МультStream", МУЛЬТКАНАЛ 2
+#EXTGRP:🎞️ МультStream
+https://v2.catcast.tv/content/43693/index.m3u8?token=021f4f5e3b836ad879abcc24e5bb724b
+#EXTINF:-1 tvg-id="40953" tvg-name="NorKids" tvg-logo="https://img.catcast.tv/uploads/18112021/logos/40953-61964eca00afc.png" group-title="🎞️ МультStream", NorKids
+#EXTGRP:🎞️ МультStream
+https://v2.catcast.tv/content/40953/index.m3u8?token=5290cfaba8d2ea3080fa8ab4944d5747
+#EXTINF:-1 tvg-name="Мультимания" tvg-logo="https://i.ibb.co/1d5f5Xs/Screenshot-1.png" group-title="🎞️ МультStream", Мультимания
+#EXTGRP:🎞️ МультStream
+http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Пингвин Лоло" tvg-logo="https://www.cableman.ru/sites/default/files/pingvin_lolo_obychnyy_0_0.png" group-title="🎞️ МультStream", Пингвин Лоло
+#EXTGRP:🎞️ МультStream
+http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Мультики и Сказки HD" tvg-logo="https://goodgame.ru/files/logotypes/ch_198446_JH9R_logo.png" group-title="🎞️ МультStream", Мультики и Сказки HD
+#EXTGRP:🎞️ МультStream
+https://132544.edgevideo.ru/streams/132544_931352/132544720/index.m3u8
+#EXTINF:-1 tvg-id="3x3" tvg-name="3х3" tvg-logo="https://img.catcast.tv/uploads/17082022/logos/42152-62fcf43087b98.png" group-title="🎞️ МультStream", 3х3
+#EXTGRP:🎞️ МультStream
+#EXTVLCOPT:epg-url="https://3x3.kino-stream.online/3x3.xml"
+https://132544.edgevideo.ru/streams/132544_851837/132544720/index.m3u8
+#EXTINF:-1 tvg-name="retromult" tvg-logo="https://goodgame.ru/files/avatars/av_1669916_vf8h.jpg" group-title="🎞️ МультStream", retromult
+#EXTGRP:🎞️ МультStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_116776568_116776568.flv?bizid=73846&txSecret=5cd01b416c148b1cbb1b2a43d847ba73&txTime=686b04b0&_bmlj_t=ChxSTysrUGJJem5seThZY1orWlZrcG5NejJ2bTA9EiQzNWJiOGVhZi1mNzVhLTQ5NzYtOTM3Mi03MTZmZWI1OTI0NGMaHjExNjc3NjU2OF8xMTY3NzY1NjhfMTc1MTIzOTE3NyDZ0InDBiiP%2BMQ3Mhk3Mzg0Nl8xMTY3NzY1NjhfMTE2Nzc2NTY4Qg40Ni4xMzguMTUxLjIzMUobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUARgAnoQNDgwMzE3NDQyNTA0MTkwOJABBA%3D%3D&playScene=innerSite&pvid=4803174425041908&_f_=1751279710051
+#EXTINF:-1 tvg-id="47757" tvg-name="МУЛЬТСЕРИАЛЫ VHS" tvg-logo="https://i.pinimg.com/736x/d5/6a/fd/d56afd3c61b34c581bf79e422676d0cb.jpg" group-title="🎞️ МультStream", МУЛЬТСЕРИАЛЫ VHS
+#EXTGRP:🎞️ МультStream
+https://v2.catcast.tv/content/47757/index.m3u8?token=0672ea07ad1628d0641ef181145c7c28
+#EXTINF:-1 tvg-id="47786" tvg-name="МУЛЬТФИЛЬМЫ СССР" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFvuAaClEfQy9e0f4hP7qLgECKmjvv7k7iFw&s" group-title="🎞️ МультStream", МУЛЬТФИЛЬМЫ СССР
+#EXTGRP:🎞️ МультStream
+https://v2.catcast.tv/content/47786/index.m3u8?token=a2dd039065a4816f6c078ce82615ede3
+#EXTINF:-1 tvg-name="Мамонтёнок ТВ" tvg-logo="https://avatars.mds.yandex.net/i?id=0c6148fd35f61df9267454a3963c08d5_l-5244383-images-thumbs&n=13" group-title="🎞️ МультStream", Мамонтёнок ТВ
+#EXTGRP:🎞️ МультStream
+http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Мульт Развивайка" tvg-logo="https://sun1-19.userapi.com/impg/t0bwliJ7nRQJP-j6bTQKm-KK1FT50dfhjDIS9A/5CDu9oDP4NI.jpg?size=320x180&quality=95&sign=57e4523e95e2cb84862f2f68e0ab6302&c_uniq_tag=hs6dVs-m1Om6oqEPgIKtIT552BtLOoKnbVqgLHaY7og&type=video_thumb" group-title="🎞️ МультStream", Мульт Развивайка
+#EXTGRP:🎞️ МультStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+rtmp://vkvsd163.okcdn.ru/playback/9617415285537?stkn=7rG8jAJ_-nsgBzwhMK0YMXnxU1lCKkv9ovPNX2TNniYZq7NsMZGTGN8xMQH1FHtYphA4-vhgtOs&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-name="Детский 0+" tvg-logo="https://sun1-18.userapi.com/impg/3wTKbWOkV40EusaPbjXEDyi6UeHh1BkBbcobyA/LcdG8FnorVw.jpg?size=320x180&quality=95&sign=581d7a81262031a49b0af97e9659b062&c_uniq_tag=G27jnOh4kGwgfio3IEIblHNg8CUJKNC7KhJcbWxAfqA&type=video_thumb" group-title="🎞️ МультStream", Детский 0+
+#EXTGRP:🎞️ МультStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+rtmp://vkvsd182.okcdn.ru/playback/9942884887405?stkn=9VVfByDOizlWlr_rfoRi8TpelV04alIYQ_0Jk3cI_HojytXGIOqVjegIFH3lVi14ozMs9MWxBP0&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-name="Детский 6+" tvg-logo="https://sun1-55.userapi.com/impg/KJT4FluspgwcXkWOnIBaDEzqTjniK8RxUoi3XQ/h0bSMWyPVUo.jpg?size=320x180&quality=95&sign=03dd9196a2dd8614691ab26ae9eb71a0&c_uniq_tag=oyxwBVop7HfYzGp7xvlkDSHV2QaSvafOzc-SKlc4hDE&type=video_thumb" group-title="🎞️ МультStream", Детский 6+
+#EXTGRP:🎞️ МультStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+rtmp://vkvsd21.okcdn.ru/playback/9707377929063?stkn=DFG1rqI3FgXeZ_htnEwsbN6VQTD1f94i2q76f9zRxAS8Cfi2DmoeIt6qPK7S1qCXEQaRA_Cy79E&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-name="HYPERSAT" tvg-logo="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/91228974d93c1691edd5ae4e29bc805f~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=c81eb090&x-expires=1755072000&x-signature=mOSrQGUHi%2FH%2BfgLUIAQiuCrFUfs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=maliva" group-title="🎞️ МультStream", HYPERSAT
+#EXTGRP:🎞️ МультStream
+https://132544.edgevideo.ru/streams/132544_953234/132544720/index.m3u8
+#EXTINF:-1 tvg-name="VKTV HD CINEMA" tvg-logo="https://static.goodgame.ru/files/avatars/av_1323072_lUog.jpg" group-title="🎞️ Вечерний КиноStream", VKTV HD CINEMA
+#EXTGRP:🎞️ Вечерний КиноStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd160.okcdn.ru/hls/8787228428973.m3u8/sig/1WXRjoyAg8Y/expires/1753106609594/srcIp/46.138.146.223/urls/45.136.20.45/clientType/36/srcAg/CHROME_YA/mid/10031321204653/8787228428973_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="Gintoki-san" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/gintoki_san-profile_image-55760b289a20fd13-70x70.jpeg" group-title="🎞️ Вечерний КиноStream", Gintoki-san
+#EXTGRP:🎞️ Вечерний КиноStream
+https://euw31.playlist.ttvnw.net/v1/playlist/CosHtZwlYB6slF_kM1rTkq55eEGq9yA5re565RlqBNmYo5onOl2_RH6Pzg-0_UBQVpz9klXDi3bNS4YC820FQv64LFO9AkOV_0T3eu_XQXaKwu1lQ6WoS_0TQQ5yEuydLXUk_PluSRC-vLf5gDhERmlt9xnoE4vGG0qx1zBuD-n8YgQPjb2V_boRhBdZBUVjZ-mlGN3DZd0AOpNnnZqmL0lPLaytoTFhjplgpSaHp7sqazB78Gnz0E8JdV8pUoljYEwkgfY13ayHRkXMcTQLttaaKAphkhKKGU0mG0TG62XAqXrP318k3gC8lOftpfEUd8UhUC598ZtLgmMWAyordpPsFNfBuMFi8MDZJjIIgqHmEF61Blw9cHhHHlYDMtflEgd_Hs9Za3U6i7aduk-MMPOzZiHdO9V75AfjDZSBjkFXINO3-UtWkg0VYnzDhTc4QZL8V4o0HGAIPuKe5C-FCuLAr_BMB-63HIjD3H01bg4i0gdQNExaX4FP_IWhT6qFTpAC6HSYkygZotsgrgIbhfxKn4mFZRiL4c_6zIhJMleZFG2CeIVtubTzXiR4k-tCKoEj1FDluvWQS6AHtlCK_329jgbEgGH2ShMCq5cTc4i0kwmfsepjvX6odO6m21SgoCTVKuTAdWGdvucC9yRuRo-tDFYSXkc4H84VURTOjknUJ-gZRHvMvW1l54TH1z8ePt8v-cAwP_NflqQLAY8mRyDn1_2wEyrcr_MuuxFKpDkQBNd59LFxZpKpmfSDmEW-pBzJ44Z3ua16pokMrxQes1hCtkJsiT4ut7dsFmTVNBzql2LVvTsLC6P_ykatQNtZJt9CHIkF9Qj4xDleWKB5mPJJQOojDj5d8RUSotolu5CBSfhZ6x7RDb5VUUwHjo_SJQeRbzgUGBSrzqpjmPzq5Wia0ZlXlGCgXlz2Xj4ZAUMcjLRjJPVIn4ADfDvtS2uBd2_30vxD2-Z_fknKXSwKaBY8jNlfHDLVKE7mMJobWmHv06sofBHfRkESTR5Dkw1yFS15vKp4XQMlFs8FlF2bOIIStqshpkicpMd68wMhstp1apv26seckU7l5OL_-QT4lzv8Q980bNmYfwSmlTCZOYx6ENvMHHVLIqInAsWmCqPHFPpZnKKUu3Vi7kJkhHrr8Fsbh9_pa8uswmsOLyMPvlFwvnR5BUeGPR1ew9iSjv8Eu6-B7lRtIfhA1JzTDRoMwfiy52rdkUPSGw_GIAEqCWV1LXdlc3QtMjDsDA.m3u8
+#EXTINF:-1 tvg-name="Dyadya_Dan" tvg-logo="https://headicon.trovo.live/user/upwwwbqaaaaabz3vvmig26gucy.png?ext=png" group-title="🎞️ Вечерний КиноStream", Dyadya_Dan
+#EXTGRP:🎞️ Вечерний КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_107736483_107736483.m3u8?bizid=73846&txSecret=7108a6bd1edba8044880d81f641dd6eb&txTime=6760e07b&_bmlj_t=ChxTTXBKa1QzN0hRS2poaTlFYmxIWkxrSnpRK2c9EiQxYjQyMGEzOS05YTljLTQzODAtYTgyZC1iYzNmOTkxOTdiMzQaHjEwNzczNjQ4M18xMDc3MzY0ODNfMTczMzc5NzM3MSDfm%2BC6BjIZNzM4NDZfMTA3NzM2NDgzXzEwNzczNjQ4M0INODkuMTYzLjIzMS42NkobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUAQ%3D
+#EXTINF:-1 tvg-name="Doza_LLIokolada" tvg-logo="https://headicon.trovo.live/user/hjpuabqaaaaaa3a7436l6t73cy.png" group-title="🎞️ Вечерний КиноStream",Doza_LLIokolada
+#EXTGRP:🎞️ Вечерний КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_104881978_104881978.m3u8?bizid=73846&txSecret=f09cc0c2cf62f4d7f12e742441252900&txTime=6729fe25&_bmlj_t=Chx3K3JtdlZ2M0MvVDY3enlGNTBVTlpMb0dFczA9EiQ1ODEzOTYxZC1hNTZmLTQzOTEtYTA4ZC0wZGE1N2FhYWVlY2UaHjEwNDg4MTk3OF8xMDQ4ODE5NzhfMTczMDIwMDQ4NSCo94O5BjIZNzM4NDZfMTA0ODgxOTc4XzEwNDg4MTk3OEINODkuMTYzLjIzMS42NkobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUAQ%3D
+#EXTINF:-1 tvg-name="Orb3" tvg-logo="https://headicon.trovo.live/user/ylhhabqaaaaaazmme4nrkeo3cy.png" group-title="🎞️ Вечерний КиноStream", Orb3
+#EXTGRP:🎞️ Вечерний КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_108056258_108056258.m3u8?bizid=73846&txSecret=ae1af9264b9f8da624d9da3694fc4249&txTime=6729f87a&_bmlj_t=ChxYeW5LbEZ2TW93UlJSMU1PYVh0QklsM3JBYkk9EiRhZjljNGRiOC1iZjQ5LTQxOTEtYjcwMC1iODk0ZDBkZWQxOGEaHjEwODA1NjI1OF8xMDgwNTYyNThfMTczMDE5OTAzNCDxpIS5BjIZNzM4NDZfMTA4MDU2MjU4XzEwODA1NjI1OEINODkuMTYzLjIzMS42NkobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUAQ%3D
+#EXTINF:-1 tvg-name="Angelina031" tvg-logo="https://headicon.trovo.live/user/dnmhkbqaaaaaaxrlzuapgeg3cy.png" group-title="🎞️ Вечерний КиноStream", Angelina031
+#EXTGRP:🎞️ Вечерний КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_108353563_108353563_480p.m3u8?bizid=73846&txSecret=4163e99d0e503cd99bf27a653b1224d4&txTime=67af0845&_bmlj_t=Chxnd3FkV0taM1QxSDJOaGNCSHZDQ0I3VlFmdGs9EiRiZGYxOGM0Zi1mOWM4LTQ2MjEtYWQ3OS1iMjBmZTkzZjk5ZjgaHjEwODM1MzU2M18xMDgzNTM1NjNfMTczODkxOTM2NSCbvpi9BjIeNzM4NDZfMTA4MzUzNTYzXzEwODM1MzU2M180ODBwONwLQg04My4yMjAuMjM2LjkwShtsaXZlLXJlYWRlci1zdnJfR2V0TGl2ZUluZm9QBGADehI0NTY3MDQyMDQ4MjQwODI2MTaQAQU%3D&playScene=innerSite&pvid=456704204824082616&_f_=1738940009765
+#EXTINF:-1 tvg-name="Melek___" tvg-logo="https://headicon.trovo.live/user/2l7xgbqaaaaaby365l2bw4g2cy.jpeg" group-title="🎞️ Вечерний КиноStream", Melek___
+#EXTGRP:🎞️ Вечерний КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_108265426_108265426.m3u8?bizid=73846&txSecret=459913d4b17f833811ef1e752596246b&txTime=672a4fab&_bmlj_t=ChxIcmxJN1FONUV3TWM5S1VhUzFJZnQ4Vko5d3M9EiQwZDI1ZTY5ZC01ZWU0LTQ3ZWEtOTBjMC0wMDY4MWI5YzQxMDcaHjEwODI2NTQyNl8xMDgyNjU0MjZfMTczMDIyMTM1NSDhrIS5BjIZNzM4NDZfMTA4MjY1NDI2XzEwODI2NTQyNkINODkuMTYzLjIzMS42NkobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUAQ%3D
+https://playlist.nuum.ru/abr/1067/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Ben_Dementev" tvg-logo="https://headicon.trovo.live/user/va5iabqaaaaablmh4cs5eppdcy.jpeg" group-title="🎞️ Вечерний КиноStream", Ben_Dementev
+#EXTGRP:🎞️ Вечерний КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_109066920_109066920.flv?bizid=73846&txSecret=065c5648cc425386052c7c5d22e0f35c&txTime=67e940c6&_bmlj_t=ChwvYWxqcmVteUlQSFptU3h2eEF1di9oakhxZE09EiQ0OWNlYjZiYS1mMzUyLTRkNWMtYjhiNi1jMDYxNGY3OTkyM2QaHjEwOTA2NjkyMF8xMDkwNjY5MjBfMTc0MjczNDkxOCCM3oC%2FBiiP%2BMQ3Mhk3Mzg0Nl8xMDkwNjY5MjBfMTA5MDY2OTIwQg40Ni4xMzguMTUxLjIzMUobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUARgAnoSNTIzODA4ODcwNDI1MDMxOTA4kAEE&playScene=innerSite&pvid=523808870425031908&_f_=1742745361055
+#EXTINF:-1 tvg-name="Dedhardcor" tvg-logo="https://headicon.trovo.live/user/gzbgcbqaaaaabtj243lbwzwlcy.jpeg" group-title="🎞️ Вечерний КиноStream", Dedhardcor
+#EXTGRP:🎞️ Вечерний КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_107037238_107037238.flv?bizid=73846&txSecret=bcacec926ddc95fd6152a56c65db8df6&txTime=67e96708&_bmlj_t=ChxoMCtVVklhd1ZaVkxoVmpEVHlzSXpWVmFwREk9EiRlZWMxNzUwMi0wOTM5LTRmZDYtYTA1NS02ZWQzZWJjZjU3NWYaHjEwNzAzNzIzOF8xMDcwMzcyMzhfMTc0Mjc0NDcxMiCKjYG%2FBiiP%2BMQ3Mhk3Mzg0Nl8xMDcwMzcyMzhfMTA3MDM3MjM4Qg40Ni4xMzguMTUxLjIzMUobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUARgAnoSNTIzODA4ODcwNDI1MDMxOTA4kAEE&playScene=innerSite&pvid=523808870425031908&_f_=1742751375113
+#EXTINF:-1 tvg-name="WoolferionGames" tvg-logo="https://headicon.trovo.live/user/dxr7kbqaaaaaavtfkcyby6q6da.jpeg" group-title="🎞️ Вечерний КиноStream", WoolferionGames
+#EXTGRP:🎞️ Вечерний КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_116777757_116777757.flv?bizid=73846&txSecret=e9204ec16a14155143684d378ebef167&txTime=6831b984&_bmlj_t=Chx2T3VJSE5DNGRGOGZESFNTQk9QRzJoUThGV1k9EiQwNmViZGI0Yy0wYzk1LTQyNTctYmRlMi0xODBjYjFmNDAwODMaHjExNjc3Nzc1N18xMTY3Nzc3NTdfMTc0NzQ4NDQyMCDAsKLBBiiP%2BMQ3Mhk3Mzg0Nl8xMTY3Nzc3NTdfMTE2Nzc3NzU3Qg40Ni4xMzguMTUxLjIzMUobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUARgAnoQNDgwMzE3NDQyNTA0MTkwOJABBA%3D%3D&playScene=innerSite&pvid=4803174425041908&_f_=1747490885249
+#EXTINF:-1 tvg-name="JIpocTo_CaIIIa" tvg-logo="https://sun9-49.userapi.com/s/v1/ig2/Armux1F2_1PIIDw3KqyewBMreMoZ2xIGTe45GmM1YnkaxboQNUcC8IxUm3fUhsite94Fi4IQ2R_63AbkQ4JVjT1K.jpg?size=200x200&quality=95&crop=564,4,1436,1436&ava=1" group-title="🎞️ КиноStream", JIpocTo_CaIIIa
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_108258235_108258235.m3u8?bizid=73846&txSecret=76a9f260dc170f13de0665f1936dcfcc&txTime=672cbcc2&_bmlj_t=Chxwb2RnT2FlS1p1WG85ZWU1QkdQWXB0RWVVczQ9EiQxMTM4NmJlMi01YzMxLTQzYzgtOTJkOC04Mzk3MGIyODZhMTYaHjEwODI1ODIzNV8xMDgyNTgyMzVfMTczMDM4MDM1NCD20o65BjIZNzM4NDZfMTA4MjU4MjM1XzEwODI1ODIzNUINODkuMTYzLjIzMS42NkobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUAQ%3D
+#EXTINF:-1 tvg-name="_Moto2J_" tvg-logo="https://headicon.trovo.live/user/oeexmbqaaaaabc326kredbh7cy.jpeg" group-title="🎞️ КиноStream", _Moto2J_
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://sto-prod-catalyst-4.lp-playback.studio/video+54a4z9o8lv6apj1l.flv?accessKey=523808870425031908&buffer=10&livepeer=1&startunix=-10&trovoFlv=1&video=5000kbps&_bmlj_t=ChxrYTNGMFFYTDBJc1BWRFd2d1k1SElwNlYwczg9EiQ4YWE4NDcwZC1hMTY2LTQyYWMtODI1YS03YTJkMTRlZWU0YTcaHjEwODM5ODk2MV8xMDgzOTg5NjFfMTc0MjM3ODYzMSDth%2B%2B%2BBiiP%2BMQ3MhA1NGE0ejlvOGx2NmFwajFsONg2Qg40Ni4xMzguMTUxLjIzMUobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUARgAnoSNTIzODA4ODcwNDI1MDMxOTA4kAEE&playScene=innerSite&pvid=523808870425031908&_f_=1742455795576
+#EXTINF:-1 tvg-name="VARVARA" tvg-logo="https://images.live.vkplay.ru/user/19331165/avatar?change_time=1724252574&croped=1&mh=140&mw=140", VARVARA
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_116993142_116993142.flv?bizid=73846&txSecret=d62daf2d6d8656e5a1a58fc1bd22e908&txTime=6890aeb4&_bmlj_t=ChwwTDhBams5TWlwYzByVG9lWU1kelRqOHZIQ0k9EiRhMDkwNzFkNS0xYzBiLTRiODEtYmI5OS1kYzg4YzBjMjY4NTYaHjExNjk5MzE0Ml8xMTY5OTMxNDJfMTc1MzcwNzU3MiCQpp7EBiiP%2BMQ3Mhk3Mzg0Nl8xMTY5OTMxNDJfMTE2OTkzMTQyQg40Ni4xMzguMTQ2LjIyM0obbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUARgAnoQNDgwMzE3NDQyNTA0MTkwOJABBA%3D%3D&playScene=innerSite&pvid=4803174425041908&_f_=1753715476327
+#EXTINF:-1 tvg-name="Wulfrag" tvg-logo="https://images.live.vkvideo.ru/user/18143928/avatar?change_time=1685545648&croped=1&mh=140&mw=140" group-title="🎞️ КиноStream", Wulfrag
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_109061490_109061490.flv?bizid=73846&txSecret=bd7095635be8651ce47f68c7eac2b0ad&txTime=6836fc92&_bmlj_t=ChwyWEk4djFlNjZrWnRRc2NoVUExc2NNemxSNmM9EiQ4OGU3Yzk3Ny1mMmNmLTRmODEtYTgxOC0wMmM0MzM4ZWRiMzAaHjEwOTA2MTQ5MF8xMDkwNjE0OTBfMTc0NzgyOTI2NiDitLfBBiiP%2BMQ3Mhk3Mzg0Nl8xMDkwNjE0OTBfMTA5MDYxNDkwQg40Ni4xMzguMTUxLjIzMUobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUARgAnoQNDgwMzE3NDQyNTA0MTkwOJABBA%3D%3D&playScene=innerSite&pvid=4803174425041908&_f_=1747835494833
+#EXTINF:-1 tvg-name="🍀Missstik🍀" tvg-logo="https://custom-file.trovo.live/file/space_face/109261664/1683291147.jpeg" group-title="🎞️ КиноStream", 🍀Missstik🍀
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_109261664_109261664.flv?bizid=73846&txSecret=bce0146ffa95ce8eed6a25845e4dd70d&txTime=6824ef47&_bmlj_t=ChxmWVpXV3FuZVdzcVcyRHh3TGZCZWlqQnJ5dHM9EiQzYmJjZGM4Ni03ODJkLTQ5MjUtYmU5OS1lYzRjMWM2MTQ3ZjgaHjEwOTI2MTY2NF8xMDkyNjE2NjRfMTc0NjY0NjIxNSDRnPfABiiP%2BMQ3Mhk3Mzg0Nl8xMDkyNjE2NjRfMTA5MjYxNjY0Qg40Ni4xMzguMTUxLjIzMUobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUARgAnoQNDgwMzE3NDQyNTA0MTkwOJABBA%3D%3D&playScene=innerSite&pvid=4803174425041908&_f_=1746783831246
+#EXTINF:-1 tvg-name="Видеокассета VHS" tvg-logo="http://ru.epg.one/img2/6005.png" group-title="🎞️ КиноStream", Видеокассета VHS
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_806129/playlist.m3u8
+#EXTINF:-1 tvg-name="Millennium" tvg-logo="https://static.goodgame.ru/files/logotypes/ch_208653_HurB_logo.png" group-title="🎞️ КиноStream", Millennium
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_931202/132544720/index.m3u8
+#EXTINF:-1 tvg-id="41333" tvg-name="Сити Эдем - КиноЭкшен" tvg-logo="https://i123.fastpic.org/big/2024/0708/e8/025585d63ecd857a98e0cb11049e5ae8.png?md5=kyEN39AL3-denlMSJVjnXg&expires=1727773200" group-title="🎞️ КиноStream", Сити Эдем - КиноЭкшен
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/41333/index.m3u8
+#EXTINF:-1 tvg-id="41327" tvg-name="Сити Эдем - КиноДетектив" tvg-logo="https://i123.fastpic.org/big/2024/0707/b9/9c1ab9278c817afbb761a02a90048eb9.png?md5=1gxgzDjKv5FlVJUNUktbLA&expires=1727773200" group-title="🎞️ КиноStream", Сити Эдем - КиноДетектив
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/41327/index.m3u8
+#EXTINF:-1 tvg-id="40783" tvg-name="Сити Эдем - КиноМистика" tvg-logo="https://i123.fastpic.org/big/2024/0707/ab/6d8bdad588de5a4a0b683ad4d2cd7bab.png?md5=3mITiES8iPpMoUvB_HoyEg&expires=1727773200" group-title="🎞️ КиноStream", Сити Эдем - КиноМистика
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/40783/index.m3u8
+#EXTINF:-1 tvg-id="41331" tvg-name="Сити Эдем - КиноКомедия" tvg-logo="https://i123.fastpic.org/big/2024/0708/8b/e5dd42ddad571125b365e5004157c38b.png?md5=Q-Vr19ryzpSKOQfwkwPmnQ&expires=1727773200" group-title="🎞️ КиноStream", Сити Эдем - КиноКомедия
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/41331/index.m3u8
+#EXTINF:-1 tvg-id="34185" tvg-name="Сити Эдем - КиноКлассика" tvg-logo="https://i123.fastpic.org/big/2024/0707/8d/07172bb838000bcf26b24fa953d53c8d.png?md5=K7ruKF7nnNMiAAjZtsluWg&expires=1727773200" group-title="🎞️ КиноStream", Сити Эдем - КиноКлассика
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/34185/index.m3u8?token=1096bebcbfff1bd4ce122352c9692f1d
+#EXTINF:-1 tvg-id="38128" tvg-name="Сити Эдем - КиноСемья" tvg-logo="https://i123.fastpic.org/big/2024/0707/af/e4ae33edca0e150e90c0f6b4494e9aaf.png?md5=kLpY1uGGkH0trfmazgJBCA&expires=1727773200" group-title="🎞️ КиноStream", Сити Эдем - КиноСемья
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/38128/index.m3u8?token=36fe9044d1047d6c9e863092a7592f05
+#EXTINF:-1 tvg-name="Сити Эдем - КиноАрт" tvg-logo="https://i123.fastpic.org/big/2024/0707/fe/90245379e74f15e531ae986e72b2dbfe.png?md5=Ygwh213-bP1m3NXE9Va0TA&expires=1730887200", Сити Эдем - КиноАрт
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/38398/index.m3u8
+#EXTINF:-1 tvg-id="34393" tvg-name="Сити Эдем - КиноАзия" tvg-logo="https://i123.fastpic.org/big/2024/0707/2f/6dafba57550b8f780842e575d927542f.png?md5=8LTGgUKGd-CnqxF1OSU2cw&expires=1730887200" group-title="🎞️ КиноStream", Сити Эдем - КиноАзия
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/34393/index.m3u8
+#EXTINF:-1 tvg-id="46209" tvg-name="Сити Эдем - ТелеНовелла" tvg-logo="https://i123.fastpic.org/big/2024/0707/65/fbf0da54ae81671db61b3ec6cb71cd65.png?md5=LKi3wbIXy_YKTLwZ1rkpeg&expires=1730887200" group-title="🎞️ КиноStream", Сити Эдем - ТелеНовелла
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/46209/index.m3u8?token=75b2c2438ff2ec2ea3dd2108fc2e8c4c
+#EXTINF:-1 tvg-id="34246" tvg-name="Сити Эдем ТВ" tvg-logo="https://i123.fastpic.org/big/2024/0707/b3/ffe9bcb9e22ba24237d5b55f2c916bb3.png?md5=Dk0MaXO4P5l3ihytmGAfMQ&expires=1737648000" group-title="🎞️ КиноStream", Сити Эдем ТВ
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/34246/index.m3u8?token=a4a4c7db8c222fa3ae7baef1d785df0f
+#EXTINF:-1 tvg-id="36517" tvg-name="Action Film" tvg-logo="https://img.catcast.tv/logos/ad3712b3973baa33393fe342072d639e.png" group-title="🎞️ КиноStream", Action Film
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/36517/index.m3u8?token=50ab3428b9c04aa6397b198a3ec6c228
+#EXTINF:-1 tvg-id="43405" tvg-name="КОМЕДИЯ" tvg-logo="https://img.catcast.tv/uploads/31052023/logos/43405-64776de9a5304.jpg" group-title="🎞️ КиноStream", КОМЕДИЯ
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/43405/index.m3u8?token=75c5a18f8b56ce5e6a46ef0dd46ff687
+#EXTINF:-1 tvg-id="43161" tvg-name="КИНОМУЛЬТ" tvg-logo="https://img.catcast.tv/uploads/23052023/logos/43161-646cc82480a43.jpg" group-title="🎞️ КиноStream", КИНОМУЛЬТ
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/43161/index.m3u8?token=3b08158c8c89c3a638e6ccc4f4272621
+#EXTINF:-1 tvg-id="40686" tvg-name="КИНО ВЫХОД" tvg-logo="https://img.catcast.tv/uploads/07092021/logos/40686-6136813168e64.jpg" group-title="🎞️ КиноStream", КИНО ВЫХОД
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/40686/index.m3u8?token=df576147aff8c97e2f9457ebcb9d0279
+#EXTINF:-1 tvg-id="47921" tvg-name="ФСЕОН" tvg-logo="https://img.catcast.tv/uploads/23102024/logos/47896-6718e226bc87f.jpg" group-title="🎞️ КиноStream", ФСЕОН
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/47921/index.m3u8?token=c7e793bf8d421154571865af6b170caa
+#EXTINF:-1 tvg-id="39005" tvg-name="КИНОКЛУБ" tvg-logo="https://i0.wp.com/rus-samovar.com/wp-content/uploads/2022/09/kinoklub.png" group-title="🎞️ КиноStream", КИНОКЛУБ
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/39005/index.m3u8?token=f224e227e7dc7f3252240f01cbad5b42
+#EXTINF:-1 tvg-id="43461" tvg-name="VidBox" tvg-logo="https://img.catcast.tv/uploads/10062023/logos/43461-6484b2d5ac75e.jpg" group-title="🎞️ КиноStream", VidBox
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/43461/index.m3u8?token=9a312f07a62ca7d9ae2b204305aab01f
+#EXTINF:-1 tvg-id="44051" tvg-name="MGM HD" tvg-logo="https://img.catcast.tv/uploads/13122024/logos/44051-675c3cf73abc2.jpg", MGM HD
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/44051/index.m3u8?token=8a40bff3fd9577206d8e49abaea93856
+#EXTINF:-1 tvg-id="42871" tvg-name="MGM" tvg-logo="https://img.catcast.tv/uploads/10062025/banners/42871-68484731df754.jpg", MGM
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/42871/index.m3u8?token=e6af8260bcc31ad096a00ba5f1e0320f
+#EXTINF:-1 tvg-id="48063" tvg-name="MGM int" tvg-logo="https://img.catcast.tv/uploads/10062025/banners/42871-68484731df754.jpg", MGM int
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/48063/index.m3u8?token=543c4171a0f0571533d72d3eab0f0b6b
+#EXTINF:-1 tvg-id="39165" tvg-name="Кинотеатр VHS" tvg-logo="https://img.catcast.tv/uploads/20092021/logos/39165-614864cc8ae23.png", Кинотеатр VHS
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/39165/index.m3u8?token=7d1f8b7835d34ff88b43700c9e76f841
+#EXTINF:-1 tvg-id="48583" tvg-name="Gold Кино" tvg-logo="https://img.catcast.tv/uploads/07042025/banners/48583-67f2f90cc690d.jpg", Gold Кино
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/48583/index.m3u8?token=7523b3f0cf08c99ab68ce8912b5f31d8
+#EXTINF:-1 tvg-id="37925" tvg-name="Видеокассета Old" tvg-logo="https://i.postimg.cc/SKsgfRTh/image.jpg" group-title="🎞️ КиноStream", Видеокассета Old
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/37925/index.m3u8?token=1f9d317f1a466965d7e10743edd1f449
+#EXTINF:-1 tvg-id="Фантастика HD" tvg-name="Фантастика HD" tvg-logo="https://tvapp.fun/images/logo-channel/tv-fantastika-hd.png" group-title="🎞️ КиноStream", Фантастика HD
+#EXTGRP:🎞️ КиноStream
+https://s.catcast.tv/content/39533/index.m3u8?token=aa12d16090323cf653a1d6de82f9e0ca
+#EXTINF:-1 tvg-id="Страх" tvg-name="Страх HD" tvg-logo="http://tv33.hdgo.site/uploads/posts/2021-11/1636550246_strahtv.png" group-title="🎞️ КиноStream", Страх HD
+#EXTGRP:🎞️ КиноStream
+https://s.catcast.tv/content/34816/index.m3u8?token=73ea99f5f1686860462e7d197e1c07f8
+#EXTINF:-1 tvg-id="47559" tvg-name="Колибри TV" tvg-logo="https://img.catcast.tv/uploads/31072024/logos/8253-66aa0a8557c2c.png" group-title="🎞️ КиноStream", Колибри TV
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/47559/index.m3u8?token=58a5737933ed59a020da081fe5076391
+#EXTINF:-1 tvg-name="КІНО TV VHS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwzwcl2F3hlpZEj_yYZd-vWyBelkawLchm_A&s" group-title="🎞️ КиноStream", КІНО TV VHS
+#EXTGRP:🎞️ КиноStream
+https://live20.bozztv.com/giatv/giatv-88882com/88882com/chunks.m3u8
+#EXTINF:-1 tvg-id="38617" tvg-name="Кино 1 International" tvg-logo="https://img.catcast.tv/uploads/25062020/logos/38617-5ef3d12196e3e.png", Кино 1 International
+#EXTGRP:🎞️ КиноStream
+https://kino-1.catcast.tv/content/38617/index.m3u8?token=0ee1b810cb70fabf816a92c7fbac144a
+#EXTINF:-1 tvg-id="47609" tvg-name="Фильмы | VHS TV" tvg-logo="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/1b/c9/72/1bc972c6-897a-0f3d-daed-3263ec9119d5/source/512x512bb.jpg" group-title="🎞️ КиноStream", Фильмы | VHS TV
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/47609/index.m3u8?token=17aad2088bf89afb15b4961b7d714f79
+#EXTINF:-1 tvg-id="38720" tvg-name="Детское кино International" tvg-logo="https://img.catcast.tv/uploads/09072020/logos/38720-5f06c9ff9fbbd.png" group-title="🎞️ КиноStream", Детское кино International
+#EXTGRP:🎞️ КиноStream
+https://autopilot.catcast.tv/content/38720/index.m3u8?token=02da8342f0e725b15124c4ccc9d5e8ef
+#EXTINF:-1 tvg-id="49099" tvg-name="Малдер Ужас" tvg-logo="https://img.catcast.tv/uploads/02082025/logos/49099-688dff6e4a9a2.png" group-title="🎞️ КиноStream", Малдер Ужас
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/49099/index.m3u8?token=fcfe594e648917ab16b7520f88f712b3
+#EXTINF:-1 tvg-id="43064" tvg-name="Malder vse tv" tvg-logo="https://sun9-15.userapi.com/s/v1/ig2/XvO3pFr-mtRn1UnHD-KuRuyH-ixRZcwTjzGJg1Hy-RmLUkojUgW7UGogQR69tcTQE5kawykqSgTYqfvZ58Dlt240.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,600x600&from=bu&cs=600x0" tvg-еpg-url=https://api.catcast.tv/api/timetable/epg.xml?channel_ids=43064, Малдер Всё ТВ
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:epg-url="https://api.catcast.tv/api/timetable/epg.xml?channel_ids=43064"
+https://132544.edgevideo.ru/streams/132544_902681/132544720/index.m3u8
+#EXTINF:-1 tvg-id="47689" tvg-name="Малдер Мегахит" tvg-logo="https://img.catcast.tv/uploads/12052025/logos/47689-68224b82422af.png" group-title="🎞️ КиноStream", Малдер Мегахит
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/47689/index.m3u8?token=8ae76abf42481b20f975c1155727cd78
+#EXTINF:-1 tvg-id="40546" tvg-name="LAYM GOLD TV" tvg-logo="https://img.catcast.tv/uploads/11082021/logos/40546-6113be283e1cb.jpg" group-title="🎞️ КиноStream", LAYM GOLD TV
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/40546/index.m3u8?token=f0e696ffeddaf0ec3be7a7baa6db17a0
+#EXTINF:-1 tvg-id="41596" tvg-name="любимое индийское кино" tvg-logo="https://img.catcast.tv/uploads/07012025/logos/41596-677d3234a20f0.png" group-title="🎞️ КиноStream", ЛИК
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/41596/index.m3u8?token=914c6420a685da290dcd20ed0f2e04ea
+#EXTINF:-1 tvg-id="41458" tvg-logo="https://img.catcast.tv/uploads/04082025/logos/41458-689067a20bfc4.png" group-title="🎞️ КиноStream", ЛИК Классика
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/41458/index.m3u8
+#EXTINF:-1 tvg-name="alpha Cinema" tvg-logo="http://epg.cdntv.online/img/1999.png" group-title="🎞️ КиноStream", alpha Cinema
+#EXTGRP:🎞️ КиноStream
+https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb_output_0.m3u8?session=W2y6fJk87CThRKzDw8KxVh
+#EXTINF:-1 tvg-name="alpha MoreTime" tvg-logo="http://epg.cdntv.online/img/2000.png" group-title="🎞️ КиноStream", alpha MoreTime
+#EXTGRP:🎞️ КиноStream
+https://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd_output_0.m3u8?session=4AoZN7Rxw59jYpjVBmY4th
+#EXTINF:-1 tvg-name="FantasticMistyc" tvg-logo="http://telik.live/images/fmc-tv.png" group-title="🎞️ КиноStream", FantasticMistyc
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_931346/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="VideoArsenal" tvg-logo="https://i.postimg.cc/MTw7GvDw/Video-Arsenal.png" group-title="🎞️ КиноStream", VideoArsenal
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_931730/1325441080/index.m3u8
+#EXTINF:-1 tvg-id="47781" tvg-name="VHSTV Сериалы ЗАТЕРЯНЫЙ МИР" tvg-logo="https://static10.tgstat.ru/channels/_0/3e/3e6a882663bdf4e0ba614dd55e2a3bfb.jpg" group-title="🎞️ КиноStream", VHSTV Сериалы ЗАТЕРЯНЫЙ МИР
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/47781/index.m3u8
+#EXTINF:-1 tvg-id="47783" tvg-name="VHSTV Сериалы ЧАРОДЕЙ" tvg-logo="https://static10.tgstat.ru/channels/_0/3e/3e6a882663bdf4e0ba614dd55e2a3bfb.jpg" group-title="🎞️ КиноStream", VHSTV Сериалы ЧАРОДЕЙ
+#EXTGRP:🎞️ КиноStream
+https://v2.catcast.tv/content/47783/index.m3u8
+#EXTINF:-1 tvg-name="WelZeVooL" tvg-logo="https://images.live.vkvideo.ru/user/18457109/avatar?change_time=1730214524&croped=1&mh=140&mw=140" group-title="🎞️ КиноStream", WelZeVooL
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_112545755_112545755.flv?bizid=73846&txSecret=103ab2b6b4b679be2069107cb430d7e0&txTime=67f4e9fd&_bmlj_t=ChxMVGxUTG5oa0h5U0dpZFp3S2plM3NLd2pUNkE9EiRiYjAzMmJmYi01ODNkLTRhZGEtYjRhMC01MTE3NmYzNTliMWIaHjExMjU0NTc1NV8xMTI1NDU3NTVfMTc0MzQ5OTEzMyCdgbC%2FBiiP%2BMQ3Mhk3Mzg0Nl8xMTI1NDU3NTVfMTEyNTQ1NzU1Qg40Ni4xMzguMTUxLjIzMUobbGl2ZS1yZWFkZXItc3ZyX0dldExpdmVJbmZvUARgAnoSNTIzODA4ODcwNDI1MDMxOTA4kAEE&playScene=innerSite&pvid=523808870425031908&_f_=1743519907702
+#EXTINF:-1 tvg-name="Новый Русский" tvg-logo="https://sun9-70.userapi.com/impg/-qQ0swpvv4ukHHV7FIihEucilRQRbI_yFaFVHg/DeLqQCSUANc.jpg?size=1440x1080&quality=95&sign=78c1c3713c42497c514e655209d99305&type=album" group-title="🎞️ КиноStream", Новый Русский
+#EXTGRP:🎞️ КиноStream
+https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1_output_0.m3u8?session=U3YFrmmaaXDngd96fHTti7
+#EXTINF:-1 tvg-name="CTPAX_KOPOTKOB" tvg-logo="https://goodgame.ru/files/avatars/av_1551836_4GEW.jpg" group-title="🎞️ КиноStream", CTPAX_KOPOTKOB
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-referrer=https://trovo.live/
+https://liveplay.trovo.live/live/73846_104276905_104276905.m3u8?bizid=73846&txSecret=dc6a47dbf644d57355a55a9accadd939&txTime=6878ca05&_bmlj_t=Chx1Ynhrak1WN2NremJUcS9CemprTUxtWnZFWHM9EiQyMmE1N2VkZC1hNTFkLTRhM2YtYTNmMS05NWIxZDZiZGY2YjEaHjEwNDI3NjkwNV8xMDQyNzY5MDVfMTc1MjE0MTY0NSDv%2F77DBjIZNzM4NDZfMTA0Mjc2OTA1XzEwNDI3NjkwNUIOODEuMjIyLjE3Ni4xOTRKG2xpdmUtcmVhZGVyLXN2cl9HZXRMaXZlSW5mb1AEYAN6EjQ1NjcwNDIwNDgyNDA4MjYxNpABBQ%3D%3D&playScene=innerSite&pvid=456704204824082616&_f_=1752154068147
+#EXTINF:-1 tvg-name="Секс в большом городе»" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71f5nNu8OwL._SX600_.jpg" group-title="🎞️ КиноStream", Секс в большом городе
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_824978/132544480/index.m3u8
+#EXTINF:-1 tvg-name="Мир Кино" tvg-logo="https://sun6-20.userapi.com/impf/c844616/v844616962/94b3f/KQ6NzV92ENs.jpg?size=604x604&quality=96&sign=1a02c8ce159a7baadcdd435efb81472a&c_uniq_tag=a58ZWcQ5GlotF6cPQoRi6zr-R0PsTmQtpMqJh6qSeKI&type=album" group-title="🎞️ КиноStream", Мир Кино
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_937940/132544720/index.m3u8
+#EXTINF:-1 tvg-name="Mr. Bean" tvg-logo="https://i0.wp.com/image.tmdb.org/t/p/w780/cEL2zvrJCGF7GwyE3ESCInQyRk8.jpg" group-title="🎞️ КиноStream", Mr. Bean
+#EXTGRP:🎞️ КиноStream
+https://fl1003.bozztv.com/ushba45/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Шоу Бенни Хилла" tvg-logo="https://sun9-53.userapi.com/c639231/v639231387/15071/-upK0-b5hek.jpg" group-title="🎞️ КиноStream", Шоу Бенни Хилла
+#EXTGRP:🎞️ КиноStream
+https://fl1001.bozztv.com/ushba62/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Смотрим Кино и сериалы" tvg-logo="https://standard.rs/wp-content/uploads/2021/10/Bez-naslova-8-705x470.jpg" group-title="🎞️ КиноStream", Смотрим Кино и сериалы
+#EXTGRP:🎞️ КиноStream
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
+#EXTINF:-1 tvg-name="СТРК HD" tvg-logo="https://dvb.by/sources/logos/2202.png" group-title="🎞️ КиноStream", СТРК HD
+#EXTGRP:🎞️ КиноStream
+http://sochinskayatrk.ru/hdtv/hls/CTPK_HD/playlist.m3u8
+#EXTINF:-1 tvg-id="43-tuapse" tvg-name="СТРК 43 канал HD" tvg-logo="https://sun9-45.userapi.com/impf/c624426/v624426099/2bbab/pavOyWOqqbE.jpg?size=400x268&quality=96&sign=348040520c510fe511679aa817da9a67&c_uniq_tag=kLkXtJ3bqsxqq3Ej88xhkb2C9V6Z7ZmNgl8DI_rBm8s&type=album" group-title="🎞️ КиноStream", СТРК 43 канал HD
+#EXTGRP:🎞️ КиноStream
+http://sochinskayatrk.ru/hdtv/hls/43K_HD/playlist.m3u8
+#EXTINF:-1 tvg-name="Rvision Movies" tvg-logo="https://rvision.tv/wp-content/uploads/2020/09/rvision-1024x453.png" group-title="🎞️ КиноStream", Rvision Movies
+#EXTGRP:🎞️ КиноStream
+https://fl1003.bozztv.com/ushba-rvisionmovies/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="312 Кино" tvg-logo="https://app.playlistbox.com/icon/Q97O6Vp54NE2yxmOzJZLKe3Pjln8qJAm.png" group-title="🎞️ КиноStream", 312 Кино
+#EXTGRP:🎞️ КиноStream
+http://176.126.166.43:1935/live/312kino/chunklist_w1380975813.m3u8
+#EXTINF:-1 tvg-name="ТВОЁ ТВ HD" tvg-logo="https://static8.tgcnt.ru/posts/_0/44/4450f14311c01793ce7b20eab7e118b9.jpg" group-title="🎞️ КиноStream", ТВОЁ ТВ HD
+#EXTGRP:🎞️ КиноStream
+http://tvoetv.space:8080/tvoetv/index.m3u8
+#EXTINF:-1 tvg-name="KINO24" tvg-logo="https://tvprogviewer.ru/images/thumbs/0000163_kino24_220.png" group-title="🎞️ КиноStream", KINO24
+#EXTGRP:🎞️ КиноStream
+http://dmi3y-tv.ru/hls/CH_KINO24.m3u8
+#EXTINF:-1 tvg-name="PRO100" tvg-logo="https://iptvx.one/picons/pro100.png" group-title="🎞️ КиноStream", PRO100
+#EXTGRP:🎞️ КиноStream
+https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
+#EXTINF:-1 tvg-name="FilmON" tvg-logo="https://img.catcast.tv/uploads/26012021/logos/39749-600fef81376fc.png" group-title="🎞️ КиноStream", FilmON
+#EXTGRP:🎞️ КиноStream
+https://stream.ushba.tv/akamaiushba/ushba64/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="FilmOFF" tvg-logo="https://img.catcast.tv/uploads/26012021/logos/39749-600fef81376fc.png" group-title="🎞️ КиноStream", FilmOFF
+#EXTGRP:🎞️ КиноStream
+https://stream.ushba.tv/akamaiushba/ushba65/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Logovo Films" tvg-logo="https://img.catcast.tv/uploads/13052022/logos/41660-627e5adaa9772.png" group-title="🎞️ КиноStream", Logovo Films
+#EXTGRP:🎞️ КиноStream
+https://stream.ushba.tv/akamaiushba/ushba-films-a/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="К-ПОКАЗ" tvg-logo="https://img.catcast.tv/uploads/04112023/banners/44404-6545ea806ffe7.png" group-title="🎞️ КиноStream, К-ПОКАЗ
+#EXTGRP:🎞️ КиноStream
+https://stream.ushba.tv/akamaiushba/ushba98/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Кинорейс" tvg-logo="https://img.catcast.tv/logos/1d545e850f06eafd2f85526e1913c07e.png" group-title="🎞️ КиноStream", Кинорейс
+#EXTGRP:🎞️ КиноStream
+https://stream.ushba.tv/akamaiushba/ushba32/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Film Visit" tvg-logo="https://www.giniko.com/logos/190x110/1578.jpg" group-title="🎞️ КиноStream", Film Visit
+#EXTGRP:🎞️ КиноStream
+https://fl1003.bozztv.com/ushba-films-l/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Film Zone" tvg-logo="https://www.giniko.com/logos/190x110/1589.png" group-title="🎞️ КиноStream", Film Zone
+#EXTGRP:🎞️ КиноStream
+https://fl1001.bozztv.com/ushba-films-g/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Globus TV" tvg-logo="https://www.giniko.com/logos/190x110/1628.png" group-title="🎞️ КиноStream", Globus TV
+#EXTGRP:🎞️ КиноStream
+https://fl1001.bozztv.com/ushba-films-b/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="LentaKino" tvg-logo="https://www.giniko.com/logos/190x110/1657.png" group-title="🎞️ КиноStream", LentaKino
+#EXTGRP:🎞️ КиноStream
+https://fl1001.bozztv.com/ushba-films-w/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="KinoMag" tvg-logo="https://www.giniko.com/logos/190x110/1649.jpg" group-title="🎞️ КиноStream", KinoMag
+#EXTGRP:🎞️ КиноStream
+https://fl1001.bozztv.com/ushba-films-t/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Cinemator" tvg-logo="https://www.giniko.com/logos/190x110/1576.jpg" group-title="🎞️ КиноStream", Cinemator
+#EXTGRP:🎞️ КиноStream
+https://fl1003.bozztv.com/ushba-films-p/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="KinoFilm" tvg-logo="https://www.giniko.com/logos/190x110/1637.jpg" group-title="🎞️ КиноStream", KinoFilm
+#EXTGRP:🎞️ КиноStream
+https://fl1001.bozztv.com/ushba-films-m/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Sinema 360" tvg-logo="https://www.giniko.com/logos/190x110/1644.png" group-title="🎞️ КиноStream", Sinema 360
+#EXTGRP:🎞️ КиноStream
+https://fl1001.bozztv.com/ushba-films-f/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="SSAFilm" tvg-logo="https://www.giniko.com/logos/190x110/1654.jpg" group-title="🎞️ КиноStream", SSAFilm
+#EXTGRP:🎞️ КиноStream
+https://fl1003.bozztv.com/ushba-films-c/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Popcorn Theatre" tvg-logo="https://www.giniko.com/logos/190x110/1600.jpg" group-title="🎞️ КиноStream", Popcorn Theatre
+#EXTGRP:🎞️ КиноStream
+https://stream.ushba.tv/akamaiushba/ushba-films-uv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="LAV-KINO" tvg-logo="https://img.catcast.tv/uploads/04092021/logos/40672-61329195ca44d.jpg" group-title="🎞️ КиноStream", LAV-KINO
+#EXTGRP:🎞️ КиноStream
+https://fl1004.bozztv.com/ushba32/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="TV Series" tvg-logo="https://cdn.imgbin.com/8/6/24/imgbin-television-show-kodi-film-series-Q965sauX6xFnXRpmYEGEuEiG5.jpg" group-title="🎞️ КиноStream", TV Series
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_931337/132544480/index.m3u8
+#EXTINF:-1 tvg-name="КИНОСБОРНИК" tvg-logo="https://i.postimg.cc/v8fR03fQ/image.jpg" group-title="🎞️ КиноStream", КИНОСБОРНИК
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_847220/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="Видеосалон" tvg-logo="https://img.plvideo.ru/images/fp-2024-images/c/cover/1e/cd/1ecdd8ab93eba6c735d73ddd84f44036/original669208d156c360.42836350.jpg", Видеосалон
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_708698/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="Кинозал" tvg-logo="https://img.catcast.tv/uploads/01022025/logos/43750-679e05e11b30e.jpg" group-title="🎞️ КиноStream", Кинозал
+#EXTGRP:🎞️ КиноStream
+http://185.57.68.33/237/mpegts
+#EXTINF:-1 tvg-name="Konul TV" tvg-logo="https://tr.canlitv.watch/channels/konul-tv.png" group-title="🎞️ КиноStream", Konul TV
+#EXTGRP:🎞️ КиноStream
+http://cdn-konultvazerbaijan.yayin.com.tr/konultvazerbaijan/konultvazerbaijan/playlist.m3u
+#EXTINF:-1 tvg-id="dtr" tvg-name="DTR" tvg-logo="https://images.live.vkvideo.ru/user/20829998/avatar?change_time=1750604548&croped=1&mh=140&mw=140" group-title="🎞️ КиноStream", КИНО-СТРИМ
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:epg-url="https://dtr.kino-stream.online/dtr.xml"
+https://sb-5.restream.su/preview/20051/0dc67d97-800f-4efb-a776-89483f7b4898/live.m3u8
+#EXTINF:-1 tvg-name="VHDV TV" tvg-logo="https://i.imgur.com/TpX54fw.png" group-title="🎞️ КиноStream", VHDV TV
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_932006/playlist.m3u8
+#EXTINF:-1 tvg-name="ReTV HD" tvg-logo="https://i.postimg.cc/pV4nKkx2/photo-2025-07-24-00-10-58.jpg" group-title="🎞️ КиноStream", ReTV HD
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:epg-url="https://retv.kino-stream.online/retv.xml"
+https://132544.edgevideo.ru/streams/132544_929546/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="ТОП Кино" tvg-logo="https://img.plvideo.ru/images/fp-2025-images/c/cover/94/0d/940d53791c29453a605fff3e58550123/original686698f01cd905.84786137.jpg" group-title="🎞️ КиноStream", ТОП Кино
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_932561/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="Качественный" tvg-logo="https://img.plvideo.ru/images/fp-2025-images/c/cover/ac/8a/ac8a8c935493f848b1a164fbe0d48765/original67c5c1a6159ca3.76007242.jpg" group-title="🎞️ КиноStream", Качественный
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_889481/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="KinoMix Юрич" tvg-logo="https://sun1-14.userapi.com/s/v1/ig1/ipIyCev4KHEIcx4urmZVzULjxRdlDBM6jxwVi854MGxUw6jagkf8ISPD9X5pzagyMY4hxCN1.jpg?quality=96&crop=0,0,500,500&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480&ava=1&cs=240x240" group-title="🎞️ КиноStream", KinoMix Юрич
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_940640/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="KinoJam" tvg-logo="https://i.postimg.cc/ZK8brxhb/Kino-Jam.png", KinoJam
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_934478/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="Dimpon TV" tvg-logo="https://goodgame.ru/files/avatars/av_1643154_P8Jo.jpg", Dimpon TV
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_933542/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="1autotvru" tvg-logo="https://avatars.mds.yandex.net/i?id=fa8601353664fa387397b901d8a3aa19_sr-8289735-images-thumbs&n=13" group-title="🎞️ КиноStream", 1autotvru
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_843533/playlist.m3u8
+#EXTINF:-1 tvg-name="MetalAlex" tvg-logo="https://images.live.vkvideo.ru/user/19124566/avatar?change_time=1718891416&croped=1&mh=140&mw=140" group-title="🎞️ КиноStream", MetalAlex
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_934433/playlist.m3u8
+#EXTINF:-1 tvg-name="CyberTV" tvg-logo="https://img.plvideo.ru/images/fp-2025-images/c/cover/c0/c5/c0c5dad55613b1c4e0474b0d2ea127d5/original686fe304561d97.13484713.jpg" group-title="🎞️ КиноStream", CyberTV 
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_934931/playlist.m3u8
+#EXTINF:-1 tvg-name="CyberTV 2" tvg-logo="https://img.plvideo.ru/images/fp-2025-images/c/cover/c0/c5/c0c5dad55613b1c4e0474b0d2ea127d5/original686fe304561d97.13484713.jpg" group-title="🎞️ КиноStream", CyberTV 2
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_935531/playlist.m3u8
+#EXTINF:-1 tvg-name="4K — Кино и сериалы»" tvg-logo="https://img.catcast.tv/uploads/04072023/logos/43406-64a408d4b42fa.png", 4K — Кино и сериалы»
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_935270/132544720/index.m3u8
+#EXTINF:-1 tvg-name="ScripachTV" tvg-logo="https://images.live.vkplay.ru/user/19371765/avatar?change_time=1725077787&croped=1&mh=140&mw=140" group-title="🎞️ КиноStream", ScripachTV
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_935537/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="Ящик с Демонами" tvg-logo="https://img.plvideo.ru/images/fp-2024-images/c/cover/5f/de/5fde6ad91520be31bc27e240ed7597b9/original66e2f2c235d5b4.53500567.jpg" group-title="🎞️ КиноStream", Ящик с Демонами
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_787820/1325441080/index.m3u8
+#EXTINF:-1 tvg-name="DEN" tvg-logo="https://img.plvideo.ru/images/fp-2025-images/c/cover/4c/c3/4cc3ba8c1461cbda804db0c51196cd76/original6868c24f3ccd27.13550428.jpg" group-title="🎞️ КиноStream", DEN
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_933107/132544720/index.m3u8
+#EXTINF:-1 tvg-name="LEX" tvg-logo="https://img.plvideo.ru/images/fp-2025-images/c/cover/0b/48/0b48e9dfc84f6bff247e3de50019d223/original6888c35b707d47.13251933.jpg" group-title="🎞️ КиноStream", LEX
+#EXTGRP:🎞️ КиноStream
+https://132544.edgevideo.ru/streams/132544_944099/132544720/index.m3u8
+#EXTINF:-1 tvg-name="SeleCaoTV" tvg-logo="https://i.ibb.co/HV9Mmb4/image-8.png", SeleCaoTV
+#EXTGRP:🎞️ КиноStream
+https://sb-3.restream.su/preview/20001/61346f1c-4cc6-46e5-9f54-0d8c72188567/live.m3u8
+#EXTINF:-1 tvg-name="SeleCaoTV 2" tvg-logo="https://i.ibb.co/HV9Mmb4/image-8.png", SeleCaoTV 2
+#EXTGRP:🎞️ КиноStream
+https://sb-2.restream.su/preview/20015/b13b5ca1-5968-491d-b5d2-4d7abf636e73/live.m3u8
+#EXTINF:-1 tvg-id="kino-i-zhizn" tvg-name="Кино и жизнь" tvg-logo="https://sun9-49.userapi.com/impg/5Mf8OrjKw5p0V2PpayneFcA35XuVsPWeJxgOCw/vNwHk1FvHF8.jpg?size=800x800&quality=95&sign=635199fd6f73fe35d2621912eee1976b&type=album" group-title="🎞️ КиноStream", Кино и Жизнь
+#EXTGRP:🎞️ КиноStream
+https://salam-mskth-16.rtbcdn.ru/dive/river-3-318.rtbcdn.ru/p2VnQoPf8MS0YYCQeb3eKA/stream/genetta-325.m9.rutube.ru/rFNKtJPHvs-omA0ueuszHw/1755684942/09e51eefa939595a4ac67182c6fb3e4e/1080p_stream.m3u8
+#EXTINF:-1 tvg-name="Кинолента 24" tvg-logo="https://pic.rutubelist.ru/user/2024-10-21/ae/0a/ae0ac64db5ee9a7b274597ee3ae35e21.jpg?size=s" group-title="🎞️ КиноStream", Кинолента 24
+#EXTGRP:🎞️ КиноStream
+https://salam-mskm9-48.rutube.ru/dive/river-5-520.rtbcdn.ru/umvKGT_mNxoSUPTWV0Fycg/stream/genetta-311.m9.rutube.ru/TksoXKVbrfBUUngAjqsQFg/1755406409/23c568b69e0eada33560850484223739/1080p_stream.m3u8
+#EXTINF:-1 tvg-name="ТВОЙ 2007" tvg-logo="https://pic.rutubelist.ru/user/2024-11-28/13/a5/13a5164fd40f43513df172da2ec6dbfd.jpg?size=s" group-title="🎞️ КиноStream", ТВОЙ 2007
+#EXTGRP:🎞️ КиноStream
+https://salam-mskth-72.rtbcdn.ru/dive/river-5-527.rtbcdn.ru/h7-ukdgjWHp06ug-eUBJ6Q/stream/genetta-524.ost.rutube.ru/YoP8F-8IO0ShK_PLG_FGTg/1755685004/348ebaac61a382f2028e9a1b06f4f2b6/1080p_stream.m3u8
+#EXTINF:-1 tvg-name="Кинолаффка" tvg-logo="https://i.okcdn.ru/i?r=BYEBZ4bVwF5C30DYP_OsUw_EXf2zPpalsCpQg49xugnRQIKI9M8hACScOfmCmu268h0PJvc7-h0YblIoVUnf11XDtwcFfDrgukZyxfKU0aExcWLgbV_buQb_L5vRMFZUtYzQ9HEhUx8zPgcA697tW9V3QO76jLW-hKBab1mErfm-PVItuMzKmOXTE0X0wpKZ_ScaJ4z7qo-6E-gcbx_NMd3LamOquQslBx4ZdwdHtMCOqQXtDr9cgh2bTYAS_cUn7aaodS-U5BCNZmLj0Z_JSKAB-Rp6jK33sgjX_5FFAg0ka3aN6-HQgeJrMXLhwPobBaNqgBad3jt9Lx6AFpZB1mh5Ew" group-title="🎞️ КиноStream", Кинолаффка
+#EXTGRP:🎞️ КиноStream
+https://salam-mskth-49.rtbcdn.ru/dive/river-5-545.rtbcdn.ru/AYSwv_5elMaYWGV6wPEr1A/stream/genetta-304.m9.rutube.ru/2IdxnFDD5gjzswM03X9emA/1755685059/3b7d1499da9396462bfd17282d758d30/1080p_stream.m3u8
+#EXTINF:-1 tvg-name="Киножелезо" tvg-logo="https://pic.rutubelist.ru/video/2025-03-25/75/f6/75f62fef88b9efbdbc55810553515d53.jpg?width=300" group-title="🎞️ КиноStream", Киножелезо
+#EXTGRP:🎞️ КиноStream
+https://salam-mskth-20.rtbcdn.ru/dive/river-3-377.rtbcdn.ru/kWn2_Od0O6Wbs7Tw2iue4A/stream/genetta-524.ost.rutube.ru/Y2B5_xE-9IK3rlKGhGB04A/1755685094/4965b7b928c4a143d708ab424be01d37/1080p_stream.m3u8
+#EXTINF:-1 tvg-name="Comedy Hub" tvg-logo="https://pic.rutubelist.ru/user/2025-04-02/8c/a0/8ca0a0338cbc62022be107e93abdf06f.png?size=s" group-title="🎞️ КиноStream", Comedy Hub
+#EXTGRP:🎞️ КиноStream
+https://salam-mskth-22.rutube.ru/dive/river-5-521.rtbcdn.ru/cfqcaQTKBLdsqhTGisc7aQ/stream/genetta-321.m9.rutube.ru/IvUF4dIHskr3uRrwh6NgKA/1755164954/dcc02ed1ff97923541c6d4c030c54c65/1080p_stream.m3u8
+#EXTINF:-1 tvg-name="Кино ВК" tvg-logo="https://smotret.tv/images/kino-vk.webp" group-title="🎞️ КиноStream", Кино ВК
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+rtmp://vkvsd9.okcdn.ru/playback/11476322626375?stkn=MWURFX9GxWweqchHYWcYzhzufUF0fxJw12ejfhOPexR9h9Leff8anz9KAxHjfF4R9h4C5PfiYy8&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-name="Кино ВК 2" tvg-logo="https://smotret.tv/images/kino-vk2.webp" group-title="🎞️ КиноStream", Кино ВК 2
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+rtmp://vkvsd202.okcdn.ru/playback/10472252320626?stkn=55ZiY3uqOcLbjh8YLZ654EGxTQCPkjoczCP4KcuqIiVY4Xvydx7GLhpzKW3_9I0RZtVa3gKqHM4&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-name="StoryFilms" tvg-logo="https://i.pinimg.com/736x/ab/9f/8d/ab9f8db65be12a59dc44a821dc48ceaf.jpg" group-title="🎞️ КиноStream", StoryFilms
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+rtmp://vkvsd261.okcdn.ru/playback/9338397797340?stkn=5qgPbxP35Z9NLw7vGSzUHaO_DnvPyWR55XH_Fpu4y9GuPk5ge6WfEpmqXYpck3zKrKwX0eZ-W-M&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-name="Таверна приколов" tvg-logo="https://sun1-15.userapi.com/s/v1/ig2/jAjs1ibo1-1bSEbQRQGrxf7OwqPxu_IOW-e0-zsptgKAJaa0JVD_4_iVLmkye3x3w7jBwm5E-4yy6WxYEgNd8yu6.jpg?quality=95&crop=26,0,355,355&as=32x32,48x48,72x72,108x108,160x160,240x240&ava=1&cs=100x100" group-title="🎞️ КиноStream", Таверна приколов
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+rtmp://vkvsd232.okcdn.ru/playback/10146919361393?stkn=_ZsgCa1NZwcepbI43AtjcKrhnkYSfbwICLGDRA3zXIq-OSVaw67CzC7lkLPYdTghX3I5FyjPc9c&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-name="VOVANB IPTV" tvg-logo="https://sun1-96.userapi.com/s/v1/ig2/QntboLvq1h-VYqgaLa6AibT92npboPcRfMiO98hY7Aoz6XufIr_Mz1S6W8yGZzwPpAZQj-a4m2ZMhfPssadVqn9R.jpg?quality=95&crop=0,0,400,400&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&cs=100x100" group-title="🎞️ КиноStream", VOVANB IPTV
+#EXTGRP:🎞️ КиноStream
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+rtmp://vkvsd82.okcdn.ru/playback/11128866155281?stkn=veDvnZ2P4MZVEyLhFcsWedD9TPgVyE49i7qMnkCzn0jbCM4iEFGKGfj5w4M2ttgK95qt2Ya2bbk&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-name="K1n0man1a" tvg-logo="https://static.goodgame.ru/files/avatars/av_1639851_aMJG.jpg", K1n0man1a
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd218.okcdn.ru/hls/8507300121315.m3u8/sig/DQU_PDsKdCM/expires/1755149565906/srcIp/46.138.146.223/urls/45.136.21.60/clientType/36/srcAg/CHROME_YA/mid/9436050769891/8507300121315_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="AlexVira" tvg-logo="https://goodgame.ru/files/avatars/av_928701_IQch.jpg", AlexVira
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd229.okcdn.ru/hls/8673714768630.m3u8/sig/qYO_qulAcMs/expires/1755164398702/srcIp/46.138.146.223/urls/45.136.20.46/clientType/36/srcAg/CHROME_YA/mid/9814206007286/8673714768630_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="Akudji" tvg-logo="https://smotret.tv/images/akudji.jpg", Akudji
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd111.okcdn.ru/hls/8377089460991.m3u8/sig/iRpTwRXNr8U/expires/1754367081719/srcIp/83.220.239.251/urls/185.226.55.84/clientType/36/srcAg/CHROME_YA/mid/9196860557311/8377089460991_high/index.m3u8
+#EXTINF:-1 tvg-name="MovieToper" tvg-logo="https://goodgame.ru/files/avatars/av_1676704_9wc1.jpg", MovieToper
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd129.okcdn.ru/hls/8562762582715.m3u8/sig/rheOd2exdS4/expires/1755164317664/srcIp/46.138.146.223/urls/185.226.52.53/clientType/36/srcAg/CHROME_YA/mid/9446658951099/8562762582715_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="3FILMAX" tvg-logo="https://tv2free.ru/sites/default/files/styles/medium/public/tv-logo/tv-3filmax.jpg?itok=oirI2npF" group-title="🎞️ StreamFree No 24/7", 3FILMAX
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd156.okcdn.ru/hls/4152310696645.m3u8/sig/nFdhwp7ovBA/expires/1755151035577/srcIp/46.138.146.223/urls/185.226.53.82/clientType/0/srcAg/CHROME_YA/mid/4891374853829/video.m3u8?p
+#EXTINF:-1 tvg-name="Devil TV" tvg-logo="https://tv2free.ru/sites/default/files/styles/medium/public/tv-logo/tv-devil-tv.jpg?itok=V8J470B7" group-title="🎞️ StreamFree No 24/7", Devil TV
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd111.okcdn.ru/hls/4129979632256.m3u8/sig/qa858sTGDTY/expires/1755150970918/srcIp/46.138.146.223/urls/45.136.22.88/clientType/0/srcAg/CHROME_YA/mid/4929588829824/video.m3u8?p
+#EXTINF:-1 tvg-name="МОЖи" tvg-logo="https://i.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYNhhNAGaDSrRBvvcgXfZj7uyNdRfRpBLy_Kf8EvG9g1c&fn=external_8" group-title="🎞️ StreamFree No 24/7", МОЖи
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd244.okcdn.ru/hls/5565406644844.m3u8/sig/4MaEfo4Ol3k/expires/1755151083288/srcIp/46.138.146.223/urls/45.136.22.86/clientType/0/srcAg/CHROME_YA/mid/7133972668012/video.m3u8?p
+#EXTINF:-1 tvg-name="Экран СССР ТВ" tvg-logo="https://tv2free.ru/sites/default/files/styles/medium/public/tv-logo/tv-ekran-sssr-tv_0.jpg?itok=QQC7_Z3M" group-title="🎞️ StreamFree No 24/7", Экран СССР ТВ
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd162.okcdn.ru/hls/7904690309811.m3u8/sig/evQdXVua3uo/expires/1755151133249/srcIp/46.138.146.223/urls/185.226.55.91/clientType/0/srcAg/CHROME_YA/mid/9273686236851/video.m3u8?p
+#EXTINF:-1 tvg-name="Смотри" tvg-logo="https://i.postimg.cc/Lhdw4PsG/image.jpg" group-title="🎞️ StreamFree No 24/7", Смотри
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd198.okcdn.ru/hls/8234064218629.m3u8/sig/j8cK5YA08pU/expires/1755151186557/srcIp/46.138.146.223/urls/185.226.55.79/clientType/0/srcAg/CHROME_YA/mid/10420712709637/video.m3u8?p
+#EXTINF:-1 tvg-name="Kin0ZALL" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/0e6bc225-2783-4ba8-a24e-57cf5f40bc87-profile_image-70x70.png" group-title="🎞️ StreamFree No 24/7", Kin0ZALL
+#EXTGRP:🎞️ StreamFree No 24/7
+https://euw32.playlist.ttvnw.net/v1/playlist/CrQGW1an4iSX5LToZPEH5Bhlx3s4EByEzdWgv7Dg4-5NJ3N-FLg1x6Ac2SCVze9yqXwG85SoNAKzMa0_9_hnpflAf56wsGEa38MEzYThMVrSXPFwQzNQKTV-15rk60rcpJKN90t0ej2dAZcF6NH6pK7IDKRuNeVA0NheofTsbVuxfQ74TGTysVVbNO75VIic46gdMTSysBMTp10BineI326KSilo-U8G9Ys0sLtclpCjUcjNMbYYMASAj963ISq5_H6vWsprPXpQRvmxdAIHwhsHfXc8KzeMDxwlysoK5F2IR5o0k6XYTWBpxEwc86f3EGPmP0sIwWsryWj6a5Jgu22CGMlP43tNzXpJWFC2e5aaA_44ATALkKxR2QgKmkTyuaWK4pOasXUQNvHZsXMShhFvGb2w9rkueYPnjyC5tiVTQZzIwXwNnaLD5IOCYUJOxWlbAibjyRWfIG78N-nJqZT4muliBHskiAQX-9q-wjwQrSieWHkDGiO2cLigrrEuwwqA6kTxLSSfY2-uQQcnD4RvC73EJux6CYwg4GivgMcop-kIpPFfmYR_CFH0RrcSgp0zp2DUtBLYl0GvR_G0Q77CjOLh0MbFOVlCfAIC7ZZJn5rJuAuyrsioodNL_HTGIJIY_-qpflTfpSclZIUWEKtVo9kAlyTK7kdn0CAI9n86SufMgAuvdG2zhIGKbqZMMoeXHhGJJ9GtT5ePvDPOTRbl9ykBDV6esFOH61Zn1Xg8pPl5RIfiJ8T7ych5Ha82Saos4tx9Txr3942z50gZU6DCbq4FhAdeZe1NNwkPo6C9GUHYG1Qq7Ta-2pn_0Y-9IXPKfueWicRwHzjaHs4UcCNpdafw7zbXhbr6HFLxbsVMD8hQCqqNjNWn59_We36W7ajp7jyHRW0me0mZwtcAEpD1kwF4roHs0gwJ_6FOsXaJgnTws81MyzK5UwzAC0QC-5QGZJyaQx0tnc4XXn2cfRp_3Ph7uXiHJ6ys8eFj7tM205LH3btVu1duZavRv18XFdzbseBvOGoWc4DueP2TYtLmvKQ3ELoI0iuWagdd-z6vtjLnn1icvvdFIxkNy5nOdRbWMOKoRhoMqoQ3Z2zDPn5HTNDAIAEqCWV1LXdlc3QtMjD-DA.m3u8
+#EXTINF:-1 tvg-name="Oguzok__tv" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/87adc096-2957-450e-89aa-47fedd765d3a-profile_image-70x70.png" group-title="🎞️ StreamFree No 24/7", Oguzok__tv
+#EXTGRP:🎞️ StreamFree No 24/7
+https://euw12.playlist.live-video.net/v1/playlist/CusFLEx5jwyuoAm9iQGZbvYOBtjVvo8BudD6AWLoun62wbLM6v7nbY-THyGdTdD5qbdb3tPrUqL2Jfym5rf_S7Vdp13CnJvWYVD9FTqPzIzS34L2yfB5PPU51pfFeubPORXVtyOIZB9yLYDwPOayWepvIs4fO6AKhTSZ1twCj0AYm0geMiphEuVIGGc5Zy6TyKqkA9-vm8Ap8glsjeBbF7GcE0xMrmz_rvvr8lLcrP42mqQ30Vca9-Q1FtGqgvbMXpHz4WkcqkXQhlR2YXiU3BS2OmaMWFpR3_zP50Nbb77wfpbfT1aBW9iYMiM8Dk2Roq_xfuIHNo8eal4upzRP3K2-qvOaSayXPp4L6EyWZ-98oRtSLXtLzQpRBzlrrfQdklI4VbAuenXqgvpuhmwmXGK9NraOyf__L1I_ZnmDv2c7T0jIDXQW3NAZRdu7Cei2pIkqdxWsjCeFJdEakhr9z6YZ8GiAKOBzR87f7Oq0nuuwUhH9HEnCewIF4ZDQ6LaFFpVVDuA4fKQW4vAHbu_Vi5fjb2lQAJsIaQhYlTI68YGghfB3xhlQ51dsxBsjUYR0LzR-DoFTkHG4_RpblE2WOrfeLg0u72tExwMw4SHDocOuuOaTBxfdqFXVSR_CUoalDfa9KNwevQrBpfueHFRlXFbck5BNF-dn9X59HuETLn3kf-CNEV7BV9tyZwhSos4tXnm91dZfv1liMS1i0zwD7PbqVdHD0ylWH6ylJBlq479HFq_q3SrzrSl4gfZHMzg1moS0qGPa5NOEIuR6hV5h4gfsyl61Fi34DHwOYjzHn86Spm1WS3u4UuRRTX5QZCeL6wgNiLp317jWSYAe5nsE-2ZPgOnjK7ZKcjlKU22foQ-zEMvgrEQlKSo1vVS6Sf1l1OES8Q3L_7oi7ae6rj14PDjyFyfYuldt7SmfurNQzH7t93LXG69DoBtALl5QX4S2-cnTlhfPB3BQptR9fXfhdFZXjm5lMDwwPaXAMymIGgyT-Torz_lAloGxBN8gASoJZXUtd2VzdC0yMP4M.m3u8
+#EXTINF:-1 tvg-name="RusFlix" tvg-logo="https://files.kick.com/images/user/60286609/profile_image/conversion/62676475-d3cd-4dd8-ae24-40e2cdefdb9a-fullsize.webp" group-title="🎞️ StreamFree No 24/7", RusFlix
+#EXTGRP:🎞️ StreamFree No 24/7
+https://eun11.playlist.ttvnw.net/v1/playlist/CrQG_1zELhpyFGmjA6pbbuYdMKi7kcDWMeeoj0dW9WKT_Ht70zNOL0E9b4OdvRhhBMgGkpSqhN29NYTBA9obMdC1bkcjS_LCbXNc6_469g7GkB5Zd0SW-r3JohU-ut63z6DPdbFeCrub7jO16Kn7NGgjDHtbOn3r5KyjLBT1DHCu1z3ONV96rU_L_8MvfjOuyxd2jd9imJlfVyI2m2DIqJRiRvlqkB8wmzFPZG0Dy8_WgGxOwDHjRUHE5lCWnArTrvqx1MGhEDAj-yIMNDx-Vgv_sp2pEG0UhutTHKVDoBJEqbW3K4UcVSaljHdMGcuoAQsF560vQ_Ja31CLgmYKbFayy98fxpInkrENNuirLbcMQYtEi55RFA6Vv9hkjT5BcNPzCdCfjRNN6xhiipqq9nIaW7H2X1OVnQC78ZZAlzcNXoYeQNKLz4U3tcmNhSfOPpL2SBpOP1gzVnzdYfr0lzl6bye8HTjl-GwnAOBNYdQQcARkZpr6369n2H0KNlP6bu4h2Rt1zDLrx2REQEePbmk8IXgrYPjxNtjOnRFursDwUQmcxn2kZPuvOGl1_yco1ZPWmMqtvBRyMOfRTw3nCcif9Pef7EA4Ntw5BO3Zcup6Huwy_icDrDQuH4F2a24bfnKaY0OpNFxMXlFw13bjIX8M3IFkKeSsghXcgxi7iSc8UrjPFpTMnBPqwi_stODpT1wIz851c5G6kh3H3e1yHcD3n3_PlysPdkxj-0sokeC-C8IF5VYp80x98u2uhfJoK-8FSkB18yMVcphXeciTKrDV7UTt2TghbNHwCTsu2yLcgn5P54_IH9X2cwFvf9TauR58816BxwMP6VMuI5JJa1mCXojOZs78NSY7rgaZVoMGTIBOHwPHZblHz7AWDG65jQnmo9-KqS7KEoBDj2flvobX_1bGegdZBt8durrCVru3rRbITcAgBCky7fnjhnum4jG9uGucndL3Hr50_EUu36RjudqyYz8WMFz5sR2FEIfteiB_ymRx2KvsCzXcktpM0V01XCK5P_4ocE60GGs8sZcL-DV0J4ITE76karcu43MuWjAICBcBpN_v5Ro-FJx9WebuZvigeRoMd41c5bKh9lXu7fXdIAEqCWV1LXdlc3QtMjD-DA.m3u8
+#EXTINF:-1 tvg-name="24lordfilm" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/bfaa44da-3e1f-4adc-bed2-6a5e6cb870a3-profile_image-70x70.png" group-title="🎞️ StreamFree No 24/7", 24lordfilm
+#EXTGRP:🎞️ StreamFree No 24/7
+https://euw33.playlist.ttvnw.net/v1/playlist/Cr8Gq1gnPdIA3rMLhW14gKj5OMhTDydI_ErjZAbXtZ9cRDScAXLwkb5oyNEDIB4uHciz3abpYXQfwkkTV7-Fe3BXV337Ye2RxqxbLIfUWkWOloy5BUxA5sjLtaMEkt_REQcWSgevr9ySoFA95OR2Pu468EeD3r4RiF6Zrap2TET9hgV_265YBIZ4MnUqfxwLzL5ZIz8sI2F920ZrBzGyN_5ndGTuZq3W2RX6IDcNCYuvjAizAIuGZhhEQPHznru0dkf9TDYdFq9UMDsWZhR8hpC829kKVZJBN-65KGBTqwhJ48ETdkcjaUuEejERur3ePvsFAy_gBG5VyaYuF8Cw1h9O-nkJwY2Ayx5KgjpQ3YwbwEtZ01VAy4-fkJemMXNHqzqaekcj1tmSREFCXi4tcEVHGInUAQIOJwmNckFC9t1Bzyi9h0uF5aDSU3WkUWQeu4PzGOiHmYm5r63kz4jo9MVwO1R-hkSvbaA96znommSWBU30KQNMLLLZbPKhId1Fp3c-gWsE3tJA6ZlTYEOixNzarB7-LEcqtKA-g8AL-HcwvEiLjUeCEIuuqA3DUhIwhZGO2B4hMybCsXmblTEuEQJSibtBnXLHyRGGKBV1QHrUETokyqI5L7aFl-hVQKCgpwk0NwgCaor-v1thvCkwXBjyNYBwUTuAgRBnTvl2lyqru-7qYCNfDapgQlPFYycl1ebUhntdphKi3LWvUmZBaKShCFqNu0N9fN0QY9JiLYTIsCODDSif3tph-pTMrMtbOC1K3Zgq753yuUAB1CUyVQWUbRA3qeFVu2uKrU4OIOYVogffs1WQ9H9oACRSVLaRlNESsY1V8ByRUYatF1RjdgoMNZoQaOEMZCQ3yZiu16rBWcF-V_ROL_Eu7PmZ8ruxIyVsgYcX-F-R-EWmH2MxBsuocC6g8YlGUGSIm-8VAb3LGQLUEk8_up9qiThr9AYQzrJUmzd_W70PtXjsEYXT7yV0ntN59ThUrfDWF2uTjMpShzhp9QNTQh8yAhG4vOXHVsdtOtcTmP0EbfVHNElODWNuT6vRVNZkbptwN0m5Fb7qD1tE_nupKkj_QFKbwxYBi5Seel-NtacdYw6_C4TM8UV6GgzYLDkwOiJPV9182xkgASoJZXUtd2VzdC0yMP4M.m3u8
+#EXTINF:-1 tvg-name="FRXNKL1N" tvg-logo="https://images.live.vkvideo.ru/user/19919850/avatar?change_time=1734802999&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", FRXNKL1N
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd250.okcdn.ru/hls/8870939789896.m3u8/sig/tNdvueFViVY/expires/1755182235494/srcIp/46.138.146.223/urls/45.136.21.45/clientType/36/srcAg/CHROME_YA/mid/10292822099784/8870939789896_quadhd/index.m3u8
+#EXTINF:-1 tvg-name="Baragozz_TV" tvg-logo="https://files.kick.com/images/user/59967480/profile_image/conversion/b59451dd-0815-4a82-b37f-eac9249ebb51-fullsize.webp" group-title="🎞️ StreamFree No 24/7", Baragozz_TV
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd156.okcdn.ru/hls/8815679572495.m3u8/sig/Zh5dLmag6ZA/expires/1755149701975/srcIp/46.138.146.223/urls/185.226.55.91/clientType/36/srcAg/CHROME_YA/mid/10126956381967/8815679572495_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="Мы из 90-х" tvg-logo="https://images.live.vkvideo.ru/user/20495921/avatar?change_time=1742225886&croped=1&mh=140&mw=140", Мы из 90-х
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd68.okcdn.ru/hls/8845191023342.m3u8/sig/PrC0FiA44_w/expires/1755182168493/srcIp/46.138.146.223/urls/45.136.21.84/clientType/36/srcAg/CHROME_YA/mid/10046562387950/8845191023342_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="ZSMEDIA" tvg-logo="https://sun1-17.userapi.com/s/v1/ig2/lI9i11Ea1iGGrOrzoHgK0bkZyvUlZ_ovuVuJOkzOS0XbEg1GCpHd7PevbbGALYmvKNakI7vNhVm1RjbYV90k5JfZ.jpg?quality=95&crop=251,237,428,428&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&cs=240x240" group-title="🎞️ StreamFree No 24/7", ZSMEDIA
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd203.okcdn.ru/hls/13029850810972.m3u8/sig/AnEU6E89qwk/expires/1755149759186/srcIp/46.138.146.223/urls/45.136.22.58/clientType/36/srcAg/CHROME_YA/mid/14196374718300/13029850810972_high/index.m3u8
+#EXTINF:-1 tvg-name="goodsfilms" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/c7a9a1e1-b24e-46c5-b271-dcc1da21ea56-profile_image-70x70.png" group-title="🎞️ StreamFree No 24/7", goodsfilms
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd97.okcdn.ru/hls/8425185217055.m3u8/sig/XUVsxGL8FOQ/expires/1755149805888/srcIp/46.138.146.223/urls/185.226.52.100/clientType/36/srcAg/CHROME_YA/mid/9198845839135/8425185217055_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="ФИЛЬМЫ&СЕРИАЛЫ" tvg-logo="https://images.live.vkvideo.ru/user/19238690/avatar?change_time=1747562022&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", ФИЛЬМЫ&СЕРИАЛЫ
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd193.okcdn.ru/hls/8795604781802.m3u8/sig/Az-dKQJEBCo/expires/1755149843872/srcIp/46.138.146.223/urls/45.136.22.66/clientType/36/srcAg/CHROME_YA/mid/10434737162218/8795604781802_high/index.m3u8
+#EXTINF:-1 tvg-name="Video_Prokat" tvg-logo="https://images.live.vkplay.ru/user/18142699/avatar?change_time=1696376813&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", Video_Prokat
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd245.okcdn.ru/hls/8524773853862.m3u8/sig/yBFJWyRS4qk/expires/1755182108788/srcIp/46.138.146.223/urls/45.136.22.55/clientType/36/srcAg/CHROME_YA/mid/9882425247654/8524773853862_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="TimeToMovie" tvg-logo="https://images.live.vkplay.ru/user/18457965/avatar?change_time=1717150729&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", TimeToMovie
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd153.okcdn.ru/hls/8805604526731.m3u8/sig/uglQ_7_aKFg/expires/1755149921494/srcIp/46.138.146.223/urls/185.226.53.49/clientType/36/srcAg/CHROME_YA/mid/9917794043787/8805604526731_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="TimeToHorror" tvg-logo="https://st.nuum.ru/nuum-upload/avatars/aecbd564-ad7a-4778-b9ec-b712f77ae68e/original.jpeg" group-title="🎞️ StreamFree No 24/7", TimeToHorror
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd158.okcdn.ru/hls/8946170268269.m3u8/sig/4wtd-Atkaqo/expires/1755149968711/srcIp/46.138.146.223/urls/185.226.55.71/clientType/36/srcAg/CHROME_YA/mid/10095879800685/8946170268269_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="kinolampa" tvg-logo="https://images.live.vkplay.ru/user/18921611/avatar?change_time=1714646402&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", kinolampa
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd190.okcdn.ru/hls/8817460578831.m3u8/sig/kf9fc_d_qg0/expires/1755150012681/srcIp/46.138.146.223/urls/45.136.21.66/clientType/36/srcAg/CHROME_YA/mid/10128118007567/8817460578831_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="Kinowalk_tv" tvg-logo="https://images.live.vkvideo.ru/user/20428041/avatar?change_time=1741480828&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", Kinowalk_tv
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd94.okcdn.ru/hls/8510417996515.m3u8/sig/kW_eiMykbwU/expires/1755164023996/srcIp/46.138.146.223/urls/45.136.20.64/clientType/36/srcAg/CHROME_YA/mid/9438397024227/8510417996515_high/index.m3u8
+#EXTINF:-1 tvg-name="BOSSFILM" tvg-logo="https://images.live.vkvideo.ru/user/19857529/avatar?change_time=1735363832&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", BOSSFILM
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd153.okcdn.ru/cmaf/8646489082550/sig/7QZmsHklTP4/expires/1755150111048/srcIp/46.138.146.223/urls/185.226.55.85/clientType/36/srcAg/CHROME_YA/mid/10744219518902/get/CLaPjavZuAIQ6AcYBjIICgYImBQQuAg6BAjE2AJaBggDEAIoF2ICCCCDVd4nohA7Eg/track.m3u8
+#EXTINF:-1 tvg-name="Roman_Prodigy" tvg-logo="https://images.live.vkvideo.ru/user/19533449/avatar?change_time=1727353764&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", Roman_Prodigy
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd111.okcdn.ru/hls/8847821179533.m3u8/sig/-K8xUpSMuNw/expires/1755164466542/srcIp/46.138.146.223/urls/185.226.55.70/clientType/36/srcAg/CHROME_YA/mid/10464832079757/8847821179533_high/index.m3u8
+#EXTINF:-1 tvg-name="wihail" tvg-logo="https://images.live.vkvideo.ru/user/19829671/avatar?change_time=1734328186&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", wihail
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd132.okcdn.ru/cmaf/8436174817861/sig/Ax7mobgjnfQ/expires/1755150260582/srcIp/46.138.146.223/urls/185.226.52.98/clientType/36/srcAg/CHROME_YA/mid/9546757982021/get/CMWO-bjslQIQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCC4hstnskr_nA/track.m3u8
+#EXTINF:-1 tvg-name="𝕂𝔸ℂℂ𝔼𝕋𝔸" tvg-logo="https://images.live.vkvideo.ru/user/19254112/avatar?change_time=1736877622&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", 𝕂𝔸ℂℂ𝔼𝕋𝔸
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd161.okcdn.ru/hls/8684590140085.m3u8/sig/CEHIJkocHVQ/expires/1755150305181/srcIp/46.138.146.223/urls/45.136.22.57/clientType/36/srcAg/CHROME_YA/mid/10489227528117/8684590140085_high/index.m3u8
+#EXTINF:-1 tvg-name="Первый ряд" tvg-logo="https://images.live.vkvideo.ru/user/19135223/avatar?change_time=1735603928&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", Первый ряд
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd191.okcdn.ru/hls/8750624410196.m3u8/sig/fN0yj7Bheb0/expires/1755150355508/srcIp/46.138.146.223/urls/45.136.21.45/clientType/36/srcAg/CHROME_YA/mid/9909414152020/8750624410196_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="GUWi_TV" tvg-logo="https://images.live.vkvideo.ru/user/20603935/avatar?change_time=1743287172&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", GUWi_TV
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd134.okcdn.ru/hls/8953830378196.m3u8/sig/eJVMoNJvTGQ/expires/1755150401876/srcIp/46.138.146.223/urls/185.226.53.56/clientType/36/srcAg/CHROME_YA/mid/10014704748500/8953830378196_high/index.m3u8
+#EXTINF:-1 tvg-name="Bars Play" tvg-logo="https://images.live.vkvideo.ru/user/12784987/avatar?change_time=1685724547&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", Bars Play
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd255.okcdn.ru/hls/9020567718510.m3u8/sig/rXa7ukjOGdE/expires/1755150442544/srcIp/46.138.146.223/urls/185.226.52.99/clientType/36/srcAg/CHROME_YA/mid/10559694063470/9020567718510_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="ALEX GHOST_TV" tvg-logo="https://sun9-12.userapi.com/impg/qx2wnB7Zq7NtSDu8DpUA1zOhXA8JYct1lbMebQ/ZvdzZNF4_Ws.jpg?size=1280x1280&quality=95&sign=4fbfb612c72e4e6f2652131a5ed6a1cb&type=album" group-title="🎞️ StreamFree No 24/7", ALEX GHOST_TV
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd192.okcdn.ru/hls/8615258622473.m3u8/sig/WZ13S_yctSU/expires/1755164087696/srcIp/46.138.146.223/urls/45.136.22.54/clientType/36/srcAg/CHROME_YA/mid/9507667527433/8615258622473_quadhd/index.m3u8
+#EXTINF:-1 tvg-name="VHS Forever" tvg-logo="https://images.live.vkplay.ru/user/19154240/avatar?change_time=1720968476&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", VHS Forever
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd208.okcdn.ru/cmaf/8928417090098/sig/4gm2oqlbRhw/expires/1755150480950/srcIp/46.138.146.223/urls/45.136.20.62/clientType/36/srcAg/CHROME_YA/mid/12322867988274/get/CLKOraHS5gIQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCAYskVT8sWsLQ/track.m3u8
+#EXTINF:-1 tvg-name="VHS Power" tvg-logo="https://images.live.vkvideo.ru/user/8317459/avatar?change_time=1749066259&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", VHS Power
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd199.okcdn.ru/hls/8757998717642.m3u8/sig/_J__jzJN1jc/expires/1755150526716/srcIp/46.138.146.223/urls/185.226.52.55/clientType/36/srcAg/CHROME_YA/mid/9984547375050/8757998717642_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="MakeFilm" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/b379f176-e3af-4b32-8be8-93779a0cbd86-profile_image-70x70.png" group-title="🎞️ StreamFree No 24/7", MakeFilm
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd217.okcdn.ru/hls/8721923574423.m3u8/sig/jjQuOCuR8uE/expires/1755150637100/srcIp/46.138.146.223/urls/45.136.21.80/clientType/36/srcAg/CHROME_YA/mid/10423994566551/8721923574423_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="Домашний кинотеатр" tvg-logo="https://images.live.vkvideo.ru/user/19871899/avatar?change_time=1734253131&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", Домашний кинотеатр
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd242.okcdn.ru/hls/8737103219285.m3u8/sig/IUz672YEek4/expires/1755150677018/srcIp/46.138.146.223/urls/45.136.22.22/clientType/36/srcAg/CHROME_YA/mid/9995856922453/8737103219285_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="MEDIA BOX" tvg-logo="https://images.live.vkplay.ru/user/19184706/avatar?change_time=1727516629&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", MEDIA BOX
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd106.okcdn.ru/hls/8807090686484.m3u8/sig/v4J7hxIqlyI/expires/1755150722311/srcIp/46.138.146.223/urls/45.136.20.59/clientType/36/srcAg/CHROME_YA/mid/10035979634452/8807090686484_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="BestFilms" tvg-logo="https://images.live.vkvideo.ru/user/19786422/avatar?change_time=1732715014&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", BestFilms
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd244.okcdn.ru/hls/8724708395736.m3u8/sig/Ps-4FH4Eg-s/expires/1755182340709/srcIp/46.138.146.223/urls/185.226.52.95/clientType/36/srcAg/CHROME_YA/mid/9709259409368/8724708395736_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="АPRICUS live" tvg-logo="https://images.live.vkvideo.ru/user/18289776/avatar?change_time=1736362755&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", АPRICUS live
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd151.okcdn.ru/hls/8804101720810.m3u8/sig/kqyK6pbqTiw/expires/1755164562055/srcIp/46.138.146.223/urls/185.226.53.66/clientType/36/srcAg/CHROME_YA/mid/10440686323690/8804101720810_high/index.m3u8
+#EXTINF:-1 tvg-name="GameSTUDIO" tvg-logo="https://images.live.vkvideo.ru/user/20019570/avatar?change_time=1738477898&croped=1&mh=140&mw=140" group-title="🎞️ StreamFree No 24/7", GameSTUDIO
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd160.okcdn.ru/hls/8448066652768.m3u8/sig/lBxgYNL99u4/expires/1755164156266/srcIp/46.138.146.223/urls/45.136.22.57/clientType/36/srcAg/CHROME_YA/mid/9224773322592/8448066652768_high/index.m3u8
+#EXTINF:-1 tvg-name="FGS" tvg-logo="https://images.live.vkvideo.ru/user/4374205/avatar?change_time=1685722513&croped=1&mh=140&mw=140", FGS
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd71.okcdn.ru/hls/8894077012655.m3u8/sig/6ynTrRQlbt8/expires/1754887408416/srcIp/46.138.146.223/urls/185.226.55.77/clientType/36/srcAg/CHROME_YA/mid/10298795902895/8894077012655_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="Fks_Films" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/f1eb6551-6c05-4bd6-a052-52531dd3c66d-profile_image-70x70.png", Fks_Films
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd82.okcdn.ru/hls/8813609224719.m3u8/sig/CBbxW6qly4c/expires/1755150869409/srcIp/46.138.146.223/urls/45.136.20.57/clientType/36/srcAg/CHROME_YA/mid/10125492438799/8813609224719_fullhd/index.m3u8
+#EXTINF:-1 tvg-name="Aleks_Play_" tvg-logo="https://static.goodgame.ru/files/avatars/av_1656691_nAQ8.jpg", Aleks_Play_
+#EXTGRP:🎞️ StreamFree No 24/7
+#EXTVLCOPT:http-user-agent=https://oauth.vk.com/ token?scope
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36
+https://vsd195.okcdn.ru/hls/8725226261014.m3u8/sig/pbafPajSv7Q/expires/1755164892934/srcIp/46.138.146.223/urls/45.136.21.42/clientType/36/srcAg/CHROME_YA/mid/9891835168534/8725226261014_quadhd/index.m3u8
+
+#EXTINF:-1 group-title="KINO ZAL 4К", Годзилла и Конг: Новая империя (2024)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKSsjcGBp67FWoQ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Высокое напряжение (2024)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKSJ2IgrKrplzCd/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",На расстоянии удара (2024)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKSXDixoY5G7bza/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Конклав (2024)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/5jktNnXsnLFpaeDlhmV/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Хищные земли (2024)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/5jktNnXxYYslVGzUk2d/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Федерико. Великий футболист (2024)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSTTldnti7Qf3t/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Союз (2024)
+https://vod.plvideo.ru/FbZEopwh/CZjqmtgIIH/zE2SWKSzVBe5IRoxlJ5/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Моя жена – киллер (2024)
+https://vod.plvideo.ru/GMPb65uk/CZjqmtgIIH/5jktNnXi-c0IppAH0KM/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Головоломка 2 (2024)
+https://vod.plvideo.ru/FbZEopwh/CZjqmtgIIH/5jktNnXE33ZucThLBQE/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Спящие псы (2024)
+https://vod.plvideo.ru/xdhKhqAx/CZjqmtgIIH/5jktNnXH_8DhXDvws1x/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Смотрители (2024)
+https://vod.plvideo.ru/GMPb65uk/CZjqmtgIIH/5jktNnX9PIW4ivJABpA/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Дева и дракон (2024)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/zE2SWKSUs9l9kXJ-1jC/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Каскадёры (2024)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/5jktNnX9JhqbJEBFdz2/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Карающая длань (2024)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSLcTbbe8r5ctz/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Псы войны (2024)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/5jktNnX16Za2ro5Sj0i/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Жребий (2024)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/5jktNnXFQAH4tQB-Yhu/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Битлджус Битлджус (2024)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/5jktNnX-UvrlRYr6ljL/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Каменщик (2024)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXlaT3R2oFByhu/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Последнее путешествие «Деметра» (2024)
+https://vod.plvideo.ru/FbZEopwh/zaA4EcW22E/zE2SWKSqoTGZXOoq-lr/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Улыбка 2 (2024)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSKGQgTRzOd2mt/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Уоллес и Громит: Самая дикая месть (2024)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKS4GwHpQoJEZoa/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Mиниcтepcтвo нeджeнтльмeнcкиx дeл (2024)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/5jktNnXUzHUjveSkb9N/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Пpoфeccиoнaл (2024)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/5jktNnXAyNEUDXd8i7Q/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гарфилд в кино (2024)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSrZ3iaIT2EZ9Q/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Переговорщик (2024)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKS2cDsF_NNcFNM/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Роб Пис (2024)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSloTBFxThuWPT/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Пришествие демона (2024)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXPQBYKZdYBQC-/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Новички (2024)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKSFypbpmqWD60z/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Избавление (2024)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSISrvOB1vDapf/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Мой пингвин (2024)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKS9gfHcWjvkFQp/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Озеро Каддо (2024)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSiUNxNZtbxreS/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Бeзмoлвнoe бpaтcтвo (2024)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/FP7MRNSs8Z4TvoR3bYJ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Другой мир: Год волка (2024)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSEbMHOPkI9CxM/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Панда (2024)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKStnNrQegSXxP_/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Аквамен (2018)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSQoOCOuHKnPEi/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Аквамен и потерянное царство (2023)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSl1-RzTDvUd2E/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Meгaлoпoлиc (2024)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSj2d7OEv6bLBe/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ночная сучка (2024)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSscWxzIi4pSGj/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Мятежная Луна:Часть 1 - Дитя огня (2023)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKS_iMjZ8VCFUGU/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Мятежная Луна:Часть 2 - Оставляющая шрамы (2024)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/5jktNnXz9SL-Pf7udo5/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ускорение (2024)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/5jktNnXTbjSX4xrcD_q/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Росомаха и Дэдпул (2024)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/5jktNnXDk3rRcggVxrW/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ковбои страны АбраКадабра (2024)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/YI8o3Ntq7px6n_O_lF1/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Платформа 2 (2024)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/5jktNnXJ0qwywJJdl7L/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Очень Холодно (2024)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSiQMFDGzQDpfd/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Планета обезьян: Новое царство (2024)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKS7CrWRL68KXFf/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Досье «Чёрная канарейка» (2024)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSeOy4rIAMEzJF/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Зять (2024)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKSuZSJv9_mPPj6/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Небритая рука 4К (2024г)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSZ4wpuU3BVyKP/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Граф Монте-Кристо (2024)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKSeCa0D7wNVzU2/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Миссия: Красный (2024)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKS1wLeDJxVMnxS/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Властелин колец: Война рохирримов (2024)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKShe1GPwGGalGs/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Одинокие волки (2024)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/YI8o3NtJ2UqZYWdxV0t/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ускорение (2024)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/5jktNnXtV5QhOmDvVbM/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гладиатор 2 (2024)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKSboYPDiH40SG_/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ручная кладь (2024)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSelCfQR8rozwW/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Миллениум (2024)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKS8507zA9gG2ap/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Атлас (2024)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/zE2SWKS04F4psVU6KeE/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Неуязвимый (2000)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSz7Xj6CU9RPM7/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Снайпер (2014)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSQWL2mWUXs2Ed/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Зверь (2022)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSq3aee9TuSanb/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",1+1 (2011)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSikOuFunSVHj3/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",65 (2023)
+https://vod.plvideo.ru/FbZEopwh/CZjqmtgIIH/YI8o3Ntob7QmDyV4DSj/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Шерлок Холмс (2009)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKSLO04wtmlx8DD/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Луна 2112 (2009)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSS0ek9idmG7I9/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Битва за Землю (2019)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSlFDFUN8FYeKA/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Луна (2023)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSklZYQubNALIh/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Эпидемия: Вирус-32 (2022)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/zE2SWKSo1xac1S8NSCs/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Крупный улов (2023)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKSZfPXQElykw3m/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Восстание зловещих мертвецов (2023)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/zE2SWKS-NXDq5MwU__H/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Последняя фантазия: Духи внутри (2001)
+https://vod.plvideo.ru/GMPb65uk/CZjqmtgIIH/zE2SWKSUBHwHuTh4BY0/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Одержимость (2014)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/5jktNnXX9D5OwG9CflW/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Париж: Город мёртвых (2014)
+https://vod.plvideo.ru/GMPb65uk/CZjqmtgIIH/5jktNnXesxcSKisWxuM/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Призрачный патруль (2013)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/zE2SWKSR7tJjLdDk517/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Особняк с привидениями (2023)
+https://vod.plvideo.ru/GMPb65uk/CZjqmtgIIH/YI8o3NtR6SaXrPOE0QA/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Вонка (2023)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKSRX-3pNX7WFxQ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Братья Супер Марио в кино (2023)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/FP7MRNSpZ78c90rz95U/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Райское озеро (2008)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSHBEKezyTZG3N/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Идиократия (2006)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSKJUs4-7VylDq/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Забирая жизни (2004)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/zE2SWKSGTnfJSLFjxFa/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Знакомьтесь Джо Блэк (1998)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSyNH0ayNPt0zQ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Игра (1997)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSYhhWV6watVka/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Отряд самоубийц (2016)
+https://vod.plvideo.ru/xdhKhqAx/CZjqmtgIIH/zE2SWKSDmFUT4b79iFz/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Тёмная башня (2017)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSJVFd9LZgpn01/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Армия воров (2021)
+https://vod.plvideo.ru/GMPb65uk/zaA4EcW22E/zE2SWKS4D2pjdoAlnJQ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Машина времени (2002)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSmxsFjO6Tw1HD/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Форма воды (2017)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKS7dMu_f0hQQlt/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Пятая власть (2013)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKSqA399z5Koxej/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",13-й район (2004)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKSn5IF-JXJrJiX/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Затащи меня в ад (2009)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKSJJUHc8Mit0xt/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Лучшие в Аду (2022)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKShBkm4dWR2uPw/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ярость (2014)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSZ8TllbS52MPw/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Красная планета (2000)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/5jktNnXtmGX4kQ2DUtd/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Чарли и Шоколадная Фабрика (2005)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKS8_iejIDLad_p/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Забытое (2004)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/5jktNnXwEbIGHg9n_tW/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Большой и добрый великан (2016)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSpw-YIYjGw1Ip/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Большой баг (2022)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKS9tq02eRmn-Gj/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",G. I. Joe. Бросок кобры : Снейк Айз (2021)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSWIqP9bkN8R27/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Молодой Кесьлёвский (2014)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKS7QIJdzp_tQDn/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Космическая одиссея 2001 (1968)
+https://vod.plvideo.ru/FbZEopwh/zaA4EcW22E/zE2SWKSxFTFgJjywddp/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Хищник (2018)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKS55C1NoCpNdzY/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Расплата (2010)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/zE2SWKS8FQg8O3LZV_2/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Легенда жемчуга Наги (2017)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKSBvJGxRNCyGYp/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Варкрафт (2016)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKS2GS22U81_IJB/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",6-ой день (2000)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSot7KI-M1XMin/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Мистер и миссис Смит (2005)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSZKj3mGX1p4Xd/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Возмещение ущерба (2002)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKS_38wP_nKXsTD/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Бегущая в лабиринте (2020)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKSuqlooHlX2IX_/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Финч (2021)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/5jktNnXJSCbgYkHprJl/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Барби (2023)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKSs8U7Oec2eLPl/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Дюнкерк (2017)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKS5xCTVwmgcEAd/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",К звёздам (2019)
+https://vod.plvideo.ru/xdhKhqAx/CZjqmtgIIH/5jktNnXo-d3oftdQZv9/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Митчеллы против машин (2021)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/5jktNnXFTNCYehRdmo_/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Джейсон Борн (2016)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKS9h1DUe4PRr8R/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Вавилон Н.Э (2008)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSiLlAlg_BFtJ8/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Aпгрейд (2018)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/FP7MRNSkuI82HP1hOHn/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Тетрадь смерти (2017)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/zE2SWKSMIXxMMeoQ7NQ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Зов волка (2019)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/zE2SWKSHCebauKycu5l/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Сфера (1998)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKSIqcGlWA8kLCU/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Великий уравнитель (2014)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSpcq-3w6JpOs3/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ван Хельсинг (2004)
+https://vod.plvideo.ru/GMPb65uk/zaA4EcW22E/zE2SWKSKI_VNrukjTDZ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Радиоволна (2000)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKSfyUfydbL2rQv/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Aквамен и потерянное цaрство (2023)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKS5nG2WSS86wl9/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Глaвный герoй (2021)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/FP7MRNSh8VojdQHHps_/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Санктум (2011)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKS7nb0kkShRLKv/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Новая земля (2008)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/5jktNnXkDmny-tb_Fib/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Роковое число 23 (2007)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/5jktNnXSVzMkuHyiFwY/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Алиса в стране чудес (2010)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXryxHJU0FD7Gu/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ледниковый период (2002)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXhNtXkGPxHMth/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Грейхаунд (2020)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/5jktNnXbUXwz7elC9fi/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Планета сокровищ (2002)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSIyfmSnw6_i_S/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",ВАЛЛ·И (2008)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/FP7MRNSjR50pVDHFBdB/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гран Туризмо (2023)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSCClH_WBleY4z/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Битва за планету Терра (2007)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/5jktNnXOSVv_6wHu7YX/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Восемь ног (2023)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/zE2SWKSjrXsNKQk1BtZ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Город Эмбер: Побег (2008)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/5jktNnX-2nBiGDH2ZEY/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ренфилд (2023)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/5jktNnXKqRxUb7n_VxN/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Музей восковых фигур 2: Затерянные во времени (1992)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKSBBCtnHJ6-dpl/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Пекло (2007)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/zE2SWKSciJxLTnFM34B/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Джокер (2019)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/5jktNnXk4XM1shOsmAL/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Джокер: Безумие на двоих (2024)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/5jktNnXBzcTeg8Fj_Tu/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Люси (2014)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/zE2SWKSSlAmsiNeQS9k/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Пассажиры (2016)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKSLQnPWf1lXzgH/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Грань будущего (2014)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/zE2SWKSB3I9FwmYydWj/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Джон Картер (2012)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/zE2SWKS9neAz0E0RWlg/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Тихое место: День первый (2024)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKS78Rx1NeoNfhe/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Интерстеллар (2014)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/zE2SWKS1bOOmsSEcxUC/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Тор: Любовь и гром (2022)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKSXFjOCOcC61cK/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Колдунья и волшебный шкаф (2005)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/zE2SWKSR0IC15XYKNJV/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Хроники Нарнии: Принц Каспиан (2008)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/zE2SWKS5kz3c84m6GIA/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Хеллбой: Герой из пекла (2004)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/zE2SWKSxSCoyd24EBIC/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Хеллбой 2: Золотая армия (2008)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/zE2SWKSTMcMUF6fuHNP/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Сокровище нации (2004)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSmSShWCM6U-zk/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Сокровище нации: Книга Тайн (2007)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXN-LfJJfJxnUG/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Пацан против всех (2023)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/zE2SWKSXqpV2falylUJ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Затура: Космическое приключение (2005)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKSxJVqImuRz1fU/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",От заката до рассвета (1996)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSc9vQgJqLJGmb/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",От заката до рассвета 2: Кровавые деньги из Техаса (1999)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSWVZCVXTX5HDi/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Тихоокеанский рубеж (2013)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/zE2SWKSIf6hn7ZcQ4wi/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Доктор Стрэндж: В мультивселенной безумия (2022)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKS68zWXHE5pzko/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Капитан Марвел 2 (2023)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXksw3sfJX1eoF/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Столкновение с бездной (1988)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/zE2SWKSWmW05xmJosG5/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Я – легенда (2007)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/zE2SWKSoKn4cN-S9jVT/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Клоуны-убийцы из космоса (1988)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/zE2SWKS9YcIND0omYGf/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Хроники Риддика (2004)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/zE2SWKSvtOk22l9Fwyw/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Прометей (2012)
+https://vod.plvideo.ru/FbZEopwh/zaA4EcW22E/zE2SWKS-Qs2gNTo3rco/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Чужой против Хищника (2004)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSl5Nhi2qiDYjs/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Чужой: Завет (2017)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSDSW_8kYHCei-/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Чужой: Ромул (2024)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/zE2SWKSqg0946T0rLL1/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Тёмный город (1988)
+https://vod.plvideo.ru/GMPb65uk/zaA4EcW22E/5jktNnX_pGMU7wzkRjb/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Война миров (1953)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSN5omlC8M7bP9/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Война миров (2005)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKS1zDdUzoPJq7I/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ворон (2024)
+https://vod.plvideo.ru/FbZEopwh/zaA4EcW22E/YI8o3NtvSCoud1XMcEB/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Война миров (2005)
+https://vod.plvideo.ru/FbZEopwh/zaA4EcW22E/zE2SWKS-l_Ml2puAPms/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Петля времени (2012)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/5jktNnXDPJC-iuRZV_x/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Хоттабыч (2006)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSNp2cAi6bvR5G/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Меню (2022)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/5jktNnXaGRp02LvsEZ-/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Послезавтра (2004)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKS6Z04FrFibihI/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Полночь с дьяволом (2023)
+https://vod.plvideo.ru/FbZEopwh/zaA4EcW22E/zE2SWKSLOec1CuhmZQ8/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Подай знак (2024)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSL6TwHEOL-EIM/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Зло: Проклятая комната (2022)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/5jktNnX7U_yhaotJL9r/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Земля будущего (2015)
+https://vod.plvideo.ru/GMPb65uk/zaA4EcW22E/zE2SWKSJnkO8R1w9Jvw/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Вечно молодой (1992)
+https://vod.plvideo.ru/FbZEopwh/zaA4EcW22E/zE2SWKSTy8Nq_3Sgr0x/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Куда приводят мечты (1998)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/5jktNnXjz2nOhUiKpjC/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гретель и Гензель (2020)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSPxDWjpvv8uWx/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",На Западном фронте без перемен (2022)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/YI8o3Nth7xthlXWygKx/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Проект «Адам» (2022)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/5jktNnXT3uog0fmU6Pc/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Живая сталь (2011)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKSZlxujw047Q9c/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Время (2021)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSZfLBx3jCK7Bn/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Исчезнувшая (2014)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSjRwHIusxYvoi/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Хардкор (2015)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKSgTYziXfYLZkO/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ночь Живых Мертвецов (1990)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSWTIrirkNntLJ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Под водой (2020)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKS708Cv8od5hOP/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Начало (2010)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSaX1tL8iIM3HJ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Троя (2004)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSZfX1fMVKLph_/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Шестое чувство (1999)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSxt6C7jv21bKl/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Бесславные ублюдки (2009)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSEW5uXY2jLo3v/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Крепкий орешек 4.0 (2007)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKS9cDLru3RHRvd/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Виллоу (1988)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSDohPI15mRnKu/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Путеводитель: Автостопом по галактике (2005)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSbezIK6a3ek_k/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Оз: Великий и Ужасный (2013)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSR4qBafyKyWKf/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Дюна: Часть 1 (2021)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSgoQqxoCt0MA_/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Дюна: Часть 2 (2024)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/5jktNnXxmSZtGqI5BLk/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Бэтмен и Робин (1997)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSDxFyNHtTXifb/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Бэтмен: Начало (2005)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKSA5tv0T503q1s/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Джонни Мнемоник (1995)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/zE2SWKSPNgbbD7vbpnA/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Левиафан (1989)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSYs8jrligxj-R/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Мир Юрского периода: Господство (2022)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSf--w0lCdbLzm/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Последние дни на Марсе (2013)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKSqHKDJ-u9Jz0-/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Слизняк (2006)
+https://vod.plvideo.ru/FbZEopwh/CZjqmtgIIH/zE2SWKSLUKye7_91I68/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Такси (1998)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKSHw0z6WMgWK1c/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Такси 2 (2000)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKSGaMXkeJU_NPb/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Такси 3 (2003)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKScUxMveDTTzuK/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Такси 4 (2007)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSjZnAtUL4Y5JT/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Эквилибриум (2002)
+https://vod.plvideo.ru/xdhKhqAx/CZjqmtgIIH/5jktNnXbC6amqqYpaki/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Омерзительная восьмерка (2015)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKSdR0zEUaAWh87/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Элементарно (2023)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSviNPXI_i6ZI7/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Тайлер Рейк: Операция по спасению 2 (2023)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSMS9bVZfHYtGX/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Чёрный телефон (2021)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSGTBe0IZwMR-w/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Квартира 7А (2023)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSDpqYbDndsYQL/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Криминальное чтиво (1994)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKSpWacyXtvoCku/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Зеленая миля (1999)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKSjKHsxpX0guiY/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Рембо: Первая кровь (1982)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKS2Uzj1uUoCv3q/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Рэмбо: Первая кровь 2 (1985)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/5jktNnXmo7VwXS42yvb/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Рембо 3 (1988)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/YI8o3NtarMgcqBJBQia/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Марс Атакует! (1996)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXukTjJs237_6K/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Бешеные псы (1992)
+https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/zE2SWKSlLW9nEMG4mt-/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Американская история X (1998)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSVuQW70xk7Otj/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Законопослушный Гражданин (2009)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKS5A1uUsGnUJfw/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Четыре комнаты (1995)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/FP7MRNSHlWl5RL79L4j/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Батальон 6888 (2024)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSyQWqkCvMo_TF/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Безумный Макс: Дорога ярости (2015)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/zE2SWKS18Eo70e5EcvL/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Веном (2018)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/FP7MRNSagl5fCPUTtQU/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Не пойман — не вор (2006)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSgjCWnaCZ1J4B/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",День независимости (1996)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSyR1F_4dwSBMd/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",День независимости: Возрождение (2016)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKSA2-0g_K9HN58/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гравитация (2013)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/5jktNnXj9dV3DWG5RT1/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Коралина в стране кошмаров (2009)
+https://vod.plvideo.ru/FbZEopwh/CZjqmtgIIH/5jktNnX_sy0kqpSnnQt/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Аэроплан (1980)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXZRm2ukLcseFd/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Аэроплан 2 (1982)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKS6ibiMgVhBjEh/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Сексмиссия (1984)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKSwH8RwaNUuh07/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Электрошок (1989)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/zE2SWKSba5ED9kO9RY4/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Зловещие мертвецы (1981)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKSnsFKR5JpaLNr/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ва Банк (1981)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/YI8o3NtR7dHWmyGtoTW/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Крикуны (1995)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/zE2SWKSltFY47_Kc5sH/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Немыслимое (2010)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSJ3kF51j8vNRG/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Паспорт (1990)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKSgwj6w0QR33g1/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Классик (1998)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSCBHr79jzec36/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",День сурка (1993)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSjqBJiZStadjz/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Джуманджи (1995)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/5jktNnX-QO4NBTYvDQH/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Универсальный солдат (1992)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/YI8o3NtX0dEU5BUeoOm/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Кровавый спорт (1988)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSMCrAeBcz8Uw1/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Демоны (1986)
+https://vod.plvideo.ru/FbZEopwh/zaA4EcW22E/zE2SWKStAcaN65gKjZQ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Телемертвецы (1987)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKS_VB8fnB2xAzu/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Кошмар на улице Вязов (1984)
+https://vod.plvideo.ru/FbZEopwh/CZjqmtgIIH/YI8o3NtkoP9-tu3n_28/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Кто подставил кролика Роджера (1988)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/YI8o3Nt-91QC2tRMhG-/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Не отступать и не сдаваться (1985)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/YI8o3Nt_zTAbqbWwrkX/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Схватка (1995)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/zE2SWKSrpB_zlaYerV2/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Зверобой 2 серии (1990)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSthTGE8COKqRW/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Земные девушки легко доступны (1988)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/YI8o3NtpvA81lTHTgg7/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Особенности национальной охоты (1995)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSb_UvTgXelNtH/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Щен из созвездия Гончих псов (1991)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKS5Ou33CTNuZbn/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Полосатый рейс (1961)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKSPgYH_sXDmg0C/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Самогонщики (1961)
+https://vod.plvideo.ru/GMPb65uk/zaA4EcW22E/zE2SWKSWZyE9YwtS6_l/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Мимино (1977)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/YI8o3NtuFrwnq_NYe4u/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Баллада о солдате (1959)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKSmQgNZ7YXTxQY/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Операция «Ы» и другие приключения Шурика (1965)
+https://vod.plvideo.ru/xdhKhqAx/CZjqmtgIIH/zE2SWKSNbnp8UWm2ysu/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Пёс Барбос и необычный кросс (1961)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/zE2SWKS7dIClLbe8gJm/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Человек с бульвара Капуцинов (1987)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/5jktNnXMYrFJUPHGFiw/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Илья Муромец (1956)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/5jktNnXLO_dMbwy4kHb/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",В бой идут одни «старики» (1973)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKSZhdZXd1zZmjo/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Закадычные друзья (1954)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/zE2SWKSWJMLGvX1PwI_/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Морозко (1964)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSWv0tMNq2hqq8/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Женитьба Бальзаминова (1964)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKS91T4rjWe-VJ6/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",За спичками (1979)
+https://vod.plvideo.ru/GMPb65uk/CZjqmtgIIH/5jktNnXltSMR0hh4M7H/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Сорок первый (1956)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/zE2SWKS_rGzNsb_Rbu7/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Собачье сердце (1988)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSflzYkqPfG6j4/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Чернокнижник (1989)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/YI8o3Ntzi0HWRkNXsgZ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Белое солнце пустыни (1970)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKS86hKXzkWewFs/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Не может быть! (1975)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/zE2SWKS01-AeJGUdfjF/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Карнавальная ночь (1956)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSOUEg-apeAcXA/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Вий (1967)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/zE2SWKSIX1BbfDu3JC1/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Алые паруса (1961)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/5jktNnXBrJfcBss2usi/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Начальник Чукотки (1966)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/5jktNnXNvuDFDpo2EFm/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Дядя Вася (1970)
+https://vod.plvideo.ru/GMPb65uk/zaA4EcW22E/zE2SWKS3UwYsZmPS_4P/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Cамая обаятельная и привлекательная (1985)
+https://vod.plvideo.ru/FbZEopwh/CZjqmtgIIH/YI8o3NtXHV0CSviB0eQ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Любовь и голуби (1984)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSFLYkE1fJA54R/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Игла (1988)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKSdoBQWQvjY36N/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Старик Хоттабыч (1956)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/zE2SWKSCVZ9-Pjbj_o7/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Руслан и Людмила 2 серии (1972)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKSffzNzkzgx494/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Солярис (1972)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKS33ZuUMZ5h_zP/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Три тополя на Плющихе (1967)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/5jktNnX-nSXaJzImbIu/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Старик Хоттабыч (1956)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKSqblImLV6ciqy/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Ирония судьбы или С лёгким паром (1975)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKSxldZz4DE8l9o/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Иван Васильевич меняет профессию (1973)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSqlC9rnLzaFve/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Джентльмены удачи (1971)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/zE2SWKSZe_XcMMhQL51/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Нафаня (1975)
+https://vod.plvideo.ru/FbZEopwh/zaA4EcW22E/zE2SWKSZGWji_2oLSdu/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Отцы и деды (1982)
+https://vod.plvideo.ru/JLxVTeJD/uknUrzHzQA/zE2SWKS-0i-xH-rh0J0/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Три орешка для Золушки (1973)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKSQwQpYIJxEocq/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Д'Артаньян и три мушкетера 1-серия (1979)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKSvx14wvS1Pr6J/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Д'Артаньян и три мушкетера 2-серия (1979)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSznl1UHnM6PDE/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Д'Артаньян и три мушкетера 3-серия (1979)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKSjmX16r35J8XK/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Кин-дза-дза! 1-серия (1986)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKSavweT78bbBNH/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Кин-дза-дза! 2-серия (1986)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKSQ10lGogXI6Ss/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Золотой телёнок 1 серия (1968)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSlrwyXCLE4feQ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Золотой телёнок 2 серия (1968)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/zE2SWKSmb2_d0rdAy2Q/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Зимний вечер в Гаграх (1985)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKS0dqOCbyeHEWZ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Сталкер (1979)
+https://vod.plvideo.ru/GMPb65uk/zaA4EcW22E/zE2SWKSuqOxa7561NUW/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Человек–амфибия (1961)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/zE2SWKSuPIP-I_oL0hk/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Я шагаю по Москве (1963)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/5jktNnXphbWMnRP-e89/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Морозко (1964)
+https://vod.plvideo.ru/xdhKhqAx/kfSkUj-sWy/zE2SWKSJ07vnQdHwgIq/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Осенний марафон (1979)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSvujccWkCDn30/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Терминатор (1984)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/zE2SWKS8icpv5rp--qK/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Терминатор: Да придёт спаситель (2009)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/zE2SWKSwV8bOrHd810S/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Скала (1996)
+https://vod.plvideo.ru/xdhKhqAx/uknUrzHzQA/YI8o3NtELQL6-NIuajP/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Эльвира: Повелительница тьмы (1988)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/YI8o3NtHSwPt9n_MdIY/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Воздушная тюрьма (1997)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/YI8o3NtmFOQR4HK--Fv/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Киборг (1989)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/YI8o3NtozWx7xjrnitv/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Форсаж 5 (2011)
+https://vod.plvideo.ru/FbZEopwh/zaA4EcW22E/zE2SWKSZHyVO_EzZfca/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Форсаж 10 (2023)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/YI8o3NtJuym_3R6fDDh/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Беглец (1993)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/YI8o3NttjFXvJfd6eIx/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Маска (1994)
+https://vod.plvideo.ru/JLxVTeJD/CZjqmtgIIH/zE2SWKSRJdaPntQOUSX/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Один дома (1990)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSNzJREV9d2HV7/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Один Дома 2: Затерянный В Нью-Йорке (1992)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKScjRc2EFhHPlw/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Зубастики (1986)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSvz3roZTuIXYl/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Крестный отец 1 (1972)
+https://vod.plvideo.ru/FbZEopwh/kfSkUj-sWy/zE2SWKS49K_h508_7al/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Крестный отец 2 (1974)
+https://vod.plvideo.ru/JLxVTeJD/kfSkUj-sWy/zE2SWKSfCp5mQTfuUrX/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Крестный отец 3 (1990)
+https://vod.plvideo.ru/GMPb65uk/kfSkUj-sWy/zE2SWKSExGaWMGn7dyl/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Властелин колец: Братство кольца (2001)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/zE2SWKSTY6cqmnX9WVb/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Властелин колец: Две крепости (2002)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/zE2SWKSSC0TPFF3_697/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Властелин колец: Возвращение короля (2003)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/zE2SWKS8qqHzuWKc8R5/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Назад в будущее 1 (1985)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/YI8o3NtdnnoA5eOf7k4/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Назад в будущее 2 (1989)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/YI8o3Nt9K-ktpkftuLC/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Назад в будущее 3 (1990)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/ZQ01hGw4gFnO4gb55_o/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Полицейский из Беверли Хиллз 1 (1984)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/YI8o3NtRk2uSBhW2pmT/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Полицейский из Беверли-Хиллз 2 (1987)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/FP7MRNSW7dVXf-ebDaB/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Полицейский из Беверли-Хиллз 3 (1994)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/aItZ6wk4TbtlBJBJDNl/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Железный человек 1 (2008)
+https://vod.plvideo.ru/xdhKhqAx/zaA4EcW22E/YI8o3NtGYSH-n7wg_D1/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Железный человек 2 (2010)
+https://vod.plvideo.ru/JLxVTeJD/zaA4EcW22E/YI8o3NtoMIQ1tuZ1KYU/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Железный человек 3 (2013)
+https://vod.plvideo.ru/GMPb65uk/zaA4EcW22E/YI8o3Nt6I_wOYtOY7kT/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Обитель зла 1 (2002)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/5jktNnXhv9CGKnzAZmk/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Обитель зла 2: Апокалипсис (2004)
+https://vod.plvideo.ru/GMPb65uk/0GRdptsjAb/5jktNnXL32yJpGzJCOs/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Обитель зла 3 (2007)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/5jktNnXIz7zmgrYZV6j/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Обитель зла 4: Жизнь после смерти (2010)
+https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/zE2SWKSl1Ia6NicTYfG/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Обитель зла: Возмездие (2012)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/5jktNnXJOU6V1T3yBDs/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Обитель зла: Последняя глава (2016)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/5jktNnX4vvAtJbUfqFY/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Обитель зла: Раккун-Сити (2021)
+https://vod.plvideo.ru/FbZEopwh/0GRdptsjAb/5jktNnXw_nMG40euPla/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гарри Поттер и философский камень (2001)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXRoYDkDF9uZBy/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гарри Поттер и Тайная комната (2002)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/5jktNnXjLVnxYwoyy4a/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гарри Поттер и узник Азкабана(2004)
+https://vod.plvideo.ru/FbZEopwh/uknUrzHzQA/YI8o3NtTbYuJipTKQg1/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гарри Поттер и Кубок огня (2005)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSJtdJvI21kfsu/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гарри Поттер и Орден Феникса (2007)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKS6DKuu2jKvlvf/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гарри Поттер и Принц-полукровка (2009)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/aItZ6wkYz3Lx1wJzqFE/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гарри Поттер и Дары Смерти: Часть 1 (2010)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/5jktNnXQW1t4vHKD1KR/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Гарри Поттер и Дары Смерти: Часть 2 (2010)
+https://vod.plvideo.ru/GMPb65uk/oUYaYhn1uR/5jktNnXwmE7Tjryww_b/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Матрица (1999)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXeF1D-Mz3ft_e/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Матрица: Перезагрузка (2003)
+https://vod.plvideo.ru/xdhKhqAx/CZjqmtgIIH/zE2SWKS9rfYWarrdGbz/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Матрица: Революция (2003)
+https://vod.plvideo.ru/FbZEopwh/CZjqmtgIIH/5jktNnXoUDvedOxZblB/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Матрица: Воскрешение (2021)
+https://vod.plvideo.ru/JLxVTeJD/0GRdptsjAb/5jktNnXbS1RsZpnHGmj/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Индиана Джонс: В поисках утраченного ковчега (1981)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSnBTu9cfLTEHJ/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Индиана Джонс и Храм судьбы (1984)
+https://vod.plvideo.ru/JLxVTeJD/oUYaYhn1uR/zE2SWKSTR9PwlMSgwCs/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Индиана Джонс и последний крестовый поход (1989)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSg7ARgZXu9gWO/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Индиана Джонс и Королевство хрустального черепа (2008)
+https://vod.plvideo.ru/xdhKhqAx/oUYaYhn1uR/zE2SWKSxouzsIoGXekb/ZX
+#EXTINF:-1 group-title="KINO ZAL 4К",Индиана Джонс и Колесо судьбы (2023)
+https://vod.plvideo.ru/FbZEopwh/oUYaYhn1uR/5jktNnXDUCGkZpEubis/ZX
+
+#EXTINF:-1 ,- Джон Уик 3 (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DJONUIK3.m3u8
+#EXTINF:-1 ,- Другой мир (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DRUGOYMIR.m3u8
+#EXTINF:-1 ,- Другой мир 2: Эволюция (США/2006)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DRUGOYMIR2.m3u8
+#EXTINF:-1 ,- Другой мир. Восстание ликанов (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DRUGOYMIR_VOSSTANIE_LIKANOV.m3u8
+#EXTINF:-1 ,- Другой мир. Войны крови (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DRUGOYMIR_VOINY_KROVI.m3u8
+#EXTINF:-1 ,- Прогулка среди могил (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PSM.m3u8
+#EXTINF:-1 ,- Книга Илая (США/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KNIGAILAYA.m3u8
+#EXTINF:-1 ,- Остров проклятых (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OP.m3u8
+#EXTINF:-1 ,- Медальон (США/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MEDALON.m3u8
+#EXTINF:-1 ,- Иностранец (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/INOSTRANETZ.m3u8
+#EXTINF:-1 ,- Репродукция (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/REPRODUKCIYA.m3u8
+#EXTINF:-1 ,- Ловушка времени (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LOVUSHKA_VREMENI.m3u8
+#EXTINF:-1 ,- Морской бой (США/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MORSKOY_BOY.m3u8
+#EXTINF:-1 ,- После нашей эры (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POSLE_NASHEY_ERY.m3u8
+#EXTINF:-1 ,- Разлом времени (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/RAZLOM_VREMENI.m3u8
+#EXTINF:-1 ,- Соник в кино (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SONIC_V_KINO.m3u8
+#EXTINF:-1 ,- Сквозь снег (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SKVOZ_SNEG.m3u8
+#EXTINF:-1 ,- Ван Хельсинг (США/2004)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VAN_HELSING.m3u8
+#EXTINF:-1 ,- Черная дыра (США/2000)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHERNAYA_DYRA.m3u8
+#EXTINF:-1 ,- Хроники Риддика (США/2004)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/HRONIKI_RIDDIKA.m3u8
+#EXTINF:-1 ,- Дивергент (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DIVERGENT.m3u8
+#EXTINF:-1 ,- Дивергент. глава 2: Инсургент (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DIVERGENT2_INSURGENT.m3u8
+#EXTINF:-1 ,- Дивергент. глава 3: За стеной (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DIVERGENT3_ZA_STENOY.m3u8
+#EXTINF:-1 ,- Морские паразиты (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MORSKIE_PARAZITY.m3u8
+#EXTINF:-1 ,- Джек Ричер (США/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DZHEK_RICHER.m3u8
+#EXTINF:-1 ,- Джек Ричер 2: Никогда не возвращайся (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DZHEK_RICHER2.m3u8
+#EXTINF:-1 ,- Смокинг (США/2002)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SMOKING.m3u8
+#EXTINF:-1 ,- Патруль времени (КИТАЙ/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PATRUL_VREMENI.m3u8
+#EXTINF:-1 ,- Черная молния (РОССИЯ/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHERNAYA_MOLNIYA.m3u8
+#EXTINF:-1 ,- Интерстеллар (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/INTERSTELLAR.m3u8
+#EXTINF:-1 ,- Гемини (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GEMINI.m3u8
+#EXTINF:-1 ,- Человек из стали (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHELOVEK_IZ_STALI.m3u8
+#EXTINF:-1 ,- Матрица (США/1999)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/THE_MATRIX.m3u8
+#EXTINF:-1 ,- Матрица: Перезагрузка (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/THE_MATRIX_PEREZAGRUZKA.m3u8
+#EXTINF:-1 ,- Матрица: Революция (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/THE_MATRIX_REVOLYUCIYA.m3u8
+#EXTINF:-1 ,- Пол: Секретный материальчик (США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POL_SEKRETNY_MATERIALCHIK.m3u8
+#EXTINF:-1 ,- Потрошители (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POTROSHITELI.m3u8
+#EXTINF:-1 ,- Дитя робота (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DITYA_ROBOTA.m3u8
+#EXTINF:-1 ,- Где-то во времени (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GDETO_VO_VREMENI.m3u8
+#EXTINF:-1 ,- Ремнант: Всё ещё вижу тебя (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/REMNANT_VSE_ESHE_VIZHU_TEBYA.m3u8
+#EXTINF:-1 ,- Дюна (США/1984)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DYUNA_1984.m3u8
+#EXTINF:-1 ,- Пришелец (РОССИЯ/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PRISHELEC.m3u8
+#EXTINF:-1 ,- Континуум (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KONTINUUM.m3u8
+#EXTINF:-1 ,- Гравитация (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GRAVITACIYA.m3u8
+#EXTINF:-1 ,- Обливион (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OBLIVION.m3u8
+#EXTINF:-1 ,- Призрачный патруль (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PRIZRACHNY_PATRUL.m3u8
+#EXTINF:-1 ,- Фантом (РОССИЯ/США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/FANTOM.m3u8
+#EXTINF:-1 ,- Я легенда (США/2007)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/YA_LEGENDA.m3u8
+#EXTINF:-1 ,- Нечто (США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NECHTO.m3u8
+#EXTINF:-1 ,- Призрак (РОССИЯ/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PRIZRAK.m3u8
+#EXTINF:-1 ,- Призрак в доспехах (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PRIZRAK_V_DOSPEHAH.m3u8
+#EXTINF:-1 ,- Кловерфилд 10 (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KLOVERFILD.m3u8
+#EXTINF:-1 ,- Потерянный остров (РОССИЯ/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POTERYANNY_OSTROV.m3u8
+#EXTINF:-1 ,- Джиперс Криперс (США/2001)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DZHIPERS_KRIPERS.m3u8
+#EXTINF:-1 ,- Поезд в Пусан (КОРЕЯ/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POEZDVPUSAN.m3u8
+#EXTINF:-1 ,- Проклятие Спящей красавицы (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PROKLYATIESPYASHEYKRASAVITSY.m3u8
+#EXTINF:-1 ,- Аниара: Космическая обитель (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ANIARA_KOSMICHESKAYAOBITEL.m3u8
+#EXTINF:-1 ,- Ледяной капкан (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LEDYANOY_KAPKAN.m3u8
+#EXTINF:-1 ,- Салют-7 (РОССИЯ/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SALYUT7.m3u8
+#EXTINF:-1 ,- Мумия (США/1999)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MUMIYA.m3u8
+#EXTINF:-1 ,- Мумия возвращается (США/2001)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MUMIYA_VOZVRASHAETSYA.m3u8
+#EXTINF:-1 ,- Мумия: Гробница Императора Драконов (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MUMIYA_GROBNITSAIMPERATORADRAKONOV.m3u8
+#EXTINF:-1 ,- Царь скорпионов (США/2002)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TSAR_SKORPIONOV.m3u8
+#EXTINF:-1 ,- Тёмная башня (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TEMNAYA_BASHNYA.m3u8
+#EXTINF:-1 ,- Война миров Z (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VOYNA_MIROV_Z.m3u8
+#EXTINF:-1 ,- Новый Человек-паук: Высокое напряжение (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NEW_CHELOVEK_PAUK_VYSOKOENAPRYAZHENIE.m3u8
+#EXTINF:-1 ,- Человек-паук. Возвращение домой (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHELOVEK_PAUK_VOZVRASHENIEDOMOY.m3u8
+#EXTINF:-1 ,- Человек-паук: Вдали от дома (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHELOVEK_PAUK_VDALI_OT_DOMA.m3u8
+#EXTINF:-1 ,- Веном (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VENOM.m3u8
+#EXTINF:-1 ,- Дитя человеческое (США/2006)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DITYA_CHELOVECHESKOE.m3u8
+#EXTINF:-1 ,- Водный мир (США/1995)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VODNYI_MIR.m3u8
+#EXTINF:-1 ,- Ёлки (РОССИЯ/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ELKI.m3u8
+#EXTINF:-1 ,- Ёлки 2 (РОССИЯ/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ELKI2.m3u8
+#EXTINF:-1 ,- Ёлки 3 (РОССИЯ/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ELKI3.m3u8
+#EXTINF:-1 ,- Ёлки 1914 (РОССИЯ/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ELKI1914.m3u8
+#EXTINF:-1 ,- Ёлки 5 (РОССИЯ/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ELKI5.m3u8
+#EXTINF:-1 ,- Ёлки новые (РОССИЯ/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ELKI_NOVYE.m3u8
+#EXTINF:-1 ,- Ёлки лохматые (РОССИЯ/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ELKI_LOHMATYE.m3u8
+#EXTINF:-1 ,- Джунгли (РОССИЯ/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DZHUNGLI.m3u8
+#EXTINF:-1 ,- Наша Russia: Яйца судьбы (РОССИЯ/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NASHA_RUSSIA_YAYTSASUDBY.m3u8
+#EXTINF:-1 ,- Призрачный гонщик (США/2007)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PRIZRACHNY_GONSHIK.m3u8
+#EXTINF:-1 ,- Трансформеры (США/2007)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TRANSFORMERY.m3u8
+#EXTINF:-1 ,- Трансформеры 2: Месть падших (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TRANSFORMERY2.m3u8
+#EXTINF:-1 ,- Трансформеры 3: Темная сторона Луны (США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TRANSFORMERY3.m3u8
+#EXTINF:-1 ,- Трансформеры 4: Эпоха истребления (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TRANSFORMERY4.m3u8
+#EXTINF:-1 ,- Трансформеры 5: Последний рыцарь (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TRANSFORMERY5.m3u8
+#EXTINF:-1 ,- Бамблби (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BAMBLBI.m3u8
+#EXTINF:-1 ,- Последний киногерой (США/1993)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POSLEDNIY_KINOGEROY.m3u8
+#EXTINF:-1 ,- Терминатор. Да придет спаситель (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TERMINATOR_DA_PRIDET_SPASITEL.m3u8
+#EXTINF:-1 ,- Терминатор: Генезис (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TERMINATOR_GENEZIS.m3u8
+#EXTINF:-1 ,- Человек на Луне (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHELOVEK_NA_LUNE.m3u8
+#EXTINF:-1 ,- Боевой робот номер 4 (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BOEVOY_ROBOT_N4.m3u8
+#EXTINF:-1 ,- Черепашки-ниндзя (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHEREPASHKI_NINDZYA.m3u8
+#EXTINF:-1 ,- Черепашки-ниндзя 2 (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHEREPASHKI_NINDZYA2.m3u8
+#EXTINF:-1 ,- Шестой день (США/2000)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/6_DEN.m3u8
+#EXTINF:-1 ,- Хэнкок (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/HENKOK.m3u8
+#EXTINF:-1 ,- Назад в будущее 2 (США/1989)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NAZAD_V_BUDUSHEE2.m3u8
+#EXTINF:-1 ,- Кладбище домашних животных (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KLADBISHE_DOMASHNIH_ZHIVOTNYH.m3u8
+#EXTINF:-1 ,- Дракулов (РОССИЯ/2021)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DRAKULOV.m3u8
+#EXTINF:-1 ,- Живое (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZHIVOE.m3u8
+#EXTINF:-1 ,- Охотники на ведьм (США/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OHOTNIKI_NA_VEDM.m3u8
+#EXTINF:-1 ,- Звонок 2 (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZVONOK2.m3u8
+#EXTINF:-1 ,- Дом напротив (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DOM_NAPROTIV.m3u8
+#EXTINF:-1 ,- Злой дух (КАНАДА/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZLOY_DUH.m3u8
+#EXTINF:-1 ,- Добро пожаловать в Зомбилэнд! (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DOBRO_POZHALOVAT_V_ZOMBILEND.m3u8
+#EXTINF:-1 ,- Судная ночь 2 (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SUDNAYA_NOCH2.m3u8
+#EXTINF:-1 ,- Судная ночь 3 (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SUDNAYA_NOCH3.m3u8
+#EXTINF:-1 ,- Судная ночь навсегда (США/2021)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SUDNAYA_NOCH_NAVSEGDA.m3u8
+#EXTINF:-1 ,- Крик (США/1996)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KRIK.m3u8
+#EXTINF:-1 ,- Крик 2 (США/1997)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KRIK2.m3u8
+#EXTINF:-1 ,- Крик 3 (США/1997)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KRIK3.m3u8
+#EXTINF:-1 ,- мама! (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MAMA.m3u8
+#EXTINF:-1 ,- Пассажиры (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PASSAZHIRY.m3u8
+#EXTINF:-1 ,- Охотники за привидениями 2 (США/1989)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OHOTNIKI_ZA_PRIVIDENIYAMI2.m3u8
+#EXTINF:-1 ,- Другие (США/2001)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DRUGIE.m3u8
+#EXTINF:-1 ,- Девушка в поезде (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DEVUSHKA_V_POEZDE.m3u8
+#EXTINF:-1 ,- Астрал 2 (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ASTRAL2.m3u8
+#EXTINF:-1 ,- Астрал 3 (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ASTRAL3.m3u8
+#EXTINF:-1 ,- Астрал 4: Последний ключ (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ASTRAL4.m3u8
+#EXTINF:-1 ,- Вирус страха (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VIRUS_STRAHA.m3u8
+#EXTINF:-1 ,- Слендермен (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SLENDERMEN.m3u8
+#EXTINF:-1 ,- Детские игры 2 (США/1990)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DETSKIE_IGRY2.m3u8
+#EXTINF:-1 ,- Детские игры 3 (США/1991)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DETSKIE_IGRY3.m3u8
+#EXTINF:-1 ,- Потомство Чаки (США/2004)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POTOMSTVO_CHAKI.m3u8
+#EXTINF:-1 ,- Легенда Зорро (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LEGENDA_ZORRO.m3u8
+#EXTINF:-1 ,- Хранитель времени (США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/HRANITEL_VREMENI.m3u8
+#EXTINF:-1 ,- Капкан времени (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KAPKAN_VREMENI.m3u8
+#EXTINF:-1 ,- Братья Гримм (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BRATYA_GRIMM.m3u8
+#EXTINF:-1 ,- Ангелы Чарли 2: Только вперед (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ANGELY_CHARLI2.m3u8
+#EXTINF:-1 ,- Ангелы Чарли (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ANGELY_CHARLI_2019.m3u8
+#EXTINF:-1 ,- Джуманджи: Новый уровень (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DZHUMANDZHI_NEW_UROVEN.m3u8
+#EXTINF:-1 ,- Доспехи бога: В поисках сокровищ (КНР/США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DOSPEHIBOGA_V_POISKAH_SOKROVISH.m3u8
+#EXTINF:-1 ,- Люди в черном (США/1997)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LYUDI_V_CHERNOM.m3u8
+#EXTINF:-1 ,- Люди в черном. Интернэшнл (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LYUDI_V_CHERNOM_INT.m3u8
+#EXTINF:-1 ,- Агент Джонни Инглиш (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/AGENT_DZHONNI_INGLISH.m3u8
+#EXTINF:-1 ,- Агент Джонни Инглиш: Перезагрузка (США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/AGENT_DZHONNI_INGLISH_PEREZAGRUZKA.m3u8
+#EXTINF:-1 ,- Время (США/2021)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VREMYA.m3u8
+#EXTINF:-1 ,- Форсаж 9 (США/2021)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/FORSAZH9.m3u8
+#EXTINF:-1 ,- Ледокол (РОССИЯ/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LEDOKOL.m3u8
+#EXTINF:-1 ,- Пришельцы на чердаке (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PRISHELTSY_NA_CHERDAKE.m3u8
+#EXTINF:-1 ,- Знакомьтесь: Дэйв (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZNAKOMTES_DEYV.m3u8
+#EXTINF:-1 ,- Тысяча слов (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/1000SLOV.m3u8
+#EXTINF:-1 ,- Библиотекарь 2: Возвращение в Копи Царя Соломона (США/2006)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BIBLIOTEKAR2.m3u8
+#EXTINF:-1 ,- Библиотекарь 3: Проклятие иудовой чаши (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BIBLIOTEKAR3.m3u8
+#EXTINF:-1 ,- Белоснежка и охотник (США/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BELOSNEZHKA_I_OHOTNIK.m3u8
+#EXTINF:-1 ,- Затерянный мир (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZATERYANNY_MIR.m3u8
+#EXTINF:-1 ,- Разлом (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/RAZLOM.m3u8
+#EXTINF:-1 ,- Выкрутасы (РОССИЯ/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VYKRUTASY.m3u8
+#EXTINF:-1 ,- День выборов (РОССИЯ/2007)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DEN_VYBOROV.m3u8
+#EXTINF:-1 ,- Плохие парни навсегда (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PLOHIE_PARNI_NAVSEGDA.m3u8
+#EXTINF:-1 ,- Дом большой мамочки (США/2000)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DOM_BOLSHOY_MAMOCHKI.m3u8
+#EXTINF:-1 ,- Дом большой мамочки 2 (США/2006)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DOM_BOLSHOY_MAMOCHKI2.m3u8
+#EXTINF:-1 ,- Представь себе (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PREDSTAV_SEBE.m3u8
+#EXTINF:-1 ,- Эван Всемогущий (США/2007)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/EVAN_VSEMOGUSHIY.m3u8
+#EXTINF:-1 ,- Бросок кобры (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BROSOK_KOBRY.m3u8
+#EXTINF:-1 ,- Бросок кобры 2 (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BROSOK_KOBRY2.m3u8
+#EXTINF:-1 ,- Стартрек: Бесконечность (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/STARTREK_BESKONECHNOST.m3u8
+#EXTINF:-1 ,- Миссия невыполнима (США/1996)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MISSIYA_NEVYPOLNIMA.m3u8
+#EXTINF:-1 ,- Миссия невыполнима 2 (США/2000)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MISSIYA_NEVYPOLNIMA2.m3u8
+#EXTINF:-1 ,- Миссия невыполнима 3 (США/2006)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MISSIYA_NEVYPOLNIMA3.m3u8
+#EXTINF:-1 ,- Миссия невыполнима: Протокол Фантом (США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MISSIYA_NEVYPOLNIMA_PROTOKOL_FANTOM.m3u8
+#EXTINF:-1 ,- Миссия невыполнима: Племя изгоев (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MISSIYA_NEVYPOLNIMA_PLEMYA_IZGOEV.m3u8
+#EXTINF:-1 ,- Миссия невыполнима: Последствия (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MISSIYA_NEVYPOLNIMA_POSLEDSTVIYA.m3u8
+#EXTINF:-1 ,- Лара Крофт: Расхитительница гробниц (США/2001)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LARA_KROFT_RASHITITELNITSA_GROBNITS.m3u8
+#EXTINF:-1 ,- Лара Крофт: Расхитительница гробниц 2 Колыбель жизни (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LARA_KROFT_RASHITITELNITSA_GROBNITS2.m3u8
+#EXTINF:-1 ,- Аферисты Дик и Джейн (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/AFERISTY_DIK_I_DZHEYN.m3u8
+#EXTINF:-1 ,- Лемони Сникет. 33 несчастья (США/2004)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LEMONI_SNIKET_33NESCHASTYA.m3u8
+#EXTINF:-1 ,- Бетховен (США/1992)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BETHOVEN.m3u8
+#EXTINF:-1 ,- Бетховен 2 (США/1993)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BETHOVEN2.m3u8
+#EXTINF:-1 ,- Двое: я и моя тень (США/1995)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DVOE_YA_I_MOYA_TEN.m3u8
+#EXTINF:-1 ,- Детсадовский полицейский (США/1990)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DETSADOVSKIY_POLITSEYSKIY.m3u8
+#EXTINF:-1 ,- Зелёная миля (США/1999)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZELYONAYA_MILYA.m3u8
+#EXTINF:-1 ,- Факультет (США/1998)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/FAKULTET.m3u8
+#EXTINF:-1 ,- От заката до рассвета (США/1995)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OT_ZAKATA_DO_RASSVETA.m3u8
+#EXTINF:-1 ,- Мачете (США/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MACHETE.m3u8
+#EXTINF:-1 ,- Мачете убивает (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MACHETE_UBIVAET.m3u8
+#EXTINF:-1 ,- Двухсотлетний человек (США/1999)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/200LETNIY_CHELOVEK.m3u8
+#EXTINF:-1 ,- Искусственный разум (США/2001)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ISKUSSTVENNY_RAZUM.m3u8
+#EXTINF:-1 ,- Особое мнение (США/2002)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OSOBOE_MNENIE.m3u8
+#EXTINF:-1 ,- Инопланетянин (США/1982)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/INOPLANETYANIN.m3u8
+#EXTINF:-1 ,- Невезучие (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NEVEZUCHIE.m3u8
+#EXTINF:-1 ,- Мышиная охота (США/1997)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MYSHINAYA_OHOTA.m3u8
+#EXTINF:-1 ,- Моя ужасная няня (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MOYA_UZHASNAYA_NYANYA.m3u8
+#EXTINF:-1 ,- Моя ужасная няня 2 (США/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MOYA_UZHASNAYA_NYANYA2.m3u8
+#EXTINF:-1 ,- Повелитель стихий (США/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POVELITEL_STIHIY.m3u8
+#EXTINF:-1 ,- Каникулы строгого режима (РОССИЯ/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KANIKULY_STROGOGO_REZHIMA.m3u8
+#EXTINF:-1 ,- Третий лишний (США/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/3_LISHNIY.m3u8
+#EXTINF:-1 ,- Третий лишний 2 (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/3_LISHNIY2.m3u8
+#EXTINF:-1 ,- Пиксели (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PIKSELI.m3u8
+#EXTINF:-1 ,- Сокровище Амазонки (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SOKROVISHE_AMAZONKI.m3u8
+#EXTINF:-1 ,- Бабушка лёгкого поведения (РОССИЯ/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BABUSHKA_LEGKOGO_POVEDENIYA.m3u8
+#EXTINF:-1 ,- Кукла 2: Брамс (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KUKLA2_BRAMS.m3u8
+#EXTINF:-1 ,- Проклятие: Кукла ведьмы (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PROKLYATIE_KUKLA_VEDMY.m3u8
+#EXTINF:-1 ,- Каникулы президента (РОССИЯ/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KANIKULY_PREZIDENTA.m3u8
+#EXTINF:-1 ,- Гороскоп на удачу (РОССИЯ/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GOROSKOP_NA_UDACHU.m3u8
+#EXTINF:-1 ,- Напарник (РОССИЯ/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NAPARNIK.m3u8
+#EXTINF:-1 ,- Вий (РОССИЯ/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VIY.m3u8
+#EXTINF:-1 ,- Ной (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NOY.m3u8
+#EXTINF:-1 ,- Ужастики (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/UZHASTIKI.m3u8
+#EXTINF:-1 ,- Паразиты (КОРЕЯ/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PARAZITY.m3u8
+#EXTINF:-1 ,- Супергерои (ДОК/ВЕЛИКОБРИТАНИЯ/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SUPERGEROI.m3u8
+#EXTINF:-1 ,- Халк (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/HALK.m3u8
+#EXTINF:-1 ,- Невероятный Халк (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NEVEROYATNY_HALK.m3u8
+#EXTINF:-1 ,- Робот по имени Чаппи (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ROBOT_PO_IMENI_CHAPPI.m3u8
+#EXTINF:-1 ,- Лекарство от здоровья (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LEKARSTVO_OT_ZDOROVYA.m3u8
+#EXTINF:-1 ,- Русалка на суше (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/RUSALKA_NA_SUSHE.m3u8
+#EXTINF:-1 ,- Рассказы Русалочки (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/RASSKAZY_RUSALOCHKI.m3u8
+#EXTINF:-1 ,- Возвращение в Голубую лагуну (США/1991)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VOZVRASHENIE_V_GOLUBUYU_LAGUNU.m3u8
+#EXTINF:-1 ,- Убить Билла (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/UBIT_BILLA.m3u8
+#EXTINF:-1 ,- Убить Билла 2 (США/2004)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/UBIT_BILLA2.m3u8
+#EXTINF:-1 ,- Проклятый дом (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PROKLYATY_DOM.m3u8
+#EXTINF:-1 ,- Туннель: Опасно для жизни (НОРВЕГИЯ/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TUNNEL_OPASNO_DLYA_ZHIZNI.m3u8
+#EXTINF:-1 ,- Бладшот (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BLADSHOT.m3u8
+#EXTINF:-1 ,- Зеркала (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZERKALA.m3u8
+#EXTINF:-1 ,- Зеркала: Инкарнация (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZERKALA_INKARNATSIYA.m3u8
+#EXTINF:-1 ,- Все ждут Рождество: Люси против Крампуса (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VSE_ZHDUT_ROZHDESTVO.m3u8
+#EXTINF:-1 ,- Все ждут Рождество 2: Люси и магический кристалл (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VSE_ZHDUT_ROZHDESTVO2.m3u8
+#EXTINF:-1 ,- Альфа (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ALFA.m3u8
+#EXTINF:-1 ,- Выживший (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VYZHIVSHIY.m3u8
+#EXTINF:-1 ,- Поиск (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POISK.m3u8
+#EXTINF:-1 ,- Омерзительная восьмерка (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OMERZITELNAYA_8.m3u8
+#EXTINF:-1 ,- Снеговик (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SNEGOVIK.m3u8
+#EXTINF:-1 ,- Восточный ветер (ГЕРМАНИЯ/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VOSTOCHNY_VETER.m3u8
+#EXTINF:-1 ,- Восточный ветер 2 (ГЕРМАНИЯ/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VOSTOCHNY_VETER2.m3u8
+#EXTINF:-1 ,- Восточный ветер 3: Наследие Оры (ГЕРМАНИЯ/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VOSTOCHNY_VETER3.m3u8
+#EXTINF:-1 ,- Восточный ветер 4: Легенда о Воине (ГЕРМАНИЯ/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VOSTOCHNY_VETER4.m3u8
+#EXTINF:-1 ,- Помогите. я уменьшил свою училку! (ГЕРМАНИЯ/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POMOGITE_YA_UMENSHIL_SVOYU_UCHILKU.m3u8
+#EXTINF:-1 ,- Помогите. я уменьшил своих родителей! (ГЕРМАНИЯ/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POMOGITE_YA_UMENSHIL_SVOIH_RODITELEY.m3u8
+#EXTINF:-1 ,- Женщина в черном (КАНАДА/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZHENSHINA_V_CHERNOM.m3u8
+#EXTINF:-1 ,- Женщина в черном 2: Ангел смерти (КАНАДА/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZHENSHINA_V_CHERNOM2.m3u8
+#EXTINF:-1 ,- Бегущий по лезвию 2049 (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BEGUSHIY_PO_LEZVIYU_2049.m3u8
+#EXTINF:-1 ,- Ловец снов (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LOVETS_SNOV.m3u8
+#EXTINF:-1 ,- Мара. Пожиратель снов (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MARA_POZHIRATEL_SNOV.m3u8
+#EXTINF:-1 ,- Амулет (ВЕЛИКОБРИТАНИЯ/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/AMULET.m3u8
+#EXTINF:-1 ,- В земле (ВЕЛИКОБРИТАНИЯ/2021)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/V_ZEMLE.m3u8
+#EXTINF:-1 ,- Полтергейст (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POLTERGEYST.m3u8
+#EXTINF:-1 ,- Сплит (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SPLIT.m3u8
+#EXTINF:-1 ,- Незваные (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NEZVANYE.m3u8
+#EXTINF:-1 ,- Ю-571 (США/2000)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/YU_571.m3u8
+#EXTINF:-1 ,- Пианист (ВЕЛИКОБРИТАНИЯ/2002)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PIANIST.m3u8
+#EXTINF:-1 ,- Отрыв (РОССИЯ/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OTRYV.m3u8
+#EXTINF:-1 ,- Обитаемый остров (РОССИЯ/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OBITAEMY_OSTROV.m3u8
+#EXTINF:-1 ,- Каратэ-пацан (КНР/США/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KARATE_PATSAN.m3u8
+#EXTINF:-1 ,- Пробуждающая совесть (ДАНИЯ/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PROBUZHDAYUSHAYA_SOVEST.m3u8
+#EXTINF:-1 ,- Пробуждающая совесть 2: Дар змеи (ДАНИЯ/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PROBUZHDAYUSHAYA_SOVEST2.m3u8
+#EXTINF:-1 ,- Ужас Амитивилля (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/UZHAS_AMITIVILLYA.m3u8
+#EXTINF:-1 ,- Монстро (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MONSTRO.m3u8
+#EXTINF:-1 ,- Капкан (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KAPKAN.m3u8
+#EXTINF:-1 ,- Страна призраков (ФРАНЦИЯ/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/STRANA_PRIZRAKOV.m3u8
+#EXTINF:-1 ,- Синяя бездна 2 (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SINYAYA_BEZDNA2.m3u8
+#EXTINF:-1 ,- Метро (РОССИЯ/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/METRO.m3u8
+#EXTINF:-1 ,- Миссия Серенити (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MISSIYA_SERENITI.m3u8
+#EXTINF:-1 ,- Время первых (РОССИЯ/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VREMYA_PERVYH.m3u8
+#EXTINF:-1 ,- Гагарин. Первый в космосе (РОССИЯ/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GAGARIN_1_V_KOSMOSE.m3u8
+#EXTINF:-1 ,- Седьмой сын (РОССИЯ/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/7_SYN.m3u8
+#EXTINF:-1 ,- Механик (США/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MEHANIK.m3u8
+#EXTINF:-1 ,- В осаде (США/1992)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/V_OSADE.m3u8
+#EXTINF:-1 ,- В осаде 2: Темная территория (США/1995)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/V_OSADE2.m3u8
+#EXTINF:-1 ,- Кинг Конг (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KING_KONG.m3u8
+#EXTINF:-1 ,- Парк Юрского периода (США/1993)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PARK_YURSKOGO_PERIODA.m3u8
+#EXTINF:-1 ,- Парк Юрского периода 2: Затерянный мир (США/1997)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PARK_YURSKOGO_PERIODA2.m3u8
+#EXTINF:-1 ,- Парк Юрского периода 3 (США/2001)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PARK_YURSKOGO_PERIODA3.m3u8
+#EXTINF:-1 ,- Мир Юрского периода (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MIR_YURSKOGO_PERIODA.m3u8
+#EXTINF:-1 ,- Атака Юрского периода (США/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ATAKA_YURSKOGO_PERIODA.m3u8
+#EXTINF:-1 ,- Столкновение с бездной (США/1998)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/STOLKNOVENIE_S_BEZDNOY.m3u8
+#EXTINF:-1 ,- Защитники (РОССИЯ/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZASHITNIKI.m3u8
+#EXTINF:-1 ,- Игра Эндера (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/IGRA_ENDERA.m3u8
+#EXTINF:-1 ,- Сторожевая застава (УКРАИНА/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/STOROZHEVAYA_ZASTAVA.m3u8
+#EXTINF:-1 ,- Охотники (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OHOTNIKI.m3u8
+#EXTINF:-1 ,- Поворот не туда: Наследие (США/2021)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POVOROT_NE_TUDA_NASLEDIE.m3u8
+#EXTINF:-1 ,- Проклятие: Обитель смерти (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PROKLYATIE_OBITEL_SMERTI.m3u8
+#EXTINF:-1 ,- Бесконечность (США/2021)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BESKONECHNOST.m3u8
+#EXTINF:-1 ,- За пределами Вселенной (ВЕЛИКОБРИТАНИЯ/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZA_PREDELAMI_VSELENNOY.m3u8
+#EXTINF:-1 ,- Портал (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PORTAL.m3u8
+#EXTINF:-1 ,- Остров фантазий (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OSTROV_FANTAZIY.m3u8
+#EXTINF:-1 ,- Горец (ВЕЛИКОБРИТАНИЯ/1986)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GORETS.m3u8
+#EXTINF:-1 ,- Горец 2: Оживление (ВЕЛИКОБРИТАНИЯ/1990)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GORETS2.m3u8
+#EXTINF:-1 ,- Горец 3: Последнее измерение (ВЕЛИКОБРИТАНИЯ/1994)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GORETS3.m3u8
+#EXTINF:-1 ,- Химера (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/HIMERA.m3u8
+#EXTINF:-1 ,- Отмель (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OTMEL.m3u8
+#EXTINF:-1 ,- Снегурочка против всех (США/2021)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SNEGUROCHKA_PROTIV_VSEH.m3u8
+#EXTINF:-1 ,- Проклятие (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PROKLYATIE.m3u8
+#EXTINF:-1 ,- Батарейки не прилагаются (США/1987)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BATAREYKI_NE_PRILAGAYUTSYA.m3u8
+#EXTINF:-1 ,- Заклинание (США/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZAKLINANIE.m3u8
+#EXTINF:-1 ,гори ясно (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GORI_GORI_YASNO.m3u8
+#EXTINF:-1 ,- Исчезнувшая (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ISCHEZNUVSHAYA.m3u8
+#EXTINF:-1 ,- На пятьдесят оттенков темнее (США/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NA_50_OTTENKOV_TEMNEE.m3u8
+#EXTINF:-1 ,которая застряла в паутине (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DEVUSHKA_KOTORAYA_ZASTRYALA_V_PAUTINE.m3u8
+#EXTINF:-1 ,- Нападение на 13-й участок (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NAPADENIE_NA_13_UCHASTOK.m3u8
+#EXTINF:-1 ,- Война миров (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VOYNA_MIROV.m3u8
+#EXTINF:-1 ,- Курьер из Рая (РОССИЯ/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KURER_IZ_RAYA.m3u8
+#EXTINF:-1 ,- Хранители (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/HRANITELI.m3u8
+#EXTINF:-1 ,- Когда звонит незнакомец (США/2006)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KOGDA_ZVONIT_NEZNAKOMETS.m3u8
+#EXTINF:-1 ,- Шальная карта (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SHALNAYA_KARTA.m3u8
+#EXTINF:-1 ,- Голодные игры (США/2012)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GOLODNYE_IGRY.m3u8
+#EXTINF:-1 ,- Голодные игры: И вспыхнет пламя (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GOLODNYE_IGRY_I_VSPYHNET_PLAMYA.m3u8
+#EXTINF:-1 ,- Tomb Raider. Лара Крофт (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TOMB_RAIDER_LARA_KROFT.m3u8
+#EXTINF:-1 ,- Амундсен (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/AMUNDSEN.m3u8
+#EXTINF:-1 ,- Дракула (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DRAKULA.m3u8
+#EXTINF:-1 ,- Геракл: Начало легенды (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GERAKL_NACHALO_LEGENDY.m3u8
+#EXTINF:-1 ,- Штурм Белого дома (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SHTURM_BELOGO_DOMA.m3u8
+#EXTINF:-1 ,- Рыжая Соня (США/1985)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/RYZHAYA_SONYA.m3u8
+#EXTINF:-1 ,- Возмездие (США/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VOZMEZDIE.m3u8
+#EXTINF:-1 ,- Челюсти (США/1975)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHELYUSTI.m3u8
+#EXTINF:-1 ,- Челюсти 2 (США/1978)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHELYUSTI2.m3u8
+#EXTINF:-1 ,- Привидение (США/1990)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PRIVIDENIE.m3u8
+#EXTINF:-1 ,- С меня хватит (США/2002)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/S_MENYA_HVATIT.m3u8
+#EXTINF:-1 ,- Невидимка (США/2000)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NEVIDIMKA.m3u8
+#EXTINF:-1 ,- Тренер Картер (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TRENER_KARTER.m3u8
+#EXTINF:-1 ,- Робин Гуд (США/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ROBIN_GUD.m3u8
+#EXTINF:-1 ,- Страшно красив (США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/STRASHNO_KRASIV.m3u8
+#EXTINF:-1 ,- Зелёный Шершень (США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZELENY_SHERSHEN.m3u8
+#EXTINF:-1 ,- Территория (РОССИЯ/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TERRITORIYA.m3u8
+#EXTINF:-1 ,- 2012 (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/2012.m3u8
+#EXTINF:-1 ,- Проводник (РОССИЯ/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PROVODNIK.m3u8
+#EXTINF:-1 ,- Ускорение (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/USKORENIE.m3u8
+#EXTINF:-1 ,- Демон внутри (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DEMON_VNUTRI.m3u8
+#EXTINF:-1 ,- Пассажир (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PASSAZHIR.m3u8
+#EXTINF:-1 ,- Он - дракон (РОССИЯ/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ON_DRAKON.m3u8
+#EXTINF:-1 ,- Призрак дома на холме (США/1999)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PRIZRAK_DOMA_NA_HOLME.m3u8
+#EXTINF:-1 ,- Пес под прикрытием (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PES_POD_PRIKRYTIEM.m3u8
+#EXTINF:-1 ,- Супер Такса (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SUPER_TAKSA.m3u8
+#EXTINF:-1 ,- Титан (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TITAN.m3u8
+#EXTINF:-1 ,- Пакт (США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PAKT.m3u8
+#EXTINF:-1 ,- Пакт 2 (США/2014)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PAKT2.m3u8
+#EXTINF:-1 ,- Лэйк Плэсид: Озеро страха (США/1999)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LEYK_PLESID_OZERO_STRAHA.m3u8
+#EXTINF:-1 ,- Трудная мишень (США/1993)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/TRUDNAYA_MISHEN.m3u8
+#EXTINF:-1 ,- Инкассатор (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/INKASSATOR.m3u8
+#EXTINF:-1 ,- Школа выживания (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SHKOLA_VYZHIVANIYA.m3u8
+#EXTINF:-1 ,- Отчаянный (США/1995)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OTCHAYANNY.m3u8
+#EXTINF:-1 ,- Патриот (США/2000)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PATRIOT.m3u8
+#EXTINF:-1 ,- Остров головорезов (США/1995)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OSTROV_GOLOVOREZOV.m3u8
+#EXTINF:-1 ,- Затура: Космическое приключение (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ZATURA_KOSMICHESKOE_PRIKLYUCHENIE.m3u8
+#EXTINF:-1 ,- Морпехи (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MORPEHI.m3u8
+#EXTINF:-1 ,- Птичка на проводе (США/1990)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PTICHKA_NA_PROVODE.m3u8
+#EXTINF:-1 ,- Легион (США/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LEGION.m3u8
+#EXTINF:-1 ,- Святые из Бундока 2. День всех святых (США/2009)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SVYATYE_IZ_BUNDOKA2.m3u8
+#EXTINF:-1 ,- Лучший стрелок (США/1986)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LUCHSHIY_STRELOK.m3u8
+#EXTINF:-1 ,- Короли улиц (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KOROLI_ULITS.m3u8
+#EXTINF:-1 ,- Красотки в бегах (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KRASOTKI_V_BEGAH.m3u8
+#EXTINF:-1 ,- Голодный кролик атакует (США/2011)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GOLODNY_KROLIK_ATAKUET.m3u8
+#EXTINF:-1 ,- Последний рубеж (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POSLEDNIY_RUBEZH.m3u8
+#EXTINF:-1 ,- Спасатели Малибу (ВЕЛИКОБРИТАНИЯ/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SPASATELI_MALIBU.m3u8
+#EXTINF:-1 ,- Охранник (США/2006)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OHRANNIK.m3u8
+#EXTINF:-1 ,- Великолепная семёрка (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/VELIKOLEPNAYA7.m3u8
+#EXTINF:-1 ,- Код апокалипсиса (РОССИЯ/2007)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KOD_APOKALIPSISA.m3u8
+#EXTINF:-1 ,- Герой (КИТАЙ/2002)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/GEROY.m3u8
+#EXTINF:-1 ,- Три метра над уровнем неба (ИСПАНИЯ/2010)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/3METRA_NAD_UROVNEM_NEBA.m3u8
+#EXTINF:-1 ,- Анна (США/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ANNA.m3u8
+#EXTINF:-1 ,- Расправа (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/RASPRAVA.m3u8
+#EXTINF:-1 ,- Образцовый самец 2 (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OBRAZTSOVY_SAMETS2.m3u8
+#EXTINF:-1 ,- Смоки и Бандит (США/1977)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SMOKI_I_BANDIT.m3u8
+#EXTINF:-1 ,- Предвестники бури (США/2004)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PREDVESTNIKI_BURI.m3u8
+#EXTINF:-1 ,- В ночи (США/1985)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/V_NOCHI.m3u8
+#EXTINF:-1 ,- На крючке (США/2008)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NA_KRYUCHKE.m3u8
+#EXTINF:-1 ,- Doom (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/DOOM.m3u8
+#EXTINF:-1 ,- Четыре пера (США/2002)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/CHETYRE_PERA.m3u8
+#EXTINF:-1 ,- Сделка с дьяволом (США/2006)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/SDELKA_S_DYAVOLOM.m3u8
+#EXTINF:-1 ,- Преступить черту (ИСПАНИЯ/2020)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PRESTUPIT_CHERTU.m3u8
+#EXTINF:-1 ,- Никто (США/2021)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/NIKTO.m3u8
+#EXTINF:-1 ,- Банда Келли (США/2003)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/BANDA_KELLI.m3u8
+#EXTINF:-1 ,- Пипец 2 (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PIPETS2.m3u8
+#EXTINF:-1 ,- Пушки Акимбо (ВЕЛИКОБРИТАНИЯ/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PUSHKI_AKIMBO.m3u8
+#EXTINF:-1 ,- Лес самоубийц (США/2015)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/LES_SAMOUBIYTS.m3u8
+#EXTINF:-1 ,- Перспектива (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PERSPEKTIVA.m3u8
+#EXTINF:-1 ,- Обитель теней (ИСПАНИЯ/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/OBITEL_TENEY.m3u8
+#EXTINF:-1 ,- Космос (ВЕЛИКОБРИТАНИЯ/2019)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/KOSMOS.m3u8
+#EXTINF:-1 ,- Машина (ВЕЛИКОБРИТАНИЯ/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/MASHINA.m3u8
+#EXTINF:-1 ,- Помешанный на времени (США/2018)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POMESHANNY_NA_VREMENI.m3u8
+#EXTINF:-1 ,- Эксперимент: Зло (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/EKSPERIMENT_ZLO.m3u8
+#EXTINF:-1 ,- Я. Франкенштейн (США/2013)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/YA_FRANKENSHTEYN.m3u8
+#EXTINF:-1 ,- Оружейный барон (США/2005)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/ORUZHEYNY_BARON.m3u8
+#EXTINF:-1 ,- Его собачье дело (США/2016)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/EGO_SOBACHE_DELO.m3u8
+#EXTINF:-1 ,- Полночь на злаковом поле (США/2021)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/POLNOCH_NA_ZLAKOVOM_POLE.m3u8
+#EXTINF:-1 ,- Приключения Паддингтона 2 (ВЕЛИКОБРИТАНИЯ/2017)
+#EXTGRP:🎞️ Dmi3y Кино
+http://dmi3y-tv.ru/hls/film/PRIKLYUCHENIYA_PADDINGTONA2.m3u8

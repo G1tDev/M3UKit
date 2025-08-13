@@ -1,9 +1,10 @@
 Pod::Spec.new do |s|
     s.name = 'M3UKit'
-    s.version = '0.8.1'
-    s.summary = 'Modern framework for parsing m3u files'
+    s.version = '2.0.2'
+    s.summary = 'Robust M3U/M3U8 playlist parser with enhanced IPTV support'
     s.description = <<-DESC
-    A modern framework for parsing m3u files.
+    Enhanced M3UKit with robust parsing capabilities for IPTV applications.
+    Handles any playlist format with comprehensive error recovery and validation.
     DESC
     s.homepage = 'https://github.com/omaralbeik/M3UKit'
     s.license = { :type => 'MIT', :file => 'LICENSE' }

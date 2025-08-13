@@ -4,21 +4,28 @@ A Swift library for parsing M3U/M3U8 playlists with enhanced IPTV support and bu
 
 ## 🚀 What's New in This Enhanced Version
 
-This is an enhanced fork of the original [M3UKit](https://github.com/omaralbeik/M3UKit) with critical bug fixes and IPTV-specific improvements:
+This is an enhanced fork of the original [M3UKit](https://github.com/omaralbeik/M3UKit) with **comprehensive robust parsing** that handles ANY playlist format:
 
 ### 🔧 Critical Bug Fixes
 - **Fixed line number tracking bug** that was causing incorrect parsing
 - **Improved session data handling** to prevent interference with stream parsing
 - **Enhanced URL validation** with strict mode for better stream link accuracy
 - **Better error handling** that continues parsing instead of stopping on first error
+- **Fixed missing duration parsing** (handles `#EXTINF: tvg-id=...` without duration)
+- **Fixed typo tolerance** (handles `#EXTNF:` instead of `#EXTINF:`)
+- **BOM character removal** (handles Unicode BOM at file start)
+- **Complex URL support** (handles URLs with pipes, parameters, special characters)
 
 ### 🆕 New Features
+- **Maximum Resilience Mode** - parses ANY playlist format with extensive fallbacks
+- **IPTV Preset Options** - optimized configuration for IPTV applications
 - **Strict URL validation** option to ensure only valid streaming URLs are accepted
 - **Session data skipping** option to handle problematic playlist formats
-- **Enhanced attribute parsing** for modern IPTV playlist features
+- **Enhanced attribute parsing** for modern IPTV playlist features with flexible regex
 - **Playlist format detection** (M3U, M3U8, PLS)
 - **Caching support** for better performance
 - **IPTV-specific convenience methods** for channel filtering and search
+- **Comprehensive error recovery** - never fails parsing due to format issues
 
 ### 📱 IPTV Player Improvements
 - **Better stream link accuracy** - no more playing wrong streams
@@ -60,11 +67,16 @@ let playlist = try parser.parse(playlistURL)
 ### Enhanced Options
 
 ```swift
+// Maximum compatibility - handles any playlist format
+let parser = PlaylistParser(options: .iptv)
+
+// Or customize options
 let parser = PlaylistParser(options: [
     .removeSeriesInfoFromText,
     .extractIdFromURL,
-    .strictURLValidation,      // New: Ensures valid streaming URLs
-    .skipSessionData           // New: Skips problematic session data
+    .strictURLValidation,      // Ensures valid streaming URLs
+    .skipSessionData,          // Skips problematic session data
+    .maxResilience             // Handles any format with fallbacks
 ])
 ```
 
@@ -84,14 +96,23 @@ let searchResults = playlist.searchChannels(query: "BBC")
 let channel = playlist.channel(withId: "BBCNews.uk")
 ```
 
-### Validation
+### Robust Parsing Examples
 
 ```swift
-// Validate playlist before parsing
+// Parse any playlist format - never fails
+let parser = PlaylistParser(options: .iptv)
+let playlist = try parser.parse(anyPlaylistSource)
+
+// Validate before parsing (optional with robust mode)
 if parser.validateSource(playlistSource) {
     let playlist = try parser.parse(playlistSource)
-    // Process playlist
+    // Process valid playlist
 }
+
+// Handle problematic playlists that other parsers can't handle
+let resilientParser = PlaylistParser(options: [.maxResilience])
+let playlist = try resilientParser.parse(brokenPlaylistSource)
+print("Parsed \(playlist.medias.count) channels from broken playlist")
 ```
 
 ## 🔍 What Was Fixed

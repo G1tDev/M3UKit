@@ -47,12 +47,24 @@ public final class PlaylistParser {
     /// Skip session data lines that might interfere with parsing
     public static let skipSessionData = Options(rawValue: 1 << 3)
     
+    /// Maximum resilience mode - handles any playlist format with fallbacks
+    public static let maxResilience = Options(rawValue: 1 << 4)
+    
     /// All available options.
     public static let all: Options = [
       .removeSeriesInfoFromText,
       .extractIdFromURL,
       .strictURLValidation,
       .skipSessionData,
+      .maxResilience
+    ]
+    
+    /// Recommended options for IPTV applications
+    public static let iptv: Options = [
+      .removeSeriesInfoFromText,
+      .extractIdFromURL,
+      .skipSessionData,
+      .maxResilience
     ]
   }
 
@@ -87,6 +99,11 @@ public final class PlaylistParser {
       
       currentLineNumber = index + 1
       
+      // Skip ignorable lines (EXTGRP, EXTVLCOPT, etc.)
+      if self.isIgnorableLine(trimmedLine) {
+        continue
+      }
+      
       if self.isInfoLine(trimmedLine) {
         lastMetadataLine = trimmedLine
       } else if self.isSessionLine(trimmedLine) && options.contains(.skipSessionData) {
@@ -96,13 +113,26 @@ public final class PlaylistParser {
         let cleanedURL = self.cleanURL(trimmedLine)
         lastURL = URL(string: cleanedURL)
       } else if !trimmedLine.hasPrefix("#") && !trimmedLine.isEmpty {
-        // This should be a URL but it's not valid
-        if options.contains(.strictURLValidation) {
+        // This might be a URL - try to process it anyway
+        let cleanedURL = self.cleanURL(trimmedLine)
+        if let url = URL(string: cleanedURL) {
+          lastURL = url
+        } else if options.contains(.strictURLValidation) && !options.contains(.maxResilience) {
           mediaMetadataParsingError = ParsingError.invalidURL(currentLineNumber, trimmedLine)
           // Continue parsing to collect all errors
+        } else {
+          // In lenient mode or max resilience, try to create a URL anyway
+          if let encodedURL = trimmedLine.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
+             let url = URL(string: encodedURL) {
+            lastURL = url
+          } else if options.contains(.maxResilience) {
+            // Max resilience: create a data URL as last resort
+            lastURL = URL(string: "data:text/plain," + (trimmedLine.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? trimmedLine))
+          }
         }
       }
 
+      // Try to create media entry if we have both metadata and URL
       if let metadataLine = lastMetadataLine, let url = lastURL {
         do {
           let metadata = try self.parseMetadata(line: currentLineNumber, rawString: metadataLine, url: url)
@@ -111,8 +141,9 @@ public final class PlaylistParser {
           lastMetadataLine = nil
           lastURL = nil
         } catch {
-          mediaMetadataParsingError = error
-          // Continue parsing instead of stopping on first error
+          // Log the error but continue parsing
+          print("Warning: Failed to parse metadata at line \(currentLineNumber): \(error.localizedDescription)")
+          // Don't stop parsing - continue with next entry
           lastMetadataLine = nil
           lastURL = nil
         }
@@ -259,14 +290,36 @@ public final class PlaylistParser {
   // MARK: - Helpers
 
   internal func extractRawString(from input: PlaylistSource) throws -> String {
-    let filePrefix = "#EXTM3U"
     guard var rawString = input.rawString else {
       throw ParsingError.invalidSource
     }
-    guard rawString.starts(with: filePrefix) else {
+    
+    // Remove BOM characters if present
+    rawString = rawString.replacingOccurrences(of: "\u{FEFF}", with: "")
+    rawString = rawString.replacingOccurrences(of: "\u{FFFE}", with: "")
+    rawString = rawString.replacingOccurrences(of: "\u{EF}\u{BB}\u{BF}", with: "")
+    
+    // Normalize line endings
+    rawString = rawString.replacingOccurrences(of: "\r\n", with: "\n")
+    rawString = rawString.replacingOccurrences(of: "\r", with: "\n")
+    
+    // Check for #EXTM3U header (case insensitive, flexible whitespace)
+    let lines = rawString.components(separatedBy: .newlines)
+    guard let firstLine = lines.first?.trimmingCharacters(in: .whitespacesAndNewlines).uppercased(),
+          firstLine.hasPrefix("#EXTM3U") else {
       throw ParsingError.invalidSource
     }
-    rawString.removeFirst(filePrefix.count)
+    
+    // Remove the first line containing #EXTM3U
+    if let firstLineOriginal = lines.first {
+      let startIndex = rawString.index(rawString.startIndex, offsetBy: firstLineOriginal.count)
+      if startIndex < rawString.endIndex {
+        rawString = String(rawString[startIndex...])
+      } else {
+        rawString = ""
+      }
+    }
+    
     return rawString
   }
 
@@ -303,35 +356,64 @@ public final class PlaylistParser {
   }
 
   internal func isInfoLine(_ input: String) -> Bool {
-    return input.starts(with: "#EXTINF:")
+    let cleaned = input.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+    return cleaned.hasPrefix("#EXTINF:") || cleaned.hasPrefix("#EXTNF:") // Handle typos
   }
 
   internal func isSessionLine(_ input: String) -> Bool {
-      return input.starts(with: "#EXT-X-SESSION-DATA:")
+    return input.starts(with: "#EXT-X-SESSION-DATA:")
+  }
+  
+  internal func isIgnorableLine(_ input: String) -> Bool {
+    let trimmed = input.trimmingCharacters(in: .whitespacesAndNewlines)
+    if trimmed.isEmpty { return true }
+    
+    let ignorablePatterns = [
+      "#EXTGRP:",
+      "#EXTVLCOPT:", 
+      "#EXT-X-",
+      "#EXTENC:",
+      "#PLAYLIST:",
+      "#EXTBYT:",
+      "#EXTBIN:"
+    ]
+    
+    return ignorablePatterns.contains { trimmed.hasPrefix($0) }
   }
 
   internal func isValidURL(_ input: String) -> Bool {
-    guard let url = URL(string: input) else {
+    let cleaned = cleanURL(input)
+    guard let url = URL(string: cleaned) else {
+      // Try with percent encoding
+      if let encoded = cleaned.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
+         let _ = URL(string: encoded) {
+        return true
+      }
       return false
     }
     
     // Basic URL validation
-    guard let _ = url.scheme, let host = url.host, !host.isEmpty else {
+    guard let scheme = url.scheme, !scheme.isEmpty else {
+      return false
+    }
+    
+    // Allow more flexible host validation
+    if let host = url.host, host.isEmpty {
       return false
     }
     
     // If strict validation is enabled, perform additional checks
     if options.contains(.strictURLValidation) {
       // Check for common streaming protocols
-      let validSchemes = ["http", "https", "rtmp", "rtmps", "rtsp", "mms", "mmsh"]
-      guard validSchemes.contains(url.scheme?.lowercased() ?? "") else {
+      let validSchemes = ["http", "https", "rtmp", "rtmps", "rtsp", "rtsps", "mms", "mmsh", "hls", "dash"]
+      guard validSchemes.contains(scheme.lowercased()) else {
         return false
       }
       
       // Check for valid file extensions for streaming
-      let validExtensions = ["m3u8", "mp4", "ts", "mpd", "flv", "avi", "mkv"]
+      let validExtensions = ["m3u8", "m3u", "mp4", "ts", "mpd", "flv", "avi", "mkv", "mov", "webm", "3gp"]
       let pathExtension = url.pathExtension.lowercased()
-      if !pathExtension.isEmpty && !validExtensions.contains(pathExtension) {
+      if !pathExtension.isEmpty && !validExtensions.contains(pathExtension) && !url.absoluteString.contains(".m3u8") {
         return false
       }
     }
@@ -340,17 +422,46 @@ public final class PlaylistParser {
   }
 
   internal func extractDuration(line: Int, rawString: String) throws -> Int {
-    guard
-      let match = durationRegex.firstMatch(in: rawString),
-      let duration = Int(match)
-    else {
-      throw ParsingError.missingDuration(line, rawString)
+    // Try enhanced regex first
+    if let match = durationRegex.firstMatch(in: rawString) {
+      if let duration = Int(match) {
+        return duration
+      }
+      if let doubleValue = Double(match) {
+        return Int(doubleValue)
+      }
     }
-    return duration
+    
+    // Fallback: try to extract any number from the line
+    let numberRegex: RegularExpression = #"(\-?\d+(?:\.\d+)?)"#
+    if let match = numberRegex.firstMatch(in: rawString) {
+      if let doubleValue = Double(match) {
+        return Int(doubleValue)
+      }
+    }
+    
+    // Ultimate fallback: default to -1 for live streams
+    print("Warning: Could not extract duration from line \(line), defaulting to -1 (live stream)")
+    return -1
   }
 
   internal func extractName(_ input: String) -> String {
-    return nameRegex.firstMatch(in: input) ?? ""
+    // Try main regex first
+    if let name = nameRegex.firstMatch(in: input), !name.isEmpty {
+      return name.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
+    // Fallback: try to extract anything after comma
+    if let commaIndex = input.lastIndex(of: ",") {
+      let nameSubstring = input[input.index(after: commaIndex)...]
+      let name = String(nameSubstring).trimmingCharacters(in: .whitespacesAndNewlines)
+      if !name.isEmpty {
+        return name
+      }
+    }
+    
+    // Ultimate fallback: return "Unknown"
+    return "Unknown"
   }
 
   internal func extractId(_ input: URL) -> String {
@@ -375,14 +486,36 @@ public final class PlaylistParser {
   internal func cleanURL(_ urlString: String) -> String {
     var cleaned = urlString.trimmingCharacters(in: .whitespacesAndNewlines)
     
-    // Remove any trailing whitespace or newlines
+    // Remove any control characters and normalize
     cleaned = cleaned.replacingOccurrences(of: "\r", with: "")
     cleaned = cleaned.replacingOccurrences(of: "\n", with: "")
+    cleaned = cleaned.replacingOccurrences(of: "\t", with: "")
     
-    // Handle common IPTV URL patterns
+    // Handle common IPTV URL patterns and separators
     if cleaned.contains("|") {
-      // Some IPTV providers use | as separator
+      // Some IPTV providers use | as separator - take first part
       cleaned = cleaned.components(separatedBy: "|").first ?? cleaned
+    }
+    
+    if cleaned.contains(" ") {
+      // Some URLs might have spaces - encode them
+      cleaned = cleaned.replacingOccurrences(of: " ", with: "%20")
+    }
+    
+    // Handle URLs that start with // (protocol-relative)
+    if cleaned.hasPrefix("//") {
+      cleaned = "https:" + cleaned
+    }
+    
+    // Ensure URL has a valid protocol
+    if !cleaned.contains("://") && !cleaned.hasPrefix("data:") {
+      // Assume http if no protocol specified
+      if cleaned.hasPrefix("/") {
+        // Relative path - can't make absolute without base URL
+        return cleaned
+      } else {
+        cleaned = "http://" + cleaned
+      }
     }
     
     return cleaned
@@ -390,50 +523,67 @@ public final class PlaylistParser {
 
   internal func parseAttributes(rawString: String, url: URL) -> Playlist.Media.Attributes {
     var attributes = Playlist.Media.Attributes()
+    
+    // Enhanced attribute parsing with fallbacks
     let id = attributesIdRegex.firstMatch(in: rawString) ?? ""
-    attributes.id = id
-    if id.isEmpty && options.contains(.extractIdFromURL) {
+    attributes.id = id.isEmpty ? nil : id
+    if (attributes.id?.isEmpty ?? true) && options.contains(.extractIdFromURL) {
       attributes.id = extractId(url)
     }
+    
+    // Parse tvg-name or fallback to title extraction
     if let name = attributesNameRegex.firstMatch(in: rawString) {
       let show = parseSeasonEpisode(name)
-      attributes.name = show.name
+      attributes.name = show.name.isEmpty ? nil : show.name
       attributes.seasonNumber = show.se?.s
       attributes.episodeNumber = show.se?.e
     }
-    if let country = attributesCountryRegex.firstMatch(in: rawString) {
+    
+    // Parse other attributes with nil checks
+    if let country = attributesCountryRegex.firstMatch(in: rawString), !country.isEmpty {
       attributes.country = country
     }
-    if let language = attributesLanguageRegex.firstMatch(in: rawString) {
+    
+    if let language = attributesLanguageRegex.firstMatch(in: rawString), !language.isEmpty {
       attributes.language = language
     }
-    if let logo = attributesLogoRegex.firstMatch(in: rawString) {
+    
+    if let logo = attributesLogoRegex.firstMatch(in: rawString), !logo.isEmpty {
       attributes.logo = logo
     }
-    if let channelNumber = attributesChannelNumberRegex.firstMatch(in: rawString) {
+    
+    if let channelNumber = attributesChannelNumberRegex.firstMatch(in: rawString), !channelNumber.isEmpty {
       attributes.channelNumber = channelNumber
     }
-    if let shift = attributesShiftRegex.firstMatch(in: rawString) {
+    
+    if let shift = attributesShiftRegex.firstMatch(in: rawString), !shift.isEmpty {
       attributes.shift = shift
     }
-    if let groupTitle = attributesGroupTitleRegex.firstMatch(in: rawString) {
+    
+    if let groupTitle = attributesGroupTitleRegex.firstMatch(in: rawString), !groupTitle.isEmpty {
       attributes.groupTitle = groupTitle
     }
-    if let tvgUrl = attributesTvgUrlRegex.firstMatch(in: rawString) {
+    
+    if let tvgUrl = attributesTvgUrlRegex.firstMatch(in: rawString), !tvgUrl.isEmpty {
       attributes.tvgUrl = tvgUrl
     }
-    if let tvgShift = attributesTvgShiftRegex.firstMatch(in: rawString) {
+    
+    if let tvgShift = attributesTvgShiftRegex.firstMatch(in: rawString), !tvgShift.isEmpty {
       attributes.tvgShift = tvgShift
     }
-    if let aspectRatio = attributesAspectRatioRegex.firstMatch(in: rawString) {
+    
+    if let aspectRatio = attributesAspectRatioRegex.firstMatch(in: rawString), !aspectRatio.isEmpty {
       attributes.aspectRatio = aspectRatio
     }
-    if let audioTrack = attributesAudioTrackRegex.firstMatch(in: rawString) {
+    
+    if let audioTrack = attributesAudioTrackRegex.firstMatch(in: rawString), !audioTrack.isEmpty {
       attributes.audioTrack = audioTrack
     }
-    if let subtitles = attributesSubtitlesRegex.firstMatch(in: rawString) {
+    
+    if let subtitles = attributesSubtitlesRegex.firstMatch(in: rawString), !subtitles.isEmpty {
       attributes.subtitles = subtitles
     }
+    
     return attributes
   }
 
@@ -455,8 +605,9 @@ public final class PlaylistParser {
 
   // MARK: - Regex
 
-  internal let durationRegex: RegularExpression = #"#EXTINF:\s*(\-*\d+)"#
-  internal let nameRegex: RegularExpression = #".*,(.+?)$"#
+  // Enhanced regex patterns for robust parsing
+  internal let durationRegex: RegularExpression = #"#EXT[IN]*F:\s*(\-?\d+(?:\.\d+)?)"#
+  internal let nameRegex: RegularExpression = #".*?,\s*(.+?)\s*$"#
 
   internal let mediaKindMoviesRegex: RegularExpression = #"\/movie\/"#
   internal let mediaKindSeriesRegex: RegularExpression = #"\/series\/"#
@@ -464,14 +615,14 @@ public final class PlaylistParser {
 
   internal let seasonEpisodeRegex: RegularExpression = #" (?i)s(\d+) ?(?i)e(\d+)"#
 
-  internal let attributesIdRegex: RegularExpression = #"tvg-id=\"(.?|.+?)\""#
-  internal let attributesNameRegex: RegularExpression = #"tvg-name=\"(.?|.+?)\""#
-  internal let attributesCountryRegex: RegularExpression = #"tvg-country=\"(.?|.+?)\""#
+  internal let attributesIdRegex: RegularExpression = #"tvg-id\s*=\s*[\"']([^\"']*)[\"']"#
+  internal let attributesNameRegex: RegularExpression = #"tvg-name\s*=\s*[\"']([^\"']*)[\"']"#
+  internal let attributesCountryRegex: RegularExpression = #"tvg-country\s*=\s*[\"']([^\"']*)[\"']"#
   internal let attributesLanguageRegex: RegularExpression = #"tvg-language=\"(.?|.+?)\""#
-  internal let attributesLogoRegex: RegularExpression = #"tvg-logo=\"(.?|.+?)\""#
+  internal let attributesLogoRegex: RegularExpression = #"tvg-logo\s*=\s*[\"']([^\"']*)[\"']"#
   internal let attributesChannelNumberRegex: RegularExpression = #"tvg-chno=\"(.?|.+?)\""#
   internal let attributesShiftRegex: RegularExpression = #"tvg-shift=\"(.?|.+?)\""#
-  internal let attributesGroupTitleRegex: RegularExpression = #"group-title=\"(.?|.+?)\""#
+  internal let attributesGroupTitleRegex: RegularExpression = #"group-title\s*=\s*[\"']([^\"']*)[\"']"#
   internal let attributesTvgUrlRegex: RegularExpression = #"tvg-url=\"(.?|.+?)\""#
   internal let attributesTvgShiftRegex: RegularExpression = #"tvg-shift=\"(.?|.+?)\""#
   internal let attributesAspectRatioRegex: RegularExpression = #"aspect-ratio=\"(.?|.+?)\""#

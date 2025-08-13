@@ -53,7 +53,7 @@ https://example.com/stream.m3u8
     }
     
     func testParsingWithBOMCharacters() {
-        let playlistContent = "\\u{FEFF}#EXTM3U\\n#EXTINF:-1 tvg-name=\"Test Channel\" group-title=\"Test\",Test Channel\\nhttps://example.com/stream.m3u8"
+        let playlistContent = "\u{FEFF}#EXTM3U\n#EXTINF:-1 tvg-name=\"Test Channel\" group-title=\"Test\",Test Channel\nhttps://example.com/stream.m3u8"
         
         let source = StringPlaylistSource(playlistContent)
         let parser = PlaylistParser(options: [])

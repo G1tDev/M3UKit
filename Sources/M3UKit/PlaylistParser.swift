@@ -99,24 +99,41 @@ public final class PlaylistParser {
       
       currentLineNumber = index + 1
       
-      // Skip ignorable lines (EXTGRP, EXTVLCOPT, etc.)
+      // Skip ignorable lines (EXTGRP, EXTVLCOPT, etc.) - but don't process URLs yet
       if self.isIgnorableLine(trimmedLine) {
         continue
       }
       
       if self.isInfoLine(trimmedLine) {
+        // If we already have a metadata line but no URL, this might indicate a problem
+        if let previousMetadata = lastMetadataLine, lastURL == nil {
+          print("Warning: Found new EXTINF line without URL for previous entry: \(previousMetadata.prefix(50))...")
+        }
         lastMetadataLine = trimmedLine
+        lastURL = nil // Reset URL when we get new metadata
       } else if self.isSessionLine(trimmedLine) && options.contains(.skipSessionData) {
         // Skip session data lines if option is enabled
         continue
       } else if self.isValidURL(trimmedLine) {
         let cleanedURL = self.cleanURL(trimmedLine)
-        lastURL = URL(string: cleanedURL)
+        if let url = URL(string: cleanedURL) {
+          // Only set URL if we don't already have one (prevent overwriting)
+          if lastURL == nil {
+            lastURL = url
+          } else {
+            print("Warning: Multiple URLs found, keeping first one. Ignoring: \(cleanedURL.prefix(50))...")
+          }
+        }
       } else if !trimmedLine.hasPrefix("#") && !trimmedLine.isEmpty {
         // This might be a URL - try to process it anyway
         let cleanedURL = self.cleanURL(trimmedLine)
         if let url = URL(string: cleanedURL) {
-          lastURL = url
+          // Only set URL if we don't already have one
+          if lastURL == nil {
+            lastURL = url
+          } else {
+            print("Warning: Multiple URLs found, keeping first one. Ignoring: \(cleanedURL.prefix(50))...")
+          }
         } else if options.contains(.strictURLValidation) && !options.contains(.maxResilience) {
           mediaMetadataParsingError = ParsingError.invalidURL(currentLineNumber, trimmedLine)
           // Continue parsing to collect all errors
@@ -124,26 +141,30 @@ public final class PlaylistParser {
           // In lenient mode or max resilience, try to create a URL anyway
           if let encodedURL = trimmedLine.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
              let url = URL(string: encodedURL) {
-            lastURL = url
-          } else if options.contains(.maxResilience) {
+            if lastURL == nil {
+              lastURL = url
+            }
+          } else if options.contains(.maxResilience) && lastURL == nil {
             // Max resilience: create a data URL as last resort
             lastURL = URL(string: "data:text/plain," + (trimmedLine.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? trimmedLine))
           }
         }
       }
 
-      // Try to create media entry if we have both metadata and URL
+      // Create media entry if we have both metadata and URL
       if let metadataLine = lastMetadataLine, let url = lastURL {
         do {
           let metadata = try self.parseMetadata(line: currentLineNumber, rawString: metadataLine, url: url)
           let kind = self.parseMediaKind(url)
           medias.append(.init(metadata: metadata, kind: kind, url: url))
+          
+          // Clear both metadata and URL after successful pairing
           lastMetadataLine = nil
           lastURL = nil
         } catch {
           // Log the error but continue parsing
           print("Warning: Failed to parse metadata at line \(currentLineNumber): \(error.localizedDescription)")
-          // Don't stop parsing - continue with next entry
+          // Clear state and continue with next entry
           lastMetadataLine = nil
           lastURL = nil
         }
@@ -187,13 +208,32 @@ public final class PlaylistParser {
       
       currentLineNumber = index + 1
       
+      // Skip ignorable lines (EXTGRP, EXTVLCOPT, etc.)
+      if self.isIgnorableLine(trimmedLine) {
+        continue
+      }
+      
       if self.isInfoLine(trimmedLine) {
+        // Reset URL when getting new metadata to ensure proper pairing
+        if let previousMetadata = lastMetadataLine, lastURL == nil {
+          print("Warning: Found new EXTINF line without URL for previous entry: \(previousMetadata.prefix(50))...")
+        }
         lastMetadataLine = trimmedLine
+        lastURL = nil
       } else if self.isSessionLine(trimmedLine) && options.contains(.skipSessionData) {
         // Skip session data lines if option is enabled
         continue
       } else if self.isValidURL(trimmedLine) {
-        lastURL = URL(string: trimmedLine)
+        let cleanedURL = self.cleanURL(trimmedLine)
+        if let url = URL(string: cleanedURL), lastURL == nil {
+          lastURL = url
+        }
+      } else if !trimmedLine.hasPrefix("#") && !trimmedLine.isEmpty {
+        // Try to parse as URL
+        let cleanedURL = self.cleanURL(trimmedLine)
+        if let url = URL(string: cleanedURL), lastURL == nil {
+          lastURL = url
+        }
       }
 
       if let metadataLine = lastMetadataLine, let url = lastURL {

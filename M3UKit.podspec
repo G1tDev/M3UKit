@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'M3UKit'
-    s.version = '2.0.2'
+    s.version = '2.0.3'
     s.summary = 'Robust M3U/M3U8 playlist parser with enhanced IPTV support'
     s.description = <<-DESC
     Enhanced M3UKit with robust parsing capabilities for IPTV applications.

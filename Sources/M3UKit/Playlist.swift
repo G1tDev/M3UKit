@@ -177,7 +177,7 @@ public struct Playlist: Equatable, Hashable, Codable {
       case unknown
     }
 
-    internal typealias Metadata = (
+    public typealias Metadata = (
       duration: Int,
       attributes: Attributes,
       name: String

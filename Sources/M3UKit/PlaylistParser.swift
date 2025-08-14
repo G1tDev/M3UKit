@@ -337,6 +337,7 @@ public final class PlaylistParser {
     return try await processingTask.value
   }
 
+
   // MARK: - Helpers
 
   /// Parse playlist-level attributes from the #EXTM3U header line.
@@ -482,14 +483,14 @@ public final class PlaylistParser {
 
   internal typealias Show = (name: String, se: (s: Int, e: Int)?)
 
-  internal func parseMetadata(line: Int, rawString: String, url: URL) throws -> Playlist.Media.Metadata {
+  public func parseMetadata(line: Int, rawString: String, url: URL) throws -> Playlist.Media.Metadata {
     let duration = try extractDuration(line: line, rawString: rawString)
     let attributes = parseAttributes(rawString: rawString, url: url)
     let name = parseSeasonEpisode(extractName(rawString)).name
     return (duration, attributes, name)
   }
 
-  internal func isInfoLine(_ input: String) -> Bool {
+  public func isInfoLine(_ input: String) -> Bool {
     let cleaned = input.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
     return cleaned.hasPrefix("#EXTINF:") || cleaned.hasPrefix("#EXTNF:") // Handle typos
   }
@@ -498,7 +499,7 @@ public final class PlaylistParser {
     return input.starts(with: "#EXT-X-SESSION-DATA:")
   }
   
-  internal func isIgnorableLine(_ input: String) -> Bool {
+  public func isIgnorableLine(_ input: String) -> Bool {
     let trimmed = input.trimmingCharacters(in: .whitespacesAndNewlines)
     if trimmed.isEmpty { return true }
     
@@ -515,7 +516,7 @@ public final class PlaylistParser {
     return ignorablePatterns.contains { trimmed.hasPrefix($0) }
   }
 
-  internal func isValidURL(_ input: String) -> Bool {
+  public func isValidURL(_ input: String) -> Bool {
     let cleaned = cleanURL(input)
     guard let url = URL(string: cleaned) else {
       // Try with percent encoding
@@ -602,7 +603,7 @@ public final class PlaylistParser {
     String(input.lastPathComponent.split(separator: ".").first ?? "")
   }
 
-  internal func parseMediaKind(_ input: URL) -> Playlist.Media.Kind {
+  public func parseMediaKind(_ input: URL) -> Playlist.Media.Kind {
     let string = input.absoluteString
     if mediaKindSeriesRegex.numberOfMatches(source: string) == 1 {
       return .series
@@ -617,7 +618,7 @@ public final class PlaylistParser {
   }
   
   /// Clean and validate a URL string for better compatibility
-  internal func cleanURL(_ urlString: String) -> String {
+  public func cleanURL(_ urlString: String) -> String {
     var cleaned = urlString.trimmingCharacters(in: .whitespacesAndNewlines)
     
     // Remove any control characters and normalize
